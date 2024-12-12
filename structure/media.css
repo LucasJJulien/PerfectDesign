@@ -1,0 +1,15 @@
+
+/* Object-Fit */
+
+.of-c {
+    object-fit: cover;
+}
+
+.of-c {
+    object-fit: contain;
+}
+
+.of-h {
+    object-fit: fill
+}
+

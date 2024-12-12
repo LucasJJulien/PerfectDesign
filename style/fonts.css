@@ -1,0 +1,114 @@
+
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+/* Fonts */
+
+.ff-IBM{
+  font-family: 'IBM Plex Mono', sans-serif !important;
+}
+
+.ff-u{
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+.ff-i-s{
+  font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+.ff-c{
+  font-family: 'Comfortaa', sans-serif !important;
+}
+
+.ff-so{
+  font-family: 'Secular One', sans-serif !important;
+}
+
+.ff-ab{
+  font-family: 'Archivo Black', sans-serif !important;
+}
+
+.ff-po{
+  font-family: 'Paytone One', sans-serif !important;
+}
+
+.ff-bhs{
+  font-family: 'Black Han Sans', sans-serif !important;
+}
+
+.ff-l{
+  font-family: 'Lexend', sans-serif !important;
+}
+
+.ff-p{
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.ff-r{
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.ff-h{
+  font-family: 'Helvetica', sans-serif !important;
+}
+
+.ff-a{
+  font-family: 'Arial', sans-serif !important;
+}
+
+.ff-m{
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.ff-cl{
+  font-family: 'Cantarell', sans-serif !important;
+}
+
+.ff-o{
+  font-family: 'Oxygen', sans-serif !important;
+}
+
+.ff-rm{
+  font-family: 'Roboto Mono', sans-serif !important;
+}
+
+.ff-sm{
+  font-family: 'Space Mono', sans-serif !important;
+}

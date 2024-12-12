@@ -1,0 +1,129 @@
+
+/* Display */
+
+.d-f {
+    display: flex;
+}
+
+.d-b {
+    display: block;
+}
+
+/* Flex-Direction */
+
+.fd-c {
+    flex-direction: column;
+}
+
+.fd-cr {
+    flex-direction: column-reverse;
+}
+
+.fd-r {
+    flex-direction: row;
+}
+
+.fd-rr {
+    flex-direction: row-reverse;
+}
+
+/* Flex-Wrap */
+
+.fw-w {
+    flex-wrap: wrap;
+}
+
+.fw-wr {
+    flex-wrap: wrap-reverse;
+}
+
+.fw-nw {
+    flex-wrap: nowrap;
+}
+
+/* Flex */
+
+.f-1 {
+    flex: 1;
+}
+
+.f-2 {
+    flex: 2;
+}
+
+.f-3 {
+    flex: 3;
+}
+
+.f-4 {
+    flex: 4;
+}
+
+.f-5 {
+    flex: 5;
+}
+
+.f-6 {
+    flex: 6;
+}
+
+.f-7 {
+    flex: 7;
+}
+
+.f-8 {
+    flex: 8;
+}
+
+.f-9 {
+    flex: 9;
+}
+
+.f-10 {
+    flex: 10;
+}
+
+/* Order */
+
+.o-1 {
+    order: 1;
+}
+
+.o-2 {
+    order: 2;
+}
+
+.o-3 {
+    order: 3;
+}
+
+.o-4 {
+    order: 4;
+}
+
+.o-5 {
+    order: 5;
+}
+
+.o-6 {
+    order: 6;
+}
+
+.o-7 {
+    order: 7;
+}
+
+.o-8 {
+    order: 8;
+}
+
+.o-9 {
+    order: 9;
+}
+
+.o-10 {
+    order: 10;
+}
+
+/* Flex-Grow */
+

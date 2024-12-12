@@ -1,0 +1,196 @@
+
+/* Align-Items */
+
+.ai-l {
+    align-items: left;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.ai-r {
+    align-items: right;
+}
+
+.ai-s {
+    align-items: stretch;
+}
+
+.ai-b {
+    align-items: baseline;
+}
+
+.ai-fs {
+    align-items: flex-start;
+}
+
+.ai-fe {
+    align-items: flex-end;
+}
+
+/* Align-Content */
+
+.ac-l {
+    align-content: left;
+}
+
+.ac-c {
+    align-content: center;
+}
+
+.ac-r {
+    align-content: right;
+}
+
+.ac-fs {
+    align-content: flex-start;
+}
+
+.ac-fe {
+    align-content: flex-end;
+}
+
+.ac-sb {
+    align-content: space-between;
+}
+
+.ac-sa {
+    align-content: space-around;
+}
+
+/* Align-Self */
+
+.as-l {
+    align-self: left;
+}
+
+.as-c {
+    align-self: center;
+}
+
+.as-r {
+    align-self: right;
+}
+
+.as-a {
+    align-self: auto;
+}
+
+.as-fs {
+    align-self: flex-start;
+}
+
+.as-fe {
+    align-self: flex-end;
+}
+
+.as-b {
+    align-self: baseline;
+}
+
+.as-s {
+    align-self: stretch;
+}
+
+/* Justify-Content */
+
+.jc-l {
+    justify-content: left;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.jc-r {
+    justify-content: right;
+}
+
+.jc-b {
+    justify-content: baseline;
+}
+
+.jc-e {
+    justify-content: end;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-se {
+    justify-content: space-evenly;
+}
+
+.jc-fs {
+    justify-content: flex-start;
+}
+
+.jc-fe {
+    justify-content: flex-end;
+}
+
+.jc-s {
+    justify-content: stretch;
+}
+
+/* Vertical-Align */
+
+.va-l {
+    vertical-align: left;
+}
+
+.va-c {
+    vertical-align: center;
+}
+
+.va-r {
+    vertical-align: right;
+}
+
+.va-a {
+    vertical-align: auto;
+}
+
+.va-b {
+    vertical-align: bottom;
+}
+
+.va-m {
+    vertical-align: middle;
+}
+
+.va-t {
+    vertical-align: top;
+}
+
+.va-bs {
+    vertical-align: baseline;
+}
+
+/* Text-Align */
+
+.ta-l {
+    text-align: left;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+.ta-r {
+    text-align: right;
+}
+
+.ta-j {
+    text-align: justify;
+}
+
+.ta-e {
+    text-align: end;
+}
