@@ -7,12 +7,12 @@
 <p align="center"> The simple, uniform, and direct CSS library. </p>
 
 > [!CAUTION]  
-> Still in Alpha. ReadME, components, responsive design, and flexbox attributes all underdeveloped. 
+> Still in Alpha. Most aspects are underdeveloped, and in some scenarios, severly so.
 
 ## What is PerfectDesign?
-PerfectDesign is a simple flexbox based CSS library delivering all core components and nothing more - all in pure, direct css. It uses a naming convention based on uniformity and forthrightness, following a simple syntax: {property}-{value}{unit}. The first letter of each section is extracted: d-f is display: flex, fs-10px is fontsize: 10px. 
+PerfectDesign is a simple flexbox based CSS library delivering all core components and nothing more - all in pure, direct css. It uses a naming convention based on uniformity and forthrightness, following a simple syntax: ```{property}-{value}{unit}```. The first letter of each section is extracted: ```d-f``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. 
 
-The library is meant to be easily modified and function as a framework for web projects.
+
 
 ## Roadmap
 - Add support for other devices, including but not limited to: mobile phones and tablets
