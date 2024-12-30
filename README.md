@@ -10,17 +10,25 @@
 > Still in Alpha. Most aspects are underdeveloped, and in some scenarios, severly so.
 
 ## What is PerfectDesign?
-PerfectDesign is a simple flexbox based CSS library delivering all core components and nothing more - all in pure, direct css. It uses a naming convention based on uniformity and forthrightness, following a simple syntax: ```{property}-{value}{unit}```. The first letter of each section is extracted: ```d-f``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. 
+PerfectDesign is a simple CSS library delivering all core components and nothing more - all in pure, direct css. It uses a naming convention based on uniformity and forthrightness, following a simple syntax: ```{property}-{value}{unit}```. The first letter of each section is extracted: ```d-f``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. 
 
-
+## Table of contents
+- [Roadmap](#roadmap)
+- [Documentation](#documentation)
+   - [Start](#start)
+   - [Usage](#usage)
+- [Contributing](#contributing)
+- [Versioning](#versioning)
+- [License](#license)
 
 ## Roadmap
 - Add support for other devices, including but not limited to: mobile phones and tablets
-- Add components (prebuilt mobules such as containers and buttons)
+- Add components
 - Add missing flexbox attributes
-- Develop ReadME and add examples
+- Expand ReadMe and documentation
 - Add table support
 - Add prebuilt layouts
 
-## Usage
+## Documentation
+
 
