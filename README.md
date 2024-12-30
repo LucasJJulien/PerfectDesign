@@ -35,17 +35,21 @@ Full documentation planned for 1.0 release.
 ## Start
 PerfectDesign requires no installation with a package manager such as npm, instead, just reference the CSS file in your html head section. The production folder contains several CSS files that link PerfectDesign together - this is what you import for most use cases. These automatically reference all the css files distributed across the many organization folders - ```complete.css``` includes the entire project. It can be linked with the following code: 
 
-```\<link rel="stylesheet" type="text/css" href="https://github.com/LucasJJulien/PerfectDesign/blob/main/production/complete.css">```
+```html
+<link rel="stylesheet" type="text/css" href="https://github.com/LucasJJulien/PerfectDesign/blob/main/production/complete.css">
+```
 
-If you wish to have PerfectDesign in your project locally for modification or otherwise, download the source code and reference the directory where it is located. For example: 
+To have PerfectDesign in your project locally for modification or otherwise, download the source code and reference the directory where it is located. For example: 
 
-```\<link rel="stylesheet" type="text/css" href="~/exampleproject/css/perfectdesign/production/complete.css">```
+```html
+<link rel="stylesheet" type="text/css" href="~/exampleproject/css/perfectdesign/production/complete.css">
+```
 
-If you wish to import only the PerfectDesign base files which excludes components, swap ```complete.css``` with ```base.css```. If you want only the components, use ```components.css```. 
+To import only the PerfectDesign base files which excludes components, swap ```complete.css``` with ```base.css```. For just the components, use ```components.css```. 
 
 Here's a starter template using an HTML 5 doctype:
 
-```
+```html
 <!doctype html>
 <html lang="en">
   <head>
@@ -66,6 +70,9 @@ Here's a starter template using an HTML 5 doctype:
   </body>
 </html>
 ```
+
+## Usage
+
 
 
 
