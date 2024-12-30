@@ -1,0 +1,53 @@
+
+/* Web */
+
+@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/core/global.css');
+
+@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/layout/alignment.css');
+@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/layout/flexbox.css');
+@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/layout/grid.css');
+@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/layout/positioning.css');
+@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/layout/spacing.css');
+@import url('perfectdesign/layout/table.css');
+
+@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/responsive/mobile.css');
+
+@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/structure/media.css');
+@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/structure/size.css');
+
+@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/style/border.css');
+@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/style/colors.css');
+@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/style/fonts.css');
+@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/style/text.css');
+
+@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/utilities/zindex.css');
+
+/* Local */
+
+@import url('perfectdesign/core/global.css');
+
+@import url('perfectdesign/layout/alignment.css');
+@import url('perfectdesign/layout/flexbox.css');
+@import url('perfectdesign/layout/grid.css');
+@import url('perfectdesign/layout/positioning.css');
+@import url('perfectdesign/layout/spacing.css');
+@import url('perfectdesign/layout/table.css');
+
+@import url('perfectdesign/responsive/mobile.css');
+
+@import url('perfectdesign/structure/media.css');
+@import url('perfectdesign/structure/size.css');
+
+@import url('perfectdesign/style/border.css');
+@import url('perfectdesign/style/colors.css');
+@import url('perfectdesign/style/fonts.css');
+@import url('perfectdesign/style/text.css');
+
+@import url('perfectdesign/utilities/zindex.css');
+
+
+
+
+
+
+
