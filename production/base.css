@@ -1,26 +1,26 @@
 
 /* Web */
 
-@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/core/global.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/core/global.css/');
 
-@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/layout/alignment.css');
-@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/layout/flexbox.css');
-@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/layout/grid.css');
-@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/layout/positioning.css');
-@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/layout/spacing.css');
-@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/layout/table.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/layout/alignment.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/layout/flexbox.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/layout/grid.css/');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/layout/positioning.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/layout/spacing.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/layout/table.css/');
 
-@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/responsive/mobile.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/responsive/mobile.css');
 
-@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/structure/media.css');
-@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/structure/size.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/structure/media.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/structure/size.css');
 
-@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/style/border.css');
-@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/style/colors.css');
-@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/style/fonts.css');
-@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/style/text.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/style/border.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/style/colors.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/style/fonts.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/style/text.css');
 
-@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/utilities/zindex.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/utilities/zindex.css');
 
 /* Local */
 
