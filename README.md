@@ -33,28 +33,34 @@ PerfectDesign is a simple, lightweight, and dependencyless CSS library deliverin
 Full documentation planned for 1.0 release.
 
 ## Start
-PerfectDesign requires no installation with a package manager such as npm, instead, just reference the CSS file in your html head section. The production folder contains several CSS files that link PerfectDesign together - this is what you import for most use cases. These automatically reference all the css files distributed across the many organization folders - ```complete.css``` includes the entire project. It can be linked with the following code: 
+PerfectDesign requires no installation with a package manager such as npm. Instead, just reference the CSS file in your HTML head section. The production folder contains several CSS files that link PerfectDesign together - this is what you import for most use cases. These automatically reference all the css files distributed across the many organization folders - ```complete.css``` includes the entire project. It can be linked with the following code: 
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/complete.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign/production/stable/complete.css">
 ```
 
 To have PerfectDesign in your project locally for modification or otherwise, download the source code and reference the directory where it is located. For example: 
 
 ```html
-<link rel="stylesheet" type="text/css" href="~/exampleproject/css/perfectdesign/production/complete.css">
+<link rel="stylesheet" type="text/css" href="~/exampleproject/css/perfectdesign/production/local/complete.css">
 ```
 
 To import only the PerfectDesign base files which excludes components, swap ```complete.css``` with ```base.css```. For just the components, use ```components.css```. 
 
 
-> [!CAUTION]  
+> [!NOTE]  
 > The above links reference the last stable release of PerfectDesign. To pull the latest source code, use the following link:
 > 
-> ```link```
+> ```html
+> https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/complete.css
+> ```
 > 
-> The latest code is unstable and can introduce breaking changes.
+> Please keep in mind latest code is unstable and can introduce breaking changes.
 
+To pull a previous version, replace main with the version tag. For version 0.10:
+```html
+https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/latest/complete.css
+```
 
 Here's a starter template using an HTML 5 doctype:
 
@@ -67,7 +73,7 @@ Here's a starter template using an HTML 5 doctype:
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- PerfectDesign CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/complete.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign/production/stable/complete.css">
 
     <title>PerfectDesign</title>
     
