@@ -36,7 +36,7 @@ Full documentation planned for 1.0 release.
 PerfectDesign requires no installation with a package manager such as npm, instead, just reference the CSS file in your html head section. The production folder contains several CSS files that link PerfectDesign together - this is what you import for most use cases. These automatically reference all the css files distributed across the many organization folders - ```complete.css``` includes the entire project. It can be linked with the following code: 
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/production/complete.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/complete.css">
 ```
 
 To have PerfectDesign in your project locally for modification or otherwise, download the source code and reference the directory where it is located. For example: 
@@ -67,7 +67,7 @@ Here's a starter template using an HTML 5 doctype:
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- PerfectDesign CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@master/production/complete.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/complete.css">
 
     <title>PerfectDesign</title>
     
