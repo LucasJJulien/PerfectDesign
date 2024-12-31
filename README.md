@@ -116,7 +116,24 @@ components.css
 The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```, with the first letter of each section extracted. ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-w```. 
 
 ## Contributing
-Our coding standards and notes are in development. Until out of prealpha, public contributions will not be accepted.
+> [!WARNING]  
+> Until out of pre-alpha, public contributions will not be accepted.
+
+```
+# Clone the repository
+git clone https://github.com/LucasJJulien/PerfectDesign
+
+# Fork the repo
+
+# Create a new branch from main
+git checkout -b feature/your-feature-name
+
+# Push your changes
+# Create a pull request against the "main" branch
+```
+
+### Coding Standards
+Please adhere to our coding standards (in development) to uphold our development philosophy. 
 
 ## Versioning
 To adhere with the universal philosophies this very project is based on, PerfectDesign is released under [the Semantic Versioning guidelines](https://semver.org/).
