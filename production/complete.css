@@ -1,29 +1,29 @@
 
 /* Web */
 
-@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/components/buttons.css');
-@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/components/cards.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/components/buttons.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/components/cards.css');
 
-@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/core/global.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/core/global.css');
 
-@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/layout/alignment.css');
-@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/layout/flexbox.css');
-@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/layout/grid.css');
-@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/layout/positioning.css');
-@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/layout/spacing.css');
-@import url('perfectdesign/layout/table.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/layout/alignment.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/layout/flexbox.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/layout/grid.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/layout/positioning.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/layout/spacing.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/layout/table.css');
 
-@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/responsive/mobile.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/responsive/mobile.css');
 
-@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/structure/media.css');
-@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/structure/size.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/structure/media.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/structure/size.css');
 
-@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/style/border.css');
-@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/style/colors.css');
-@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/style/fonts.css');
-@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/style/text.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/style/border.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/style/colors.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/style/fonts.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/style/text.css');
 
-@import url('https://github.com/LucasJJulien/PerfectDesign/blob/main/utilities/zindex.css');
+@import url('https://raw.githubusercontent.com/LucasJJulien/PerfectDesign/refs/heads/main/utilities/zindex.css');
 
 /* Local */
 
