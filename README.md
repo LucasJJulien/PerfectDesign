@@ -82,31 +82,20 @@ To have PerfectDesign in your project locally for modification or otherwise, dow
 <link rel="stylesheet" type="text/css" href="~/exampleproject/css/perfectdesign/production/local/complete.css">
 ```
 
-<br>
-
-> [!NOTE]  
-> The above links reference the last stable release of PerfectDesign. To pull the latest source code, use the following link:
-> 
-> ```html
-> https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/complete.css
-> ```
-> 
-> Please keep in mind latest code is unstable and can introduce breaking changes.
-
-<br>
+The above links reference the last stable release of PerfectDesign. To pull the latest source code, use the following link - keep in mind the latest code is unstable and can introduce breaking changes.
+```html
+https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/complete.css
+```
 
 To pull a previous version, replace main with the version tag. For version 0.10:
 ```html
 https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/latest/complete.css
 ```
 
-<br>
-
 To import only the PerfectDesign base files which excludes components, swap ```complete.css``` with ```base.css```. For just the components, use ```components.css```.
 
-<br>
-
-Support for npm is planned. Although PerfectDesign was built partly to avoid the complexity of installation, the convenience and centralization of package managers is undeniable. 
+> [!NOTE]  
+> Support for npm is planned. Although PerfectDesign was built partly to avoid the complexity of installation, the convenience and centralization of package managers is undeniable. 
 
 ## Usage
 The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```, with the first letter of each section extracted. ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-w```. 
