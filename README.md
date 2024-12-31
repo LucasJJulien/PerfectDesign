@@ -7,10 +7,10 @@
 <p align="center"> The simple, uniform, and direct CSS library. </p>
 
 > [!CAUTION]  
-> Still in Pre-Alpha. Most aspects are underdeveloped, and in some scenarios, severly so. The current links pull the latest source code which is unstable and may introduce breaking changes. With the first Alpha release the links will reference the last stable version with an option to pull the source code 
+> Still in Pre-Alpha. Most aspects are underdeveloped, and in some scenarios, severly so. The current links pull the latest source code which is unstable and may introduce breaking changes. With the first Alpha release the links will reference the last stable version with an option to pull the source code.
 
 ## What is PerfectDesign?
-PerfectDesign is an inherently simple CSS library delivering all core components and nothing more - all in pure css. It uses a naming convention based on uniformity and forthrightness, following a direct syntax: ```{property}-{value}{unit}```. The first letter of each section is extracted: ```d-f``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. 
+PerfectDesign is a simple, lightweight, and dependencyless CSS library delivering core components and nothing more - all in pure css. It uses a naming convention based on uniformity and forthrightness, following a direct syntax: ```{property}-{value}{unit}```. The first letter of each section is extracted: ```d-f``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. Usage is inherently simple and doesn't require installation or package managers like npm - just link PerfectDesign in your HTML header file. 
 
 ## Table of contents
 - [Roadmap](#roadmap)
