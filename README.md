@@ -83,16 +83,31 @@ To have PerfectDesign in your project locally for modification or otherwise, dow
 ```
 
 The above links reference the last stable release of PerfectDesign. To pull the latest source code, use the following link - keep in mind the latest code is unstable and can introduce breaking changes.
-```html
+```css
 https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/complete.css
 ```
 
 To pull a previous version, replace main with the version tag. For version 0.10:
-```html
+```css
 https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/latest/complete.css
 ```
 
-To import only the PerfectDesign base files which excludes components, swap ```complete.css``` with ```base.css```. For just the components, use ```components.css```.
+In a general sense, PerfectDesign can be separated into three sections - all of which can be individually imported if you require only a fraction of what PerfectDesign provides. 
+
+To import the complete library:
+```css
+complete.css
+```
+
+To import only the base files which excludes prebuilt modules or components:
+```css
+base.css
+```
+
+To import only the components:
+```css
+components.css
+```
 
 > [!NOTE]  
 > Support for npm is planned. Although PerfectDesign was built partly to avoid the complexity of installation, the convenience and centralization of package managers is undeniable. 
