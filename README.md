@@ -22,7 +22,10 @@ PerfectDesign is a simple, lightweight, and dependency-less CSS library deliveri
 - [License](#license)
 
 ## Roadmap
-- [ ] Add responsive attributes for other devices, namely: mobile, tablets
+- [ ] Add responsive attributes for other devices, namely
+  - [ ] Mobile
+  - [ ] Tablets
+  - [ ] Dynamic
 - [ ] Add components
   - [ ] Buttons
   - [ ] Cards
