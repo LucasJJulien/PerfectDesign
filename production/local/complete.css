@@ -1,0 +1,24 @@
+
+@import url('perfectdesign/components/buttons.css');
+@import url('perfectdesign/components/cards.css');
+
+@import url('perfectdesign/core/global.css');
+
+@import url('perfectdesign/layout/alignment.css');
+@import url('perfectdesign/layout/flexbox.css');
+@import url('perfectdesign/layout/grid.css');
+@import url('perfectdesign/layout/positioning.css');
+@import url('perfectdesign/layout/spacing.css');
+@import url('perfectdesign/layout/table.css');
+
+@import url('perfectdesign/responsive/mobile.css');
+
+@import url('perfectdesign/structure/media.css');
+@import url('perfectdesign/structure/size.css');
+
+@import url('perfectdesign/style/border.css');
+@import url('perfectdesign/style/colors.css');
+@import url('perfectdesign/style/fonts.css');
+@import url('perfectdesign/style/text.css');
+
+@import url('perfectdesign/utilities/zindex.css');
