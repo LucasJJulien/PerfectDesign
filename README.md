@@ -118,4 +118,4 @@ Our coding standards and notes are in development. Until out of prealpha, public
 To adhere with the universal philosophies this very project is based on, PerfectDesign is released under [the Semantic Versioning guidelines](https://semver.org/).
 
 ## License
-This project is released under the ```MIT license```, hereby granting anyone to use, distribute, or modify this project even for commercial purposes. See the license tab for further information. 
+This project is released under the ```MIT license```, hereby granting anyone to use, distribute, or modify this project for,, but not limited to, commercial purposes. See the license tab for further information. 
