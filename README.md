@@ -7,10 +7,10 @@
 <p align="center"> The simple, uniform, and direct CSS library. </p>
 
 > [!CAUTION]  
-> Still in Alpha. Most aspects are underdeveloped, and in some scenarios, severly so.
+> Still in Pre-Alpha. Most aspects are underdeveloped, and in some scenarios, severly so.
 
 ## What is PerfectDesign?
-PerfectDesign is a simple CSS library delivering all core components and nothing more - all in pure css. It uses a naming convention based on uniformity and forthrightness, following a direct syntax: ```{property}-{value}{unit}```. The first letter of each section is extracted: ```d-f``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. 
+PerfectDesign is an inherently simple CSS library delivering all core components and nothing more - all in pure css. It uses a naming convention based on uniformity and forthrightness, following a direct syntax: ```{property}-{value}{unit}```. The first letter of each section is extracted: ```d-f``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. 
 
 ## Table of contents
 - [Roadmap](#roadmap)
@@ -30,7 +30,7 @@ PerfectDesign is a simple CSS library delivering all core components and nothing
 - Add prebuilt layouts
 
 ## Documentation
-Full documentation planned for 1.0 release. 
+Full documentation planned for 1.0 release.
 
 ## Start
 PerfectDesign requires no installation with a package manager such as npm, instead, just reference the CSS file in your html head section. The production folder contains several CSS files that link PerfectDesign together - this is what you import for most use cases. These automatically reference all the css files distributed across the many organization folders - ```complete.css``` includes the entire project. It can be linked with the following code: 
@@ -72,7 +72,7 @@ Here's a starter template using an HTML 5 doctype:
 ```
 
 ## Usage
-
+The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```, with the first letter of each section extracted. ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-w```. 
 
 
 
