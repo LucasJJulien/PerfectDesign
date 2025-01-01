@@ -121,6 +121,8 @@ components.css
 ## Usage
 The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```, with the first letter of each section extracted. ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-w```. There are exceptions to this convention, namely when there are duplicates of the first letter extracted. 
 
+PerfectDesign utilizes base 5, base 25, base 50, and base 100 for numerically based CSS. Take for example width in pixels - it increments on an interval of 5 up to 100, base 25 up to 500, and base 100 up to 1000. 
+
 ### Exceptions
 
 | Property | Execution |
