@@ -41,9 +41,10 @@ PerfectDesign is a simple, lightweight, and dependency-less CSS library deliveri
 - [ ] Add prebuilt layouts
 - [ ] Add support for NPM
 - [ ] Add examples/templates
+- [ ] Restructure JsDelivr integration
 
 ## Documentation
-Full documentation in development and will be presented on a webpage seperate from this readme. Previous documentation releases will be made available. 
+Full documentation is in development and will be presented on a webpage seperate from this readme. Previous documentation releases will be made available. 
 
 ## Quick Start
 PerfectDesign requires no installation or package managers. Instead, just reference the CSS file in your HTML head section. The production folder contains several CSS files that link PerfectDesign together - this is what you import for most use cases. These automatically reference all the css files distributed across the many organization folders - ```complete.css``` includes the entire project. It can be linked with the following code: 
