@@ -2,11 +2,11 @@
 /* Background-Color */
 
 .bgc-black {
-    background-color: black;
+  background-color: black;
 }
 
 .bgc-white {
-    background-color: white;
+  background-color: white;
 }
 
 .bgc-red {
@@ -85,12 +85,12 @@
   background-color: gold;
 }
 
-.bgc-copper {
-  background-color: copper;
+.bgc-lightgray {
+  background-color: lightgray;
 }
 
-.bgc-bronze {
-  background-color: bronze;
+.bgc-lightblue {
+  background-color: lightblue;
 }
 
 .bgc-slategray {
