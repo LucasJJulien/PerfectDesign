@@ -40,6 +40,7 @@ PerfectDesign is a simple, lightweight, and dependency-less CSS library deliveri
 - [ ] Add contributing guidelines
 - [ ] Add prebuilt layouts
 - [ ] Add support for NPM
+- [ ] Add examples/templates
 
 ## Documentation
 Full documentation in development and will be presented on a webpage seperate from this readme. Previous documentation releases will be made available. 
@@ -113,7 +114,7 @@ components.css
 > Support for npm is planned. Although PerfectDesign was built partly to avoid the complexity of installation, the convenience and centralization of package managers is undeniable. 
 
 ## Usage
-The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```, with the first letter of each section extracted. ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-w```. 
+The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```, with the first letter of each section extracted. ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-w```. There are exceptions to this convention, namely when there are duplicates of the first letter extracted. The only current execution of this exception are colors, where the full name is spelled out. ```c-black``` is color: black and ```bgc-black``` is ```background-color: black```. 
 
 ## Contributing
 > [!WARNING]  
