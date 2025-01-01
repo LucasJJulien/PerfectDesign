@@ -41,6 +41,7 @@ PerfectDesign is a simple, lightweight, and dependency-less CSS library deliveri
 - [ ] Add prebuilt layouts
 - [ ] Add support for NPM
 - [ ] Add examples/templates
+- [ ] Restructure JsDelivr integration
 
 ## Documentation
 Full documentation in development and will be presented on a webpage seperate from this readme. Previous documentation releases will be made available. 
