@@ -568,6 +568,248 @@
     height: 1000px;
 }
 
+/* Min-Width (Pixels) */
+
+.minw-1p {
+    min-width: 1px;
+}
+
+.minw-2p {
+    min-width: 2px;
+}
+
+.minw-3p {
+    min-width: 3px;
+}
+
+.minw-4p {
+    min-width: 4px;
+}
+
+.minw-5px {
+    min-width: 5px;
+}
+
+.minw-10px {
+    min-width: 10px;
+}
+
+.minw-15px {
+    min-width: 15px;
+}
+
+.minw-20px {
+    min-width: 20px;
+}
+
+.minw-25px {
+    min-width: 25px;
+}
+
+.minw-30px {
+    min-width: 30px;
+}
+
+.minw-35px {
+    min-width: 35px;
+}
+
+.minw-40px {
+    min-width: 40px;
+}
+
+.minw-45px {
+    min-width: 45px;
+}
+
+.minw-50px {
+    min-width: 50px;
+}
+
+.minw-55px {
+    min-width: 55px;
+}
+
+.minw-60px {
+    min-width: 60px;
+}
+
+.minw-65px {
+    min-width: 65px;
+}
+
+.minw-70px {
+    min-width: 70px;
+}
+
+.minw-75px {
+    min-width: 75px;
+}
+
+.minw-80px {
+    min-width: 80px;
+}
+
+.minw-85px {
+    min-width: 85px;
+}
+
+.minw-90px {
+    min-width: 90px;
+}
+
+.minw-95px {
+    min-width: 95px;
+}
+
+.minw-100px {
+    min-width: 100px;
+}
+
+.minw-125px {
+    min-width: 125px;
+}
+
+.minw-150px {
+    min-width: 150px;
+}
+
+.minw-175px {
+    min-width: 175px;
+}
+
+.minw-200px {
+    min-width: 200px;
+}
+
+.minw-225px {
+    min-width: 225px;
+}
+
+.minw-250px {
+    min-width: 250px;
+}
+
+.minw-275px {
+    min-width: 275px;
+}
+
+.minw-300px {
+    min-width: 300px;
+}
+
+.minw-325px {
+    min-width: 325px;
+}
+
+.minw-350px {
+    min-width: 350px;
+}
+
+.minw-375px {
+    min-width: 375px;
+}
+
+.minw-400px {
+    min-width: 400px;
+}
+
+.minw-425px {
+    min-width: 425px;
+}
+
+.minw-450px {
+    min-width: 450px;
+}
+
+.minw-475px {
+    min-width: 475px;
+}
+
+.minw-500px {
+    min-width: 500px;
+}
+
+.minw-525px {
+    min-width: 525px;
+}
+
+.minw-550px {
+    min-width: 550px;
+}
+
+.minw-575px {
+    min-width: 575px;
+}
+
+.minw-600px {
+    min-width: 600px;
+}
+
+.minw-625px {
+    min-width: 625px;
+}
+
+.minw-650px {
+    min-width: 650px;
+}
+
+.minw-675px {
+    min-width: 675px;
+}
+
+.minw-700px {
+    min-width: 700px;
+}
+
+.minw-725px {
+    min-width: 725px;
+}
+
+.minw-750px {
+    min-width: 750px;
+}
+
+.minw-775px {
+    min-width: 775px;
+}
+
+.minw-800px {
+    min-width: 800px;
+}
+
+.minw-825px {
+    min-width: 825px;
+}
+
+.minw-850px {
+    min-width: 850px;
+}
+
+.minw-875px {
+    min-width: 875px;
+}
+
+.minw-900px {
+    min-width: 900px;
+}
+
+.minw-925px {
+    min-width: 925px;
+}
+
+.minw-950px {
+    min-width: 950px;
+}
+
+.minw-975px {
+    min-width: 975px;
+}
+
+.minw-1000px {
+    min-width: 1000px;
+}
+
 /* Height (Percent) */
 
 .h-5p {
@@ -1120,4 +1362,230 @@
 
 .h-1000px {
     height: 1000px;
+}
+
+/* Min-Height (Pixels) */
+
+.minh-5px {
+    min-height: 5px;
+}
+
+.minh-10px {
+    min-height: 10px;
+}
+
+.minh-15px {
+    min-height: 15px;
+}
+
+.minh-20px {
+    min-height: 20px;
+}
+
+.minh-25px {
+    min-height: 25px;
+}
+
+.minh-30px {
+    min-height: 30px;
+}
+
+.minh-35px {
+    min-height: 35px;
+}
+
+.minh-40px {
+    min-height: 40px;
+}
+
+.minh-45px {
+    min-height: 45px;
+}
+
+.minh-50px {
+    min-height: 50px;
+}
+
+.minh-55px {
+    min-height: 55px;
+}
+
+.minh-60px {
+    min-height: 60px;
+}
+
+.minh-65px {
+    min-height: 65px;
+}
+
+.minh-70px {
+    min-height: 70px;
+}
+
+.minh-75px {
+    min-height: 75px;
+}
+
+.minh-80px {
+    min-height: 80px;
+}
+
+.minh-85px {
+    min-height: 85px;
+}
+
+.minh-90px {
+    min-height: 90px;
+}
+
+.minh-95px {
+    min-height: 95px;
+}
+
+.minh-100px {
+    min-height: 100px;
+}
+
+.minh-125px {
+    min-height: 125px;
+}
+
+.minh-150px {
+    min-height: 150px;
+}
+
+.minh-175px {
+    min-height: 175px;
+}
+
+.minh-200px {
+    min-height: 200px;
+}
+
+.minh-225px {
+    min-height: 225px;
+}
+
+.minh-250px {
+    min-height: 250px;
+}
+
+.minh-275px {
+    min-height: 275px;
+}
+
+.minh-300px {
+    min-height: 300px;
+}
+
+.minh-325px {
+    min-height: 325px;
+}
+
+.minh-350px {
+    min-height: 350px;
+}
+
+.minh-375px {
+    min-height: 375px;
+}
+
+.minh-400px {
+    min-height: 400px;
+}
+
+.minh-425px {
+    min-height: 425px;
+}
+
+.minh-450px {
+    min-height: 450px;
+}
+
+.minh-475px {
+    min-height: 475px;
+}
+
+.minh-500px {
+    min-height: 500px;
+}
+
+.minh-525px {
+    min-height: 525px;
+}
+
+.minh-550px {
+    min-height: 550px;
+}
+
+.minh-575px {
+    min-height: 575px;
+}
+
+.minh-600px {
+    min-height: 600px;
+}
+
+.minh-625px {
+    min-height: 625px;
+}
+
+.minh-650px {
+    min-height: 650px;
+}
+
+.minh-675px {
+    min-height: 675px;
+}
+
+.minh-700px {
+    min-height: 700px;
+}
+
+.minh-725px {
+    min-height: 725px;
+}
+
+.minh-750px {
+    min-height: 750px;
+}
+
+.minh-775px {
+    min-height: 775px;
+}
+
+.minh-800px {
+    min-height: 800px;
+}
+
+.minh-825px {
+    min-height: 825px;
+}
+
+.minh-850px {
+    min-height: 850px;
+}
+
+.minh-875px {
+    min-height: 875px;
+}
+
+.minh-900px {
+    min-height: 900px;
+}
+
+.minh-925px {
+    min-height: 925px;
+}
+
+.minh-950px {
+    min-height: 950px;
+}
+
+.minh-975px {
+    min-height: 975px;
+}
+
+.minh-1000px {
+    min-height: 1000px;
 }
