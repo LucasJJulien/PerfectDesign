@@ -78,12 +78,15 @@ Here's a starter template using an HTML 5 doctype:
 ```
 
 ## Other Start Options
+
+### Local use
 To have PerfectDesign in your project locally for modification or otherwise, download the source code and reference the directory where it is located. For example: 
 
 ```html
 <link rel="stylesheet" type="text/css" href="~/exampleproject/css/perfectdesign/production/local/complete.css">
 ```
 
+### Using other versions
 The above links reference the last stable release of PerfectDesign. To pull the latest source code, use the following link - keep in mind the latest code is unstable and can introduce breaking changes.
 ```css
 https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/complete.css
@@ -94,6 +97,7 @@ To pull a previous version, replace main with the version tag. For version 0.10:
 https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/latest/complete.css
 ```
 
+### Importing individual aspects
 In a general sense, PerfectDesign can be separated into three sections - all of which can be individually imported if you require only a fraction of what PerfectDesign provides. 
 
 To import the complete library:
