@@ -114,7 +114,14 @@ components.css
 > Support for npm is planned. Although PerfectDesign was built partly to avoid the complexity of installation, the convenience and centralization of package managers is undeniable. 
 
 ## Usage
-The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```, with the first letter of each section extracted. ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-w```. There are exceptions to this convention, namely when there are duplicates of the first letter extracted. The only current execution of this exception are colors, where the full name is spelled out. ```c-black``` is color: black and ```bgc-black``` is ```background-color: black```. 
+The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```, with the first letter of each section extracted. ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-w```. There are exceptions to this convention, namely when there are duplicates of the first letter extracted. 
+
+### Exceptions
+
+| Property | Execution |
+| --- | --- |
+| colors | ```color: black``` - ```c-black```, ```background-color: black``` - ```bgc-black``` |
+| min, max | ```min-width: 10px``` - ```minw-10px```, ```max-height: 20px``` - ```maxh-20px``` |
 
 ## Contributing
 > [!WARNING]  
