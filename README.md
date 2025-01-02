@@ -119,6 +119,8 @@ components.css
 > Support for npm is planned. Although PerfectDesign was built partly to avoid the complexity of installation, the convenience and centralization of package managers is undeniable. 
 
 ## Usage
+
+### Naming Convention
 The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```, with the first letter of each section extracted. ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-w```. There are exceptions to this convention, namely when there are duplicates of the first letter extracted. 
 
 ### Exceptions
@@ -128,7 +130,7 @@ The naming convention in PerfectDesign mimics the very CSS syntax it's referenci
 | colors | ```color: black``` - ```c-black```, ```background-color: black``` - ```bgc-black``` |
 | min, max | ```min-width: 10px``` - ```minw-10px```, ```max-height: 20px``` - ```maxh-20px``` |
 
-
+### Value-based CSS
 PerfectDesign increments on an interval of 1, 5, 25, 50, and 100 for numerically based CSS properties. Take for example width in pixels - it increments on an interval of 5 up to 100, base 25 up to 500, and base 100 up to 1000. Why? Because base 5 and 10 are perfect, and well, this is PerfectDesign. Jokes aside (I actually wasn't joking though), there's so little difference between say 50 and 55 pixels that values in between just aren't needed. Additionally, all values on base 5 adds uniformity to the design. 
 
 ## Contributing
