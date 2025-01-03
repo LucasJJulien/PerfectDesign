@@ -158,7 +158,7 @@ How does it all work under the hood?
 
 PerfectDesign is pure css. It might seem counter intuitive to use such a bad "language" in the name of simplicity when tools like SASS, PostCSS, and Less.js exist. These are great and superficially simplify the process of creating stylesheets, but require installation and end up compiling CSS in the end anyways. 
 
-It's organized logically with five main folders:
+It's organized logically with eight main folders:
 
 [`base`](/base/) - Contains all of the base css. 
 
@@ -166,7 +166,7 @@ It's organized logically with five main folders:
 
 [`components`](/components/) - Buttons, cards, etc
 
-[`modules`](/modules/) - Layouts
+[`modules`](/modules/) - Larger scale than components - layouts, component groups
 
 [`production`](/production/) - The files that link everything forever
 
