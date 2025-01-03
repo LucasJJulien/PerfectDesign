@@ -10,7 +10,7 @@
 > Currently in pre-alpha. Most aspects are underdeveloped, and in some scenarios, severly so.
 
 ## What is PerfectDesign?
-PerfectDesign is a simple, lightweight, and dependency-less CSS library delivering core components and nothing more - all in pure css. It uses a naming convention based on uniformity and forthrightness, following a direct syntax: ```{property}-{value}{unit}```. The first letter of each section is extracted: ```d-f``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. Usage is inherently simple and doesn't require installation or package managers (although NPM support is planned) - just link PerfectDesign in your HTML header file. 
+PerfectDesign is a simple, lightweight, unopinionated (mostly), and dependency-less CSS library delivering core components and nothing more - all in pure css. It uses a naming convention based on uniformity and forthrightness, following a direct syntax: ```{property}-{value}{unit}```. The first letter of each section is extracted: ```d-f``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. Usage is inherently simple and doesn't require installation or package managers (although NPM support is planned) - just link PerfectDesign in your HTML header file. 
 
 ## Table of contents
 - [Roadmap](#roadmap)
@@ -152,6 +152,15 @@ git checkout -b feature/your-feature-name
 
 ### Coding Standards
 Please adhere to our coding standards (in development) to uphold our development philosophy. 
+
+## Bird's Eye View
+How does it all work under the hood?
+
+PerfectDesign is pure css. It might seem counter intuitive to use such a bad "language" in the name of simplicity when tools like SASS, PostCSS, and Less.js exist. These are great and superficially simplify the process of creating stylesheets, but require installation and end up compiling CSS in the end anyways. 
+
+It's organized logically with three main folders:
+
+[`base`](/base/) - Contains all of the base css. 
 
 ## Versioning
 To adhere with the universal philosophies this very project is based on, PerfectDesign is released under [the Semantic Versioning guidelines](https://semver.org/).
