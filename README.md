@@ -110,10 +110,13 @@ To import only the base files which excludes prebuilt modules or components:
 base.css
 ```
 
-To import only the components:
+To import only the modules (these function independently from base css):
 ```css
-components.css
+modules.css
 ```
+
+### Minified
+(Coming Soon)
 
 > [!NOTE]  
 > Support for npm is planned. Although PerfectDesign was built partly to avoid the complexity of installation, the convenience and centralization of package managers is undeniable. 
@@ -175,6 +178,34 @@ It's organized logically with eight main folders:
 [`src`](/src/) - Javascript source code (Currently void)
 
 [`testing`](/testing/) - Grounds for experimentation
+
+Base and core can be difficult to differentiate at first. 
+
+<details>
+  <summary>Complete Structure</summary>
+
+  ```text
+  perfectdesign/
+  ├── base/
+  │   ├── layout
+  │   ├── structure
+  │   ├── style
+  │   ├── utilities
+  ├── core/
+  │   ├── global.css
+  ├── modules/
+  │   ├── components
+  │   ├── layout
+  ├── production/
+  │   ├── latest
+  │   ├── local
+  │   ├── stable
+  ├── responsive/
+  │   ├── mobile
+  └── src/
+      ├── js
+  ```
+</details>
 
 ## Versioning
 To adhere with the universal philosophies this very project is based on, PerfectDesign is released under [the Semantic Versioning guidelines](https://semver.org/).
