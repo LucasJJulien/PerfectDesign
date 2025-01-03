@@ -42,6 +42,7 @@ PerfectDesign is a simple, lightweight, unopinionated (mostly), and dependency-l
 - [ ] Add support for NPM
 - [ ] Add examples/templates
 - [ ] Restructure JsDelivr integration
+- [ ] Experiment with SASS remake
 
 ## Documentation
 Full documentation is in development and will be presented on a webpage separate from this readme. Previous documentation releases will be made available. 
