@@ -88,6 +88,10 @@ To have PerfectDesign in your project locally for modification or otherwise, dow
 ```
 
 ### Using other versions
+
+> [!CAUTION]  
+> Due to the nature of no dependencies other than JsDelivr for our CDN, tagging specific releases currently does not work. We are working on a solution.
+
 The above links reference the last stable release of PerfectDesign. To pull the latest source code, use the following link - keep in mind the latest code is unstable and can introduce breaking changes.
 ```css
 https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/complete.css
