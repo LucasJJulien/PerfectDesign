@@ -161,12 +161,19 @@ PerfectDesign is pure css. It might seem counter intuitive to use such a bad "la
 It's organized logically with five main folders:
 
 [`base`](/base/) - Contains all of the base css. 
+
 [`core`](/core/) - Core CSS vital to PerfectDesign
+
 [`components`](/components/) - Buttons, cards, etc
+
 [`modules`](/modules/) - Layouts
+
 [`production`](/production/) - The files that link everything forever
+
 [`responsive`](/responsive/) - Responsive design
+
 [`src`](/src/) - Javascript source code (Currently void)
+
 [`testing`](/testing/) - Grounds for experimentation
 
 ## Versioning
