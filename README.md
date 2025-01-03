@@ -42,6 +42,7 @@ PerfectDesign is a simple, lightweight, unopinionated (mostly), and dependency-l
 - [ ] Add support for NPM
 - [ ] Add examples/templates
 - [ ] Restructure JsDelivr integration
+- [ ] Experiment with SASS remake
 
 ## Documentation
 Full documentation is in development and will be presented on a webpage separate from this readme. Previous documentation releases will be made available. 
@@ -87,6 +88,10 @@ To have PerfectDesign in your project locally for modification or otherwise, dow
 ```
 
 ### Using other versions
+
+> [!CAUTION]  
+> Due to the nature of no dependencies other than JsDelivr for our CDN, tagging specific releases currently does not work. We are working on a solution.
+
 The above links reference the last stable release of PerfectDesign. To pull the latest source code, use the following link - keep in mind the latest code is unstable and can introduce breaking changes.
 ```css
 https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/complete.css
@@ -110,10 +115,13 @@ To import only the base files which excludes prebuilt modules or components:
 base.css
 ```
 
-To import only the components:
+To import only the modules (these function independently from base css):
 ```css
-components.css
+modules.css
 ```
+
+### Minified
+(Coming Soon)
 
 > [!NOTE]  
 > Support for npm is planned. Although PerfectDesign was built partly to avoid the complexity of installation, the convenience and centralization of package managers is undeniable. 
@@ -156,7 +164,7 @@ Please adhere to our coding standards (in development) to uphold our development
 ## Bird's Eye View
 How does it all work under the hood?
 
-PerfectDesign is pure css. It might seem counter intuitive to use such a bad "language" in the name of simplicity when tools like SASS, PostCSS, and Less.js exist. These are great and superficially simplify the process of creating stylesheets, but require installation and end up compiling CSS in the end anyways. 
+PerfectDesign is pure css. It might seem counter intuitive to use such a bad "language" in the name of simplicity when tools like SASS, PostCSS, and Less.js exist. These are great and superficially simplify the process of creating stylesheets, but require installation and end up compiling CSS in the end anyways. This is meant to be dead simple. 
 
 It's organized logically with eight main folders:
 
@@ -175,6 +183,34 @@ It's organized logically with eight main folders:
 [`src`](/src/) - Javascript source code (Currently void)
 
 [`testing`](/testing/) - Grounds for experimentation
+
+Base and core can be difficult to differentiate at first. 
+
+<details>
+  <summary>Complete Structure</summary>
+
+  ```text
+  perfectdesign/
+  ├── base/
+  │   ├── layout
+  │   ├── structure
+  │   ├── style
+  │   ├── utilities
+  ├── core/
+  │   ├── global.css
+  ├── modules/
+  │   ├── components
+  │   ├── layout
+  ├── production/
+  │   ├── latest
+  │   ├── local
+  │   ├── stable
+  ├── responsive/
+  │   ├── mobile
+  └── src/
+      ├── js
+  ```
+</details>
 
 ## Versioning
 To adhere with the universal philosophies this very project is based on, PerfectDesign is released under [the Semantic Versioning guidelines](https://semver.org/).
