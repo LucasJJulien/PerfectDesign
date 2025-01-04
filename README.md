@@ -18,6 +18,7 @@ PerfectDesign is a simple, lightweight, unopinionated (mostly), and dependency-l
    - [Quick Start](#quick-start)
    - [Other Start Options](#other-start-options)
 - [Contributing](#contributing)
+- [Bird's Eye View](#bird's-eye-view)
 - [Versioning](#versioning)
 - [License](#license)
 
