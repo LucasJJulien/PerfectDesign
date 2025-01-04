@@ -185,33 +185,45 @@ It's organized logically with eight main folders:
 Base and core can be difficult to differentiate at first. Core contains foundational CSS like global attributes. Base houses all the basic CSS like background-color, row-gap, etc. 
 
 ### How does PerfectDesign deliver the CSS?
-PerfectDesign has no dependencies other than JsDelivr for the CDN - which isn't really a dependency.
+PerfectDesign has no dependencies other than JsDelivr for the CDN - which isn't really a dependency. The production folder contains CSS files that use the @import tag to "bundle" everything together. We've opted not to use Webpack of Parcel to auto bundle with Github actions in an effort to keep PerfectDesign as simple as possible throughout. 
 
-<details>
-  <summary>Complete Structure</summary>
-
-  ```text
-  perfectdesign/
-  ├── base/
-  │   ├── layout
-  │   ├── structure
-  │   ├── style
-  │   ├── utilities
-  ├── core/
-  │   ├── global.css
-  ├── modules/
-  │   ├── components
-  │   ├── layout
-  ├── production/
-  │   ├── latest
-  │   ├── local
-  │   ├── stable
-  ├── responsive/
-  │   ├── mobile
-  └── src/
-      ├── js
-  ```
-</details>
+### Structure Visualized
+```text
+perfectdesign/
+├── base/
+│   ├── layout/
+│       ├── alignment.css
+│       ├── flexbox.css
+│       ├── grid.css
+│       ├── positioning.css
+│       ├── spacing.css
+│       └── alignment.css
+│   ├── structure/
+│       ├── media.css
+│       └── size.css
+│   ├── style/
+│       ├── border.css
+│       ├── colors.css
+│       ├── fonts.css
+│       └── text.css
+│   └── utilities/
+│       └── zindex.css
+├── core/
+│   ├── global.css
+├── modules/
+│   ├── layout.css
+│   └── components/
+│       ├── buttons.css
+│       └── cards.css
+├── production/
+│   ├── latest/
+│   ├── local/
+│   ├── stable/
+├── responsive/
+│   ├── mobile
+└── src/
+    └── js
+```
 
 ## Versioning
 To adhere with the universal philosophies this very project is based on, PerfectDesign is released under [the Semantic Versioning guidelines](https://semver.org/).
