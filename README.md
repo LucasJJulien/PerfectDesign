@@ -170,11 +170,11 @@ It's organized logically with eight main folders:
 
 [`core`](/core/) - Core CSS vital to PerfectDesign
 
-[`components`](/components/) - Buttons, cards, etc
+[`components`](/components/) - Buttons, cards, etc (Child of modules)
 
 [`modules`](/modules/) - Larger scale than components - layouts, component groups
 
-[`production`](/production/) - The files that link everything forever
+[`production`](/production/) - The files that link everything together
 
 [`responsive`](/responsive/) - Responsive design
 
