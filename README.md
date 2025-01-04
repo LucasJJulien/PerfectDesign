@@ -18,6 +18,7 @@ PerfectDesign is a simple, lightweight, unopinionated (mostly), and dependency-l
    - [Quick Start](#quick-start)
    - [Other Start Options](#other-start-options)
 - [Contributing](#contributing)
+- [Bird's Eye View](#bird's-eye-view)
 - [Versioning](#versioning)
 - [License](#license)
 
@@ -88,18 +89,16 @@ To have PerfectDesign in your project locally for modification or otherwise, dow
 ```
 
 ### Using other versions
-
-> [!CAUTION]  
-> Due to the nature of no dependencies other than JsDelivr for our CDN, tagging specific releases currently does not work. We are working on a solution.
-
 The above links reference the last stable release of PerfectDesign. To pull the latest source code, use the following link - keep in mind the latest code is unstable and can introduce breaking changes.
 ```css
 https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/complete.css
 ```
 
-To pull a previous version, replace main with the version tag. For version 0.10:
+Due to the nature of no dependencies other than JsDelivr for our CDN, we've opted not to use tools like WebPack or Parcel for bundling, and as such, tagging specific releases is not possible unless you use PerfectDesign locally. 
+
+However, you can pull the specific files of previous versions. Type the version tag after the @ and then the directory. To reference ```flexbox.css``` from version 0.1.0:
 ```css
-https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/latest/complete.css
+https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/base/layout/flexbox.css
 ```
 
 ### Importing individual aspects
@@ -166,17 +165,18 @@ How does it all work under the hood?
 
 PerfectDesign is pure css. It might seem counter intuitive to use such a bad "language" in the name of simplicity when tools like SASS, PostCSS, and Less.js exist. These are great and superficially simplify the process of creating stylesheets, but require installation and end up compiling CSS in the end anyways. This is meant to be dead simple. 
 
+### Organization
 It's organized logically with eight main folders:
 
 [`base`](/base/) - Contains all of the base css. 
 
 [`core`](/core/) - Core CSS vital to PerfectDesign
 
-[`components`](/components/) - Buttons, cards, etc
+[`components`](/components/) - Buttons, cards, etc (Child of modules)
 
 [`modules`](/modules/) - Larger scale than components - layouts, component groups
 
-[`production`](/production/) - The files that link everything forever
+[`production`](/production/) - The files that link everything together
 
 [`responsive`](/responsive/) - Responsive design
 
@@ -184,33 +184,48 @@ It's organized logically with eight main folders:
 
 [`testing`](/testing/) - Grounds for experimentation
 
-Base and core can be difficult to differentiate at first. 
+Base and core can be difficult to differentiate at first. Core contains foundational CSS like global attributes. Base houses all the basic CSS like background-color, row-gap, etc. 
 
-<details>
-  <summary>Complete Structure</summary>
+### How does PerfectDesign deliver the CSS?
+PerfectDesign has no dependencies other than JsDelivr for the CDN - which isn't really a dependency. The production folder contains CSS files that use the @import tag to "bundle" everything together. We've opted not to use Webpack of Parcel to auto bundle with Github actions in an effort to keep PerfectDesign as simple as possible throughout. 
 
-  ```text
-  perfectdesign/
-  ├── base/
-  │   ├── layout
-  │   ├── structure
-  │   ├── style
-  │   ├── utilities
-  ├── core/
-  │   ├── global.css
-  ├── modules/
-  │   ├── components
-  │   ├── layout
-  ├── production/
-  │   ├── latest
-  │   ├── local
-  │   ├── stable
-  ├── responsive/
-  │   ├── mobile
-  └── src/
-      ├── js
-  ```
-</details>
+### Structure Visualized
+```text
+perfectdesign/
+├── base/
+│   ├── layout/
+│       ├── alignment.css
+│       ├── flexbox.css
+│       ├── grid.css
+│       ├── positioning.css
+│       ├── spacing.css
+│       └── alignment.css
+│   ├── structure/
+│       ├── media.css
+│       └── size.css
+│   ├── style/
+│       ├── border.css
+│       ├── colors.css
+│       ├── fonts.css
+│       └── text.css
+│   └── utilities/
+│       └── zindex.css
+├── core/
+│   ├── global.css
+├── modules/
+│   ├── layout.css
+│   └── components/
+│       ├── buttons.css
+│       └── cards.css
+├── production/
+│   ├── latest/
+│   ├── local/
+│   ├── stable/
+├── responsive/
+│   ├── mobile
+└── src/
+    └── js
+```
 
 ## Versioning
 To adhere with the universal philosophies this very project is based on, PerfectDesign is released under [the Semantic Versioning guidelines](https://semver.org/).
