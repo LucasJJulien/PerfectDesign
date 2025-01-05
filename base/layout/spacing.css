@@ -1,6 +1,22 @@
 
 /* Column-Gap */
 
+.cg-1px {
+    column-gap: 1px;
+}
+
+.cg-2px {
+    column-gap: 2px;
+}
+
+.cg-3px {
+    column-gap: 3px;
+}
+
+.cg-4px {
+    column-gap: 4px;
+}
+
 .cg-5px {
     column-gap: 5px;
 }
@@ -43,6 +59,22 @@
 
 /* Row-Gap */
 
+.rg-1px {
+    row-gap: 1px;
+}
+
+.rg-2px {
+    row-gap: 2px;
+}
+
+.rg-3px {
+    row-gap: 3px;
+}
+
+.rg-4px {
+    row-gap: 4px;
+}
+
 .rg-5px {
     row-gap: 5px;
 }
@@ -84,6 +116,22 @@
 }
 
 /* Gap */
+
+.g-1px {
+    gap: 1px;
+}
+
+.g-2px {
+    gap: 2px;
+}
+
+.g-3px {
+    gap: 3px;
+}
+
+.g-4px {
+    gap: 4px;
+}
 
 .g-5px {
     gap: 5px;
