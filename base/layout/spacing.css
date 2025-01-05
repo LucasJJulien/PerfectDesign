@@ -83,6 +83,48 @@
     row-gap: 50px;
 }
 
+/* Gap */
+
+.g-5px {
+    gap: 5px;
+}
+
+.g-10px {
+    gap: 10px;
+}
+
+.g-15px {
+    gap: 15px;
+}
+
+.g-20px {
+    gap: 20px;
+}
+
+.g-25px {
+    gap: 25px;
+}
+
+.g-30px {
+    gap: 30px;
+}
+
+.g-35px {
+    gap: 35px;
+}
+
+.g-40px {
+    gap: 40px;
+}
+
+.g-45px {
+    gap: 45px;
+}
+
+.g-50px {
+    gap: 50px;
+}
+
 /* Padding */
 
 .p-5px {
