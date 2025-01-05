@@ -12,7 +12,7 @@
 ## What is PerfectDesign?
 The unopinionated (mostly) universal design framework. 
 
-PerfectDesign is a simple, lightweight, and dependency-less CSS library delivering core components and nothing more - all in pure css. It uses a naming convention based on uniformity and forthrightness, following a direct syntax: ```{property}-{value}{unit}```. The first letter of each section is extracted: ```d-f``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. Usage is inherently simple and doesn't require installation or package managers (although NPM support is planned) - just link PerfectDesign in your HTML header file. 
+PerfectDesign is a simple, lightweight, and dependency-less CSS library delivering core components and nothing more - all in pure css. It uses a naming convention based on uniformity and forthrightness, following a direct syntax: ```{property}-{value}{unit}```. The first letter of the property and value are extracted: ```d-f``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. Usage is inherently simple and doesn't require installation or package managers (although NPM support is planned) - just link PerfectDesign in your HTML header file. 
 
 ## Table of contents
 - [Roadmap](#roadmap)
@@ -130,7 +130,7 @@ modules.css
 ## Usage
 
 ### Naming Convention
-The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```, with the first letter of each section extracted. ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-w```. There are exceptions to this convention, namely when there are duplicates of the first letter extracted. 
+The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```, with the first letter of the property and value extracted. ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-w```. Units are condensed: pixels = px, percent = p, rem = rem. There are exceptions to this convention, namely when there are duplicates of the first letter extracted. 
 
 ### Exceptions
 
