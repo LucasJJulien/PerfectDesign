@@ -1140,6 +1140,22 @@
 
 /* Height (Pixels) */
 
+.h-1px {
+    height: 1px;
+}
+
+.h-2px {
+    height: 2px;
+}
+
+.h-3px {
+    height: 3px;
+}
+
+.h-4px {
+    height: 4px;
+}
+
 .h-5px {
     height: 5px;
 }
@@ -1365,6 +1381,22 @@
 }
 
 /* Min-Height (Pixels) */
+
+.minh-1px {
+    min-height: 1px;
+}
+
+.minh-2px {
+    min-height: 2px;
+}
+
+.minh-3px {
+    min-height: 3px;
+}
+
+.minh-4px {
+    min-height: 4px;
+}
 
 .minh-5px {
     min-height: 5px;
