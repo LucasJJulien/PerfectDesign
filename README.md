@@ -132,7 +132,7 @@ modules.css
 ### Naming Convention
 The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```, with the first letter of the property and value extracted. ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-w```. Units are condensed: pixels = px, percent = p, rem = rem. There are exceptions to this convention, namely when there are duplicates of the first letter extracted. 
 
-Names like ```text-large``` and ```vertical-align-center``` are undoubtedly better descriptions than the crappy CSS property names like ```justify-content: center```, but are opinionated and varies from person to person. Replicating the names of the CSS properties like ```justify-content``` as ```jc``` carries over the bad naming convention of CSS into HTML, but keeps everything uniform and equivalent to the standard CSS has already set.
+Names like ```text-large``` and ```vertical-align-center``` are undoubtedly better descriptions than the crappy CSS property names like ```justify-content: center```, but are opinionated and applies best to it's creator. Replicating the names of the CSS properties like ```justify-content``` as ```jc``` carries over the bad naming convention of CSS into HTML, but keeps everything uniform and equivalent to the standard CSS has already set.
 
 ### Exceptions
 
