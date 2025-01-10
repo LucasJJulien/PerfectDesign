@@ -122,7 +122,11 @@ modules.css
 ```
 
 ### Minified
-(Coming Soon)
+Minified CSS can also be used:
+
+```html
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign/production/stable/min/complete.css">
+```
 
 > [!NOTE]  
 > Support for npm is planned. Although PerfectDesign was built partly to avoid the complexity of installation, the convenience and centralization of package managers is undeniable. 
