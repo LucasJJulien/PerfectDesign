@@ -138,7 +138,7 @@ The naming convention in PerfectDesign mimics the very CSS syntax it's referenci
 
 Names like ```text-large``` and ```vertical-align-center``` are undoubtedly better descriptions than the crappy CSS property names like ```justify-content: center```, but are opinionated and applies best to it's creator. Replicating the names of the CSS properties like ```justify-content``` as ```jc``` carries over the not-so-good naming convention of CSS into HTML, but keeps everything uniform and equivalent to the standard CSS has already set. 
 
-The same goes for names like ```xs``` for extra small or ```m``` for medium; the best value to be associated with the abbreviation are relative to the person. Although PerfectDesign might implement ```xl, xs, etc``` for ease of use, uniformity, and to build a standard within the library, we have prioritzied freedom over values predefined by the creators. Instead of ```fs-xl``` you can do ```fs-10``` and then pick your desired unit; for example, ```fs-10rem```.
+The same goes for names like ```xs``` for extra small or ```m``` for medium; the best value to be associated with the abbreviation are relative to the person. Although PerfectDesign might implement ```xl, xs, etc``` for ease of use, uniformity, and to build a standard within the library, we have prioritzied freedom over values predefined by the creators.
 
 ### Exceptions
 
