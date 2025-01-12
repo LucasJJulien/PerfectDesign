@@ -14,7 +14,7 @@ The unopinionated (mostly) universal design framework.
 
 PerfectDesign is a simple, lightweight, and dependency-less CSS library delivering core components and nothing more - all in pure css. It uses a naming convention based on uniformity and forthrightness, following a direct syntax: ```{property}-{value}{unit}```. The first letter of the property and value are extracted: ```d-f``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. Usage is inherently simple and doesn't require installation or package managers (although NPM support is planned) - just link PerfectDesign in your HTML header file. 
 
-The guiding principles of PerfectDesign are as follows: 1. utility first architecture to remove the abstraction and bloat of component-based libraries and 2. freedom, you aren't forced to choose from pre-curated lists like ```text-sm```, although they are available.
+The guiding principles of PerfectDesign are as follows: 1. utility first architecture to remove the abstraction and bloat of component-based libraries and 2. freedom, you aren't forced to choose from pre-curated lists like ```text-sm```, although they are available for uniformity.
 
 ## Table of contents
 - [Roadmap](#roadmap)
