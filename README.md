@@ -45,7 +45,7 @@ The guiding principles of PerfectDesign are as follows: 1. utility first archite
 - [ ] Add support for NPM
   - [ ] Build system to compile only used CSS
 - [ ] Add examples/templates
-- [ ] Restructure JsDelivr integration
+- [ ] Expand EM support across the library
 
 ## Documentation
 Full documentation is in development and will be presented on a webpage separate from this readme. Previous documentation releases will be made available. 
@@ -134,7 +134,7 @@ Minified CSS can also be used:
 ## Usage
 
 ### Naming Convention
-The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```, with the first letter of the property and value extracted. ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-w```. Units are condensed: pixels ```px```, percent ```p```, rem ```rem```. With CSS that can set multiple properties such as ```columns: 100px 3```, the properties are seperated by an underscore: ```c-100px_3```. Properties with decimal values have the letter ```d (decimal)``` where the period would be. ```font-size: 0.75rem``` would be ```fs-d75rem```. Properties with a whole number and decimal value are portrayed as such: ```font-size: 1.5rem``` is ```fs-1d5rem```. Negative values are indictated with the letter ```n (negative)``` prior to the value. ```letter-spacing: -0.05rem``` is ```ls-nd05rem```. 
+The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```, with the first letter of the property and value extracted. ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-w```. Units are condensed: pixels ```px```, percent ```p```, rem ```rem```, and em ```em```. With CSS that can set multiple properties such as ```columns: 100px 3```, the properties are seperated by an underscore: ```c-100px_3```. Properties with decimal values have the letter ```d (decimal)``` where the period would be. ```font-size: 0.75rem``` would be ```fs-d75rem```. Properties with a whole number and decimal value are portrayed as such: ```font-size: 1.5rem``` is ```fs-1d5rem```. Negative values are indictated with the letter ```n (negative)``` prior to the value. ```letter-spacing: -0.05rem``` is ```ls-nd05rem```. 
 
 There are exceptions to this convention, namely when there are duplicates of the first letter extracted. 
 
