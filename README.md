@@ -35,7 +35,7 @@ The guiding principles of PerfectDesign are as follows: 1. utility first archite
   - [ ] Cards
 - [ ] Add prebuilt layouts (containers)
 - [ ] Add missing flexbox attributes
-- [ ] Expand ReadMe
+- [x] Expand ReadMe
 - [ ] Build documentation
   - [x] Quick Start
   - [x] Other Start Options
@@ -43,9 +43,9 @@ The guiding principles of PerfectDesign are as follows: 1. utility first archite
 - [ ] Add contributing guidelines
 - [ ] Add prebuilt layouts
 - [ ] Add support for NPM
+  - [ ] Build system to compile only used CSS
 - [ ] Add examples/templates
 - [ ] Restructure JsDelivr integration
-- [ ] Experiment with SASS remake
 
 ## Documentation
 Full documentation is in development and will be presented on a webpage separate from this readme. Previous documentation releases will be made available. 
