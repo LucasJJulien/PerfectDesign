@@ -148,8 +148,23 @@ Names like ```vertical-align-center``` are undoubtedly better descriptions than 
 
 The same goes for names with ```xs``` like ```text-xs```; the best value to be associated with the abbreviation is relative to the person. Although PerfectDesign might implement ```xl, xs, etc``` for ease of use, uniformity, and to build a standard within the library, we have prioritzied freedom over values predefined by the creators.
 
-### Value-based CSS
-PerfectDesign increments on an interval of 1, 5, 25, 50, and 100 for numerically based CSS properties. Take for example width in pixels - it increments on an interval of 5 up to 100, base 25 up to 500, and base 100 up to 1000. Why? Because base 5 and 10 are perfect, and well, this is PerfectDesign. Jokes aside (I actually wasn't joking though), there's so little difference between say 50 and 55 pixels that values in between just aren't needed. Additionally, all values on base 5 adds uniformity to the design. 
+### Units and Value-Based CSS
+PerfectDesign does not have a default unit. Pixels, Rem, and EM are equally supported. Pixel based values increment on an interval of 1, 5, 25, 50, and 100. Take for example width in pixels - it increments on an interval of 5 up to 100, base 25 up to 500, and base 100 up to 1000. Why? Because base 5 and 10 are perfect, and well, this is PerfectDesign. Jokes aside (I actually wasn't joking though), there's so little difference between say 50 and 55 pixels that values in between just aren't needed. Additionally, all values on base 5 adds uniformity to the design. 
+
+EM follows a similar increment convention as pixels. Rem follows the default font-size of 16 with base increments of (in pixels) 2px, 4px, 8px, 16px, etc. In rem, an increment of 0.125 corresponds to 2px, 0.025 for 4px, 0.5rem for 8px, and 1rem for 16px. Here's a cheatsheet table for rem and their corresponding px units:
+
+| Rem | Px |
+| --- | --- |
+| 0.125rem | 2px |
+| 0.25rem | 4px |
+| 0.375rem | 6px |
+| 0.5rem | 8px |
+| 0.625rem | 10px |
+| 0.75rem | 12px |
+| 0.875rem | 14px |
+| 0.1rem | 16px |
+| 0.125rem | 20px |
+| 0.15rem | 24px |
 
 ## Contributing
 > [!WARNING]  
