@@ -10,7 +10,7 @@
 > Currently in pre-alpha. Most aspects are underdeveloped, and in some scenarios, severly so.
 
 ## What is PerfectDesign?
-PerfectDesign is a simple, lightweight, and dependency-less CSS library delivering core utilities, base componentry, and nothing more - all in pure css. It uses a naming convention based on uniformity and forthrightness, following a syntax based directly on the underlying CSS: ```{property}-{value}{unit}```. The first letter of the property and value are extracted: ```d-f``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. Usage is inherently simple and doesn't require installation or package managers (although NPM support is planned) - just link PerfectDesign in your HTML header file. 
+PerfectDesign is a simple, lightweight, and dependency-less CSS library delivering core utilities, base componentry, and nothing more - all in pure css. It uses a naming convention based on uniformity and forthrightness, following a syntax based directly on the underlying CSS: ```{property}-{value}{unit}```. The first letter of each word of the property is extracted, the "value" remains as-is, and the unit is abbreviated: ```d-flex``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. Usage is inherently simple and doesn't require installation or package managers (although NPM support is planned) - just link PerfectDesign in your HTML header file. 
 
 The guiding principles of PerfectDesign are as follows: 1. utility first architecture to remove the abstraction and bloat of component-based libraries and 2. freedom, you aren't forced to choose from pre-curated lists like ```text-sm```, although they are available for uniformity.
 
@@ -134,14 +134,13 @@ Minified CSS can also be used:
 ## Usage
 
 ### Naming Convention
-The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```, with the first letter of the property and value extracted. ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-w```. Units are condensed: pixels ```px```, percent ```p```, rem ```rem```, and em ```em```. With CSS that can set multiple properties such as ```columns: 100px 3```, the properties are seperated by an underscore: ```c-100px_3```. Properties with decimal values have the letter ```d (decimal)``` where the period would be. ```font-size: 0.75rem``` would be ```fs-d75rem```. Properties with a whole number and decimal value are portrayed as such: ```font-size: 1.5rem``` is ```fs-1d5rem```. Negative values are indictated with the letter ```n (negative)``` prior to the value. ```letter-spacing: -0.05rem``` is ```ls-nd05rem```. 
+The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```. The first letter of each word of the property is extracted, the "value" remains as-is, and the unit is abbreviated: ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-wrap```. Units are condensed: pixels ```px```, percent ```p```, rem ```rem```, and em ```em```. With CSS that can set multiple properties such as ```columns: 100px 3```, the properties are seperated by an underscore: ```c-100px_3```. Properties with decimal values have the letter ```d (decimal)``` where the period would be. ```font-size: 0.75rem``` would be ```fs-d75rem```. Properties with a whole number and decimal value are portrayed as such: ```font-size: 1.5rem``` is ```fs-1d5rem```. Negative values are indictated with the letter ```n (negative)``` prior to the value. ```letter-spacing: -0.05rem``` is ```ls-nd05rem```. 
 
-There are exceptions to this convention, namely when there are duplicates of the first letter extracted. 
+There are expections to this convention, namely when there are duplicates of the first letter extracted. 
 
 ### Exceptions
 | Property | Execution |
 | --- | --- |
-| colors | ```color: black``` - ```c-black```, ```background-color: black``` - ```bgc-black``` |
 | min, max | ```min-width: 10px``` - ```minw-10px```, ```max-height: 20px``` - ```maxh-20px``` |
 
 Names like ```vertical-align-center``` are undoubtedly better descriptions than the crappy CSS property names like ```justify-content: center```, but are opinionated and applies best to it's creator. Replicating the names of the CSS properties like ```justify-content``` as ```jc``` carries over the not-so-good naming convention of CSS into HTML, but keeps everything uniform and equivalent to the standard CSS has already set. 
