@@ -1,197 +1,324 @@
 
 /* Align-Items */
 
-.ai-l {
+.ai-normal {
+    align-items: normal;
+}
+
+.ai-left {
     align-items: left;
 }
 
-.ai-c {
+.ai-center {
     align-items: center;
 }
 
-.ai-r {
+.ai-right {
     align-items: right;
 }
 
-.ai-s {
+.ai-stretch {
     align-items: stretch;
 }
 
-.ai-b {
+.ai-start {
+    align-items: start;
+}
+
+.ai-baseline {
     align-items: baseline;
 }
 
-.ai-fs {
+.ai-flexstart {
     align-items: flex-start;
 }
 
-.ai-fe {
+.ai-flexend {
     align-items: flex-end;
+}
+
+.ai-end {
+    align-items: end;
 }
 
 /* Align-Content */
 
-.ac-l {
-    align-content: left;
+.ac-stretch {
+    align-content: stretch;
 }
 
-.ac-c {
+.ac-center {
     align-content: center;
 }
 
-.ac-r {
-    align-content: right;
-}
-
-.ac-fs {
+.ac-flexstart {
     align-content: flex-start;
 }
 
-.ac-fe {
+.ac-flexend {
     align-content: flex-end;
 }
 
-.ac-sb {
+.ac-spacebetween {
     align-content: space-between;
 }
 
-.ac-sa {
+.ac-spsacearound {
     align-content: space-around;
+}
+
+.ac-spaceevenly {
+    align-content: space-evenly;
+}
+
+.ac-inherit {
+    align-content: inherit;
 }
 
 /* Align-Self */
 
-.as-l {
-    align-self: left;
-}
-
-.as-c {
+.as-center {
     align-self: center;
 }
 
-.as-r {
-    align-self: right;
-}
-
-.as-a {
+.as-auto {
     align-self: auto;
 }
 
-.as-fs {
+.as-flexstart {
     align-self: flex-start;
 }
 
-.as-fe {
+.as-flexend {
     align-self: flex-end;
 }
 
-.as-b {
+.as-baseline {
     align-self: baseline;
 }
 
-.as-s {
+.as-stretch {
     align-self: stretch;
+}
+
+.as-inherit {
+    align-self: inherit;
 }
 
 /* Justify-Content */
 
-.jc-l {
-    justify-content: left;
-}
-
-.jc-c {
+.jc-center {
     justify-content: center;
 }
 
-.jc-r {
-    justify-content: right;
-}
-
-.jc-b {
-    justify-content: baseline;
-}
-
-.jc-e {
-    justify-content: end;
-}
-
-.jc-sa {
+.jc-spacearound {
     justify-content: space-around;
 }
 
-.jc-sb {
+.jc-spacebetween {
     justify-content: space-between;
 }
 
-.jc-se {
+.jc-spaceevenly {
     justify-content: space-evenly;
 }
 
-.jc-fs {
+.jc-flexstart {
     justify-content: flex-start;
 }
 
-.jc-fe {
+.jc-flexend {
     justify-content: flex-end;
 }
 
-.jc-s {
-    justify-content: stretch;
+.jc-inherit {
+    justify-content: inherit;
 }
 
 /* Vertical-Align */
 
-.va-l {
-    vertical-align: left;
-}
-
-.va-c {
-    vertical-align: center;
-}
-
-.va-r {
-    vertical-align: right;
-}
-
-.va-a {
-    vertical-align: auto;
-}
-
-.va-b {
+.va-bottom {
     vertical-align: bottom;
 }
 
-.va-m {
+.va-middle {
     vertical-align: middle;
 }
 
-.va-t {
+.va-top {
     vertical-align: top;
 }
 
-.va-bs {
+.va-baseline {
     vertical-align: baseline;
+}
+
+.va-texttop {
+    vertical-align: text-top;
+}
+
+.va-textbottom {
+    vertical-align: text-bottom;
+}
+
+.va-texttop {
+    vertical-align: text-top;
+}
+
+.va-sub {
+    vertical-align: sub;
+}
+
+.va-super {
+    vertical-align: super;
+}
+
+.va-inherit {
+    vertical-align: inherit;
 }
 
 /* Text-Align */
 
-.ta-l {
+.ta-left {
     text-align: left;
 }
 
-.ta-c {
+.ta-center {
     text-align: center;
 }
 
-.ta-r {
+.ta-right {
     text-align: right;
 }
 
-.ta-j {
+.ta-justify {
     text-align: justify;
 }
 
-.ta-e {
+.ta-start {
+    text-align: start;
+}
+
+.ta-end {
     text-align: end;
 }
+
+.ta-inherit  {
+    text-align: inherit;
+}
+
+/* Place-Content */
+
+.pc-normal {
+    place-content: normal;
+}
+
+.pc-stretch {
+    place-content: stretch;
+}
+
+.pc-start {
+    place-content: start;
+}
+
+.pc-center {
+    place-content: center;
+}
+
+.pc-end {
+    place-content: end;
+}
+
+.pc-spacebetween {
+    place-content: space-between;
+}
+
+.pc-spacearound {
+    place-content: space-around;
+}
+
+.pc-spaceevenly {
+    place-content: space-evenly;
+}
+
+.pc-baseline {
+    place-content: baseline;
+}
+
+.pc-inherit {
+    place-content: inherit;
+}
+
+/* Place Items */
+
+.pi-normal_legacy {
+    place-items: normal legacy;
+}
+
+.pi-start {
+    place-items: start;
+}
+
+.pi-center {
+    place-items: center;
+}
+
+.pi-end {
+    place-items: end;
+}
+
+.pi-baseline {
+    place-items: baseline;
+}
+
+.pi-stretch {
+    place-items: stretch;
+}
+
+.pi-inherit {
+    place-items: inherit;
+}
+
+/* Place Self */
+
+.ps-normal {
+    place-self: normal;
+}
+
+.ps-auto {
+    place-self: auto;
+}
+
+.ps-left {
+    place-self: left;
+}
+
+.ps-center {
+    place-self: center;
+}
+
+.ps-right {
+    place-self: right;
+}
+
+.ps-start {
+    place-self: start;
+}
+
+.ps-end {
+    place-self: end;
+}
+
+.ps-baseline {
+    place-self: baseline;
+}
+
+.ps-stretch {
+    place-self: stretch;
+}
+
+.ps-inherit {
+    place-self: inherit;
+}
+
 

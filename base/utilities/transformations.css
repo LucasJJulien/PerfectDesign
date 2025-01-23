@@ -1,0 +1,532 @@
+
+/* Scale */
+
+.t-scale0 {
+    transform: scale(0);
+}
+
+.t-scale25 {
+    transform: scale(0.25);
+}
+
+.t-scale50 {
+    transform: scale(0.5);
+}
+
+.t-scale75 {
+    transform: scale(0.75);
+}
+
+.t-scale100 {
+    transform: scale(1)
+}
+
+.t-scale125 {
+    transform: scale(1.25);
+}
+
+.t-scale150 {
+    transform: scale(1.5);
+}
+
+/* Scale X */
+
+.t-scalex0 {
+    transform: scaleX(0);
+}
+
+.t-scalex25 {
+    transform: scaleX(0.25);
+}
+
+.t-scalex50 {
+    transform: scaleX(0.5);
+}
+
+.t-scalex75 {
+    transform: scaleX(0.75);
+}
+
+.t-scalex100 {
+    transform: scaleX(1)
+}
+
+.t-scalex125 {
+    transform: scaleX(1.25);
+}
+
+.t-scalex150 {
+    transform: scaleX(1.5);
+}
+
+/* Scale Y */
+
+.t-scaley0 {
+    transform: scaleY(0);
+}
+
+.t-scaley25 {
+    transform: scaleY(0.25);
+}
+
+.t-scaley50 {
+    transform: scaleY(0.5);
+}
+
+.t-scaley75 {
+    transform: scaleY(0.75);
+}
+
+.t-scaley100 {
+    transform: scaleY(1)
+}
+
+.t-scaley125 {
+    transform: scaleY(1.25);
+}
+
+.t-scaley150 {
+    transform: scaleY(1.5);
+}
+
+/* Rotate */
+
+.t-rotate1deg {
+    transform: rotate(1deg);
+}
+
+.t-rotate2deg {
+    transform: rotate(2deg);
+}
+
+.t-rotate2deg {
+    transform: rotate(2deg);
+}
+
+.t-rotate3deg {
+    transform: rotate(3deg);
+}
+
+.t-rotate4deg {
+    transform: rotate(4deg);
+}
+
+.t-rotate5deg {
+    transform: rotate(5deg);
+}
+
+.t-rotate10deg {
+    transform: rotate(10deg);
+}
+
+.t-rotate15deg {
+    transform: rotate(15deg);
+}
+
+.t-rotate20deg {
+    transform: rotate(20deg);
+}
+
+.t-rotate25deg {
+    transform: rotate(25deg);
+}
+
+.t-rotate30deg {
+    transform: rotate(30deg);
+}
+
+.t-rotate35deg {
+    transform: rotate(35deg);
+}
+
+.t-rotate40deg {
+    transform: rotate(40deg);
+}
+
+.t-rotate45deg {
+    transform: rotate(45deg);
+}
+
+.t-rotate90deg {
+    transform: rotate(90deg);
+}
+
+.t-rotate180deg {
+    transform: rotate(180deg);
+}
+
+/* Skew X */
+
+.t-skewx1deg {
+    transform: skewX(1deg);
+}
+
+.t-skewx2deg {
+    transform: skewX(2deg);
+}
+
+.t-skewx3deg {
+    transform: skewX(3deg);
+}
+
+.t-skewx4deg {
+    transform: skewX(4deg);
+}
+
+.t-skewx5deg {
+    transform: skewX(5deg);
+}
+
+.t-skewx6deg {
+    transform: skewX(6deg);
+}
+
+.t-skewx7deg {
+    transform: skewX(7deg);
+}
+
+.t-skewx8deg {
+    transform: skewX(8deg);
+}
+
+.t-skewx9deg {
+    transform: skewX(9deg);
+}
+
+.t-skewx10deg {
+    transform: skewX(10deg);
+}
+
+/* Skew Y */
+
+.t-skewy1deg {
+    transform: skewY(1deg);
+}
+
+.t-skewy2deg {
+    transform: skewY(2deg);
+}
+
+.t-skewy3deg {
+    transform: skewY(3deg);
+}
+
+.t-skewy4deg {
+    transform: skewY(4deg);
+}
+
+.t-skewy5deg {
+    transform: skewY(5deg);
+}
+
+.t-skewy6deg {
+    transform: skewY(6deg);
+}
+
+.t-skewy7deg {
+    transform: skewY(7deg);
+}
+
+.t-skewy8deg {
+    transform: skewY(8deg);
+}
+
+.t-skewy9deg {
+    transform: skewY(9deg);
+}
+
+.t-skewy10deg {
+    transform: skewY(10deg);
+}
+
+/* Transform-Origin */
+
+.to-left {
+    transform-origin: left;
+}
+
+.to-center {
+    transform-origin: center;
+}
+
+.to-right {
+    transform-origin: right;
+}
+
+.to-top {
+    transform-origin: top;
+}
+
+.to-bottom {
+    transform-origin: bottom;
+}
+
+.to-top_left {
+    transform-origin: top left;
+}
+
+.to-top_right {
+    transform-origin: top right;
+}
+
+.to-bottom_left {
+    transform-origin: bottom left;
+}
+
+.to-bottom_right {
+    transform-origin: bottom right;
+}
+
+/* Translate X (PX) */
+
+.t-translatex1px {
+    transform: translateX(1px);
+}
+
+.t-translatex2px {
+    transform: translateX(2px);
+}
+
+.t-translatex3px {
+    transform: translateX(3px);
+}
+
+.t-translatex4px {
+    transform: translateX(4px);
+}
+
+.t-translatex5px {
+    transform: translateX(5px);
+}
+
+.t-translate10px {
+    transform: translateX(10px);
+}
+
+.t-translate15px {
+    transform: translateX(15px);
+}
+
+.t-translate20px {
+    transform: translateX(20px);
+}
+
+.t-translate25px {
+    transform: translateX(25px);
+}
+
+/* Translate X (REM) */
+
+.t-translatexd125rem {
+    transform: translateX(0.125rem);
+}
+
+.t-translatexd25rem {
+    transform: translateX(0.25rem);
+}
+
+.t-translatexd375rem {
+    transform: translateX(0.375rem);
+}
+
+.t-translatexd5rem  {
+    transform: translateX(0.5rem);
+}
+
+.t-translatexd625rem {
+    transform: translateX(0.625rem);
+}
+
+.t-translatexd75rem {
+    transform: translateX(0.75rem);
+}
+
+.t-translatexd875rem {
+    transform: translateX(0.875rem);
+}
+
+.t-translatexd1rem  {
+    transform: translateX(1rem);
+}
+
+.t-translatex2rem {
+    transform: translateX(2rem);
+}
+
+.t-translatex3rem {
+    transform: translateX(3rem);
+}
+
+.t-translatex4rem {
+    transform: translateX(4rem);
+}
+
+.t-translatex5rem {
+    transform: translateX(5rem);
+}
+
+.t-translatex6rem {
+    transform: translateX(6rem);
+}
+
+.t-translatex7rem {
+    transform: translateX(7rem);
+}
+
+.t-translatex8rem {
+    transform: translateX(8rem);
+}
+
+.t-translatex9rem {
+    transform: translateX(9rem);
+}
+
+.t-translatex10rem {
+    transform: translateX(10rem);
+}
+
+/* Translate X (%) */
+
+.t-translatex25p {
+    transform: translateX(25%);
+}
+
+.t-translatex50p {
+    transform: translateX(50%);
+}
+
+.t-translatex75p {
+    transform: translateX(75%);
+}
+
+.t-translatex100p {
+    transform: translateX(100%);
+}
+
+/* Translate Y (PX) */
+
+.t-translatey1px {
+    transform: translateY(1px);
+}
+
+.t-translatey2px {
+    transform: translateY(2px);
+}
+
+.t-translatey3px {
+    transform: translateY(3px);
+}
+
+.t-translatey4px {
+    transform: translateY(4px);
+}
+
+.t-translatey5px {
+    transform: translateY(5px);
+}
+
+.t-translate10px {
+    transform: translateY(10px);
+}
+
+.t-translate15px {
+    transform: translateY(15px);
+}
+
+.t-translate20px {
+    transform: translateY(20px);
+}
+
+.t-translate25px {
+    transform: translateY(25px);
+}
+
+/* Translate Y (REM) */
+
+.t-translateyd125rem {
+    transform: translateY(0.125rem);
+}
+
+.t-translateyd25rem {
+    transform: translateY(0.25rem);
+}
+
+.t-translateyd375rem {
+    transform: translateY(0.375rem);
+}
+
+.t-translateyd5rem  {
+    transform: translateY(0.5rem);
+}
+
+.t-translateyd625rem {
+    transform: translateY(0.625rem);
+}
+
+.t-translateyd75rem {
+    transform: translateY(0.75rem);
+}
+
+.t-translateyd875rem {
+    transform: translateY(0.875rem);
+}
+
+.t-translateyd1rem  {
+    transform: translateY(1rem);
+}
+
+.t-translatey2rem {
+    transform: translateY(2rem);
+}
+
+.t-translatey3rem {
+    transform: translateY(3rem);
+}
+
+.t-translatey4rem {
+    transform: translateY(4rem);
+}
+
+.t-translatey5rem {
+    transform: translateY(5rem);
+}
+
+.t-translatey6rem {
+    transform: translateY(6rem);
+}
+
+.t-translatey7rem {
+    transform: translateY(7rem);
+}
+
+.t-translatey8rem {
+    transform: translateY(8rem);
+}
+
+.t-translatey9rem {
+    transform: translateY(9rem);
+}
+
+.t-translatey10rem {
+    transform: translateY(10rem);
+}
+
+/* Translate Y (%) */
+
+.t-translatey25p {
+    transform: translateY(25%);
+}
+
+.t-translatey50p {
+    transform: translateY(50%);
+}
+
+.t-translatey75p {
+    transform: translateY(75%);
+}
+
+.t-translatey100p {
+    transform: translateY(100%);
+}
+
+

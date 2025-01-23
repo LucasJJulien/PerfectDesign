@@ -1,37 +1,428 @@
 
+/* Display */
+
+.d-block {
+    display: block;
+}
+
+.d-inlineblock {
+    display: inline-block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-contents {
+    display: contents;
+}
+
+.d-listitem {
+    display: list-item;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-flowroot {
+    display: flow-root;
+}
+
 /* Position */
 
-.p-a {
+.p-absolute {
     position: absolute;
 }
 
-.p-r {
+.p-relative {
     position: relative;
 }
 
-.p-f {
+.p-fixed {
     position: fixed;
 }
 
-.p-s {
+.p-sticky {
     position: sticky;
+}
+
+.p-static {
+    position: static;
 }
 
 /* Overflow */
 
-.o-v {
-    overflow: visible;
-}
-
-.o-h {
-    overflow: hidden;
-}
-
-.o-b {
+.o-auto {
     overflow: auto;
 }
 
-.o-s {
+.o-visible {
+    overflow: visible;
+}
+
+.o-hidden {
+    overflow: hidden;
+}
+
+.o-scroll {
     overflow: scroll;
 }
 
+.o-clip {
+    overflow: clip;
+}
+
+/* Overflow-X */
+
+.ox-auto {
+    overflow-x: auto;
+}
+
+.ox-visible {
+    overflow-x: visible;
+}
+
+.ox-hidden {
+    overflow-x: hidden;
+}
+
+.ox-scroll {
+    overflow-x: scroll;
+}
+
+.ox-clip {
+    overflow-x: clip;
+}
+
+/* Overflow-Y */
+
+.oy-auto {
+    overflow-y: auto;
+}
+
+.oy-visible {
+    overflow-y: visible;
+}
+
+.oy-hidden {
+    overflow-y: hidden;
+}
+
+.oy-scroll {
+    overflow-y: scroll;
+}
+
+.oy-clip {
+    overflow-y: clip;
+}
+
+/* Column-Count */
+
+.cc-inherit {
+    column-count: inherit;
+}
+
+.cc-1 {
+    column-count: 1;
+}
+
+.cc-2 {
+    column-count: 2;
+}
+
+.cc-3 {
+    column-count: 3;
+}
+
+.cc-4 {
+    column-count: 4;
+}
+
+.cc-5 {
+    column-count: 5;
+}
+
+.cc-6 {
+    column-count: 6;
+}
+
+.cc-7 {
+    column-count: 7;
+}
+
+.cc-8 {
+    column-count: 8;
+}
+
+.cc-9 {
+    column-count: 9;
+}
+
+.cc-10 {
+    column-count: 10;
+}
+
+/* Break-After */
+
+.ba-auto {
+    break-after: auto;
+}
+
+.ba-all {
+    break-after: all;
+}
+
+.ba-always {
+    break-after: always;
+}
+
+.ba-avoid {
+    break-after: avoid;
+}
+
+.ba-avoidcolumn {
+    break-after: avoid-column;
+}
+
+.ba-avoidpage {
+    break-after: avoid-page;
+}
+
+.ba-avoidregion {
+    break-after: avoid-region;
+}
+
+.ba-left {
+    break-after: left;
+}
+
+.ba-center  {
+    break-after: center;
+}
+
+.ba-right {
+    break-after: right;
+}
+
+.ba-column {
+    break-after: column;
+}
+
+.ba-region {
+    break-after: region;
+}
+
+.ba-page {
+    break-after: page;
+}
+
+.ba-inherit {
+    break-after: inherit;
+}
+
+/* Break-Before */
+
+.bb-auto {
+    break-before: auto;
+}
+
+.bb-all {
+    break-before: all;
+}
+
+.bb-always {
+    break-before: always;
+}
+
+.bb-avoid {
+    break-before: avoid;
+}
+
+.bb-avoidcolumn {
+    break-before: avoid-column;
+}
+
+.bb-avoidpage {
+    break-before: avoid-page;
+}
+
+.bb-avoidregion {
+    break-before: avoid-region;
+}
+
+.bb-left {
+    break-before: left;
+}
+
+.bb-center {
+    break-before: center;
+}
+
+.bb-right {
+    break-before: right;
+}
+
+.bb-column {
+    break-before: column;
+}
+
+.bb-region {
+    break-before: region;
+}
+
+.bb-page {
+    break-before: page;
+}
+
+.bb-inherit {
+    break-before: inherit;
+}
+
+/* Break-Inside */
+
+.bi-auto {
+    break-inside: auto;
+}
+
+.bi-avoid {
+    break-inside: avoid;
+}
+
+.bi-avoidpage {
+    break-inside: avoid-page;
+}
+
+.bi-avoidcolumn {
+    break-inside: avoid-column;
+}
+
+.bi-avoidregion {
+    break-inside: avoid-region;
+}
+
+.bi-inherit {
+    break-inside: inherit;
+}
+
+/* Float */
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.f-none {
+    float: none;
+}
+
+.f-inherit {
+    float: inherit;
+}
+
+/* Clear */
+
+.c-left {
+    clear: left;
+}
+
+.c-right {
+    clear: right;
+}
+
+.c-both {
+    clear: both;
+}
+
+.c-none {
+    clear: none;
+}
+
+/* Isolation */
+
+.i-isolate {
+    isolation: isolate;
+}
+
+.i-auto {
+    isolation: auto;
+}
+
+/* Visibility */
+
+.v-visible {
+    visibility: visible;
+}
+
+.v-hidden {
+    visibility: hidden;
+}
+
+.v-collapse {
+    visibility: collapse;
+}
+
+/* Left */
+
+/* Right */
+
+/* Top */
+
+/* Bottom */
+
+/* Center */
+
+/* Background-Origin */
+
+.bgo-borderbox {
+    background-origin: border-box;
+}
+
+.bgo-paddingbox {
+    background-origin: padding-box;
+}
+
+.bgo-contentbox {
+    background-origin: content-box;
+}
+
+/* Background-Position */
+
+.bgp-left {
+    background-position: left;
+}
+
+.bgp-center {
+    background-position: center;
+}
+
+.bgp-right {
+    background-position: right;
+}
+
+.bgp-top {
+    background-position: top;
+}
+
+.bgp-bottom {
+    background-position: bottom;
+}
+
+.bgp-left_bottom {
+    background-position: left bottom;
+}
+
+.bgp-left_top {
+    background-position: left top;
+}
+
+.bgp-right_bottom {
+    background-position: right bottom;
+}
+
+.bgp-right_top {
+    background-position: right top;
+}

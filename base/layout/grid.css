@@ -1,6 +1,10 @@
 
 /* Grid */
 
-.d-g {
+.d-grid {
     display:grid;
+}
+
+.d-inlinegrid {
+    display: inline-grid;
 }

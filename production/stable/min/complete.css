@@ -1,26 +1,33 @@
 
-/* Web */
+/* Stable Min */
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/modules/components/buttons.min.css/');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/modules/components/cards.min.css/');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/components/buttons.min.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/components/cards.min.css');
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/core/global.min.css/');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/core/global.min.css');
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/base/layout/alignment.min.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/base/layout/flexbox.min.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/base/layout/grid.min.css/');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/base/layout/positioning.min.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/base/layout/spacing.min.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/base/layout/table.min.css/');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/media/background.min.css');
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/responsive/mobile.min.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/layout/alignment.min.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/layout/flexbox.min.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/layout/grid.min.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/layout/positioning.min.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/layout/spacing.min.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/layout/table.min.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/layout/stack.min.css');
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/base/structure/media.min.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/base/structure/size.min.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/structure/element.min.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/structure/sizing.min.css');
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/base/style/border.min.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/base/style/colors.min.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/base/style/fonts.min.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/base/style/text.min.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/style/border.min.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/style/effects.min.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/style/filters.min.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/style/backdropfilter.min.css');
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/base/utilities/zindex.min.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/typography/fonts.min.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/typography/text.min.css');
+
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/utilities/transformations.min.css');
+
+
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/responsive/mobile.min.css');

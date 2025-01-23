@@ -5,40 +5,48 @@
     display: flex;
 }
 
-.d-b {
-    display: block;
+.d-if {
+    display: inline-flex;
 }
 
 /* Flex-Direction */
 
-.fd-c {
+.fd-column {
     flex-direction: column;
 }
 
-.fd-cr {
+.fd-columnreverse {
     flex-direction: column-reverse;
 }
 
-.fd-r {
+.fd-row {
     flex-direction: row;
 }
 
-.fd-rr {
+.fd-rowreverse {
     flex-direction: row-reverse;
+}
+
+.fs-inherit {
+    flex-direction: inherit;
 }
 
 /* Flex-Wrap */
 
-.fw-w {
+.fw-wrap {
     flex-wrap: wrap;
 }
 
-.fw-wr {
+.fw-wrapreverse {
     flex-wrap: wrap-reverse;
 }
 
-.fw-nw {
+.fw-nowrap {
     flex-wrap: nowrap;
+}
+
+.fw-inherit {
+    flex-wrap: inherit;
 }
 
 /* Flex */
@@ -121,9 +129,355 @@
     order: 9;
 }
 
-.o-10 {
-    order: 10;
+.o-first {
+    order: -9999;
+}
+
+.o-last {
+    order: 9999;
 }
 
 /* Flex-Grow */
+
+.fs-inherit {
+    flex-grow: inherit;
+}
+
+.fg-1 {
+    flex-grow: 1;
+}
+
+.fg-2 {
+    flex-grow: 2;
+}
+
+.fg-3 {
+    flex-grow: 3;
+}
+
+.fg-4  {
+    flex-grow: 4;
+}
+
+.fg-5  {
+    flex-grow: 5;
+}
+
+/* Flex-Shrink */
+
+.fs-inherit {
+    flex-grow: inherit;
+}
+
+.fs-1 {
+    flex-shrink: 1;
+}
+
+.fs-2 {
+    flex-shrink: 2;
+}
+
+.fs-3 {
+    flex-shrink: 3;
+}
+
+.fs-4 {
+    flex-shrink: 4;
+}
+
+.fs-5 {
+    flex-shrink: 5;
+}
+
+/* Flex-Basis PX */
+
+.fb-1px {
+    flex-basis: 1px;
+}
+
+.fb-2px {
+    flex-basis: 2px;
+}
+
+.fb-3px {
+    flex-basis: 3px;
+}
+
+.fb-4px {
+    flex-basis: 4px;
+}
+
+.fb-5px {
+    flex-basis: 5px;
+}
+
+.fb-6px {
+    flex-basis: 6px;
+}
+
+.fb-7px {
+    flex-basis: 7px;
+}
+
+.fb-8px {
+    flex-basis: 8px;
+}
+
+.fb-9px {
+    flex-basis: 9px;
+}
+
+.fb-10px {
+    flex-basis: 10px;
+}
+
+.fb-20px {
+    flex-basis: 20px;
+}
+
+.fb-30px {
+    flex-basis: 30px;
+}
+
+.fb-40px {
+    flex-basis: 40px;
+}
+
+.fb-50px {
+    flex-basis: 50px;
+}
+
+.fb-60px {
+    flex-basis: 60px;
+}
+
+.fb-70px {
+    flex-basis: 70px;
+}
+
+.fb-80px {
+    flex-basis: 80px;
+}
+
+.fb-90px {
+    flex-basis: 90px;
+}
+
+.fb-100px {
+    flex-basis: 100px;
+}
+
+/* Flex-Basis % */
+
+.fb-10p {
+    flex-basis: 10%;
+}
+
+.fb-20p {
+    flex-basis: 20%;
+}
+
+.fb-30p {
+    flex-basis: 30%;
+}
+
+.fb-40p {
+    flex-basis: 40%;
+}
+
+.fb-50p {
+    flex-basis: 50%;
+}
+
+.fb-60p {
+    flex-basis: 60%;
+}
+
+.fb-70p {
+    flex-basis: 70%;
+}
+
+.fb-80p {
+    flex-basis: 80%;
+}
+
+.fb-90p {
+    flex-basis: 90%;
+}
+
+.fb-100p {
+    flex-basis: 100%;
+}
+
+/* Flex-Basis REM */
+
+.fb-d125rem {
+    flex-basis: 0.125rem;
+}
+
+.fb-d25rem {
+    flex-basis: 0.25rem;
+}
+
+.fb-d375rem {
+    flex-basis: 0.375rem;
+}
+
+.fb-d5rem {
+    flex-basis: 0.50rem;
+}
+
+.fb-d75rem {
+    flex-basis: 0.75rem;
+}
+
+.fb-1rem {
+    flex-basis: 1rem;
+}
+
+.fb-1d25rem {
+    flex-basis: 1.25rem;
+}
+
+.fb-1d50rem {
+    flex-basis: 1.5rem;
+}
+
+.fb-1d75rem {
+    flex-basis: 1.75rem;
+}
+
+.fb-2rem {
+    flex-basis: 2rem;
+}
+
+.fb-2d25rem {
+    flex-basis: 2.25rem;
+}
+
+.fb-2d50rem {
+    flex-basis: 2.5rem;
+}
+
+.fb-2d75rem {
+    flex-basis: 2.75rem;
+}
+
+.fb-3rem {
+    flex-basis: 3rem;
+}
+
+.fb-3d25rem {
+    flex-basis: 3.25rem;
+}
+
+.fb-3d5rem {
+    flex-basis: 3.5rem;
+}
+
+.fb-3d75rem {
+    flex-basis: 3.75rem;
+}
+
+.fb-4rem {
+    flex-basis: 4rem;
+}
+
+.fb-4d25rem {
+    flex-basis: 4.25rem;
+}
+
+.fb-4d5rem {
+    flex-basis: 4.5rem;
+}
+
+.fb-4d75rem {
+    flex-basis: 4.75rem;
+}
+
+.fb-5rem {
+    flex-basis: 5rem;
+}
+
+.fb-6rem {
+    flex-basis: 6rem;
+}
+
+.fb-7rem {
+    flex-basis: 7rem;
+}
+
+.fb-8rem {
+    flex-basis: 8rem;
+}
+
+.fb-9rem {
+    flex-basis: 9rem;
+}
+
+.fb-10rem {
+    flex-basis: 10rem;
+}
+
+.fb-11rem {
+    flex-basis: 11rem;
+}
+
+.fb-12rem {
+    flex-basis: 12rem;
+}
+
+.fb-13rem {
+    flex-basis: 13rem;
+}
+
+.fb-14rem {
+    flex-basis: 14rem;
+}
+
+.fb-15rem {
+    flex-basis: 15rem;
+}
+
+.fb-16rem {
+    flex-basis: 16rem;
+}
+
+.fb-17rem {
+    flex-basis: 17rem;
+}
+
+.fb-18rem {
+    flex-basis: 18rem;
+}
+
+.fb-19rem {
+    flex-basis: 19rem;
+}
+
+.fb-20rem {
+    flex-basis: 20rem;
+}
+
+.fb-21rem {
+    flex-basis: 21rem;
+}
+
+.fb-22rem {
+    flex-basis: 22rem;
+}
+
+.fb-23rem {
+    flex-basis: 23rem;
+}
+
+.fb-24rem {
+    flex-basis: 24rem;
+}
+
+.fb-25rem {
+    flex-basis: 25rem;
+}
+
+
 

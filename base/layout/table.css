@@ -1,0 +1,70 @@
+
+/* Display */
+
+.d-table {
+    display: table;
+}
+
+.d-inlinetable {
+    display: inline-table;
+}
+
+.d-tablecell {
+    display: table-cell;
+}
+
+.d-tablecolumn {
+    display: table-column;
+}
+
+.d-tablecolumngroup {
+    display: table-column-group;
+}
+
+.d-tablefootergroup {
+    display: table-footer-group;
+}
+
+.d-tableheadergroup {
+    display: table-header-group;
+}
+
+.d-tablerow {
+    display: table-row;
+}
+
+.d-tablerowgroup {
+    display: table-row-group;
+}
+
+/* Border-Collapse */
+
+.bc-collapse {
+    border-collapse: collapse;
+}
+
+.bc-seperate {
+    border-collapse: separate;
+}
+
+/* Border-Spacing */
+
+/* Table-Layout */
+
+.tl-auto {
+    table-layout: auto;
+}
+
+.tl-fixed {
+    table-layout: fixed;
+}
+
+/* Caption-Side */
+
+.cs-top {
+    caption-side: top;
+}
+
+.cs-bottom {
+    caption-side: bottom;
+}

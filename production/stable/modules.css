@@ -1,5 +1,6 @@
 
-/* Web */
+/* Modules */
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/modules/components/buttons.css/');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign/modules/components/cards.css/');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/components/buttons.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/components/cards.css');
+

@@ -1,0 +1,219 @@
+
+/* Object-Fit */
+
+.of-cover {
+    object-fit: cover;
+}
+
+.of-contain {
+    object-fit: contain;
+}
+
+.of-fill {
+    object-fit: fill
+}
+
+.of-none {
+    object-fit: none;
+}
+
+.of-scaledown {
+    object-fit: scale-down;
+}
+
+/* Object-Position */
+
+.op-left {
+    object-position: left;
+}
+
+.op-center {
+    object-position: center;
+}
+
+.op-right {
+    object-position: right;
+}
+
+.op-bottom {
+    object-position: bottom;
+}
+
+.op-top {
+    object-position: top;
+}
+
+/* Background-Attachment */
+
+.bga-fixed {
+    background-attachment: fixed;
+}
+
+.bga-local {
+    background-attachment: local;
+}
+
+.bga-scroll {
+    background-attachment: scroll;
+}
+
+/* Background-Repeat */
+
+.bgr-repeat {
+    background-repeat: repeat;
+}
+
+.bgr-norepeat {
+    background-repeat: no-repeat;
+}
+
+.bgr-repeatx {
+    background-repeat: repeat-x;
+}
+
+.bgr-repeaty  {
+    background-repeat: repeat-y;
+}
+
+.bgr-space {
+    background-repeat: space;
+}
+
+.bgr-round {
+    background-repeat: round;
+}
+
+/* Background-Clip */
+
+.bgc-borderbox {
+    background-clip: border-box;
+}
+
+.bgc-paddingbox {
+    background-clip: padding-box;
+}
+
+.bgc-contentbox {
+    background-clip: content-box;
+}
+
+/* Background-Size */
+
+.bgs-auto {
+    background-size: auto;
+}
+
+.bgs-cover {
+    background-size: cover;
+}
+
+.bgs-contain {
+    background-size: contain;
+}
+
+/* Background-Color */
+
+.bgc-black {
+    background-color: black;
+}
+
+.bgc-silver {
+    background-color: silver;
+}
+
+.bgc-gray {
+    background-color: gray;
+}
+
+.bgc-white {
+    background-color: white;
+}
+
+.bgc-maroon {
+    background-color: maroon;
+}
+
+.bgc-red {
+    background-color: red;
+}
+
+.bgc-purple {
+    background-color: purple;
+}
+
+.bgc-fuchsia {
+    background-color: fuchsia;
+}
+
+.bgc-green {
+    background-color: green;
+}
+
+.bgc-lime {
+    background-color: lime;
+}
+
+.bgc-olive {
+    background-color: olive;
+}
+
+.bgc-yellow {
+    background-color: yellow;
+}
+
+.bgc-navy {
+    background-color: navy;
+}
+
+.bgc-blue {
+    background-color: blue;
+}
+
+.bgc-teal {
+    background-color: teal;
+}
+
+.bgc-aqua {
+    background-color: aqua;
+}
+
+.bgc-azure {
+    background-color: azure;
+}
+
+.bgc-darkgray {
+    background-color: darkgray;
+}
+
+.bgc-dimgray {
+    background-color: dimgray;
+}
+
+.bgc-ghostwhite {
+    background-color: ghostwhite;
+}
+
+.bgc-lightcyan {
+    background-color: lightcyan;
+}
+
+.bgc-lightskyblue {
+    background-color: lightskyblue;
+}
+
+.bgc-lightslategray {
+    background-color: lightslategray;
+}
+
+.bgc-palegreen {
+    background-color: palegreen;
+}
+
+.bgc-springgreen {
+    background-color: springgreen;
+}
+
+.bgc-whitesmoke {
+    background-color: whitesmoke;
+}
+

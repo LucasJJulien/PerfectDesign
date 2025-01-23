@@ -1,0 +1,44 @@
+
+/* Whitespace */
+
+.ws-normal {
+    white-space: normal;
+}
+
+.ws-nowrap {
+    white-space: nowrap;
+}
+
+.ws-pre {
+    white-space: pre;
+}
+
+.ws-preline {
+    white-space: pre-line;
+}
+
+.ws-preline {
+    white-space: pre-line;
+}
+
+/* Box-Decoration-Break */
+
+.bdb-clone {
+    box-decoration-break: clone;
+}
+
+.bdb-slice {
+    box-decoration-break: slice;
+}
+
+/* Box-Sizing */
+
+.bs-bb {
+    box-sizing: border-box;
+}
+
+.bs-cb {
+    box-sizing: content-box;
+}
+
+/* Inset */

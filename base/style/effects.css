@@ -1,0 +1,166 @@
+
+/* Opacity */
+
+.o-d05 {
+    opacity: 5%;
+}
+
+.o-d1 {
+    opacity: 0.1;
+}
+
+.o-d15 {
+    opacity: 0.15;
+}
+
+.o-d2  {
+    opacity: 0.2;
+}
+
+.o-d3  {
+    opacity: 0.3;
+}
+
+.o-d4   {
+    opacity: 0.4;
+}
+
+.o-d5   {
+    opacity: 0.5;
+}
+
+.o-d6    {
+    opacity: 0.6;
+}
+
+.o-d7    {
+    opacity: 0.7;
+}
+
+.o-d8     {
+    opacity: 0.8;
+}
+
+.o-d9     {
+    opacity: 0.9;
+}
+
+.o-1     {
+    opacity: 1;
+}
+
+/* Mix-Blend-Mode */
+
+.mbm-normal {
+    mix-blend-mode: normal;
+}
+
+.mbm-multiply {
+    mix-blend-mode: multiply;
+}
+
+.mbm-screen {
+    mix-blend-mode: screen;
+}
+
+.mbm-overlay {
+    mix-blend-mode: overlay;
+}
+
+.mbm-darken {
+    mix-blend-mode: darken;
+}
+
+.mbm-lighten {
+    mix-blend-mode: lighten;
+}
+
+.mbm-colordodge {
+    mix-blend-mode: color-dodge;
+}
+
+.mbm-colorburn {
+    mix-blend-mode: color-burn;
+}
+
+.mbm-difference {
+    mix-blend-mode: difference;
+}
+
+.mbm-exclusion {
+    mix-blend-mode: exclusion;
+}
+
+.mbm-hue {
+    mix-blend-mode: hue;
+}
+
+.mbm-saturation {
+    mix-blend-mode: saturation;
+}
+
+.mbm-color {
+    mix-blend-mode: color;
+}
+
+.mbm-luminosity {
+    mix-blend-mode: luminosity;
+}
+
+/* Background-Blend-Mode */
+
+.bbm-normal {
+    background-blend-mode: normal;
+}
+
+.bbm-multiply {
+    background-blend-mode: multiply;
+}
+
+.bbm-screen {
+    background-blend-mode: screen;
+}
+
+.bbm-overlay {
+    background-blend-mode: overlay;
+}
+
+.bbm-darken {
+    background-blend-mode: darken;
+}
+
+.bbm-lighten {
+    background-blend-mode: lighten;
+}
+
+.bbm-colordodge {
+    background-blend-mode: color-dodge;
+}
+
+.bbm-colorburn {
+    background-blend-mode: color-burn;
+}
+
+.bbm-difference {
+    background-blend-mode: difference;
+}
+
+.bbm-exclusion {
+    background-blend-mode: exclusion;
+}
+
+.bbm-hue {
+    background-blend-mode: hue;
+}
+
+.bbm-saturation {
+    background-blend-mode: saturation;
+}
+
+.bbm-color {
+    background-blend-mode: color;
+}
+
+.bbm-luminosity {
+    background-blend-mode: luminosity;
+}

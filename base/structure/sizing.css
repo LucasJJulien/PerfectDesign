@@ -813,6 +813,34 @@
 
 /* Width (Rem) */
 
+.w-d125rem  {
+    width: 0.125rem;
+}
+
+.w-d25rem {
+    width: 0.25rem;
+}
+
+.w-d3125rem {
+    width: 0.3125rem;
+}
+
+.w-d5 {
+    width: 0.5rem;
+}
+
+.w-d625rem {
+    width: 0.625rem;
+}
+
+.w-d75rem {
+    width: 0.75rem;
+}
+
+.w-d875rem {
+    width: 0.875rem;
+}
+
 .w-1rem {
     width: 1rem;
 }
@@ -1727,6 +1755,34 @@
 
 /* Height (Rem) */
 
+.h-d125rem  {
+    height: 0.125rem;
+}
+
+.h-d25rem {
+    height: 0.25rem;
+}
+
+.h-d3125rem {
+    height: 0.3125rem;
+}
+
+.h-d5 {
+    height: 0.5rem;
+}
+
+.h-d625rem {
+    height: 0.625rem;
+}
+
+.h-d75rem {
+    height: 0.75rem;
+}
+
+.h-d875rem {
+    height: 0.875rem;
+}
+
 .h-1rem {
     height: 1rem;
 }
@@ -1825,4 +1881,30 @@
 
 .h-25rem {
     height: 25rem;
+}
+
+/* Aspect Ratio */
+
+.ar-auto {
+    aspect-ratio: auto;
+}
+
+.ar-16x9 {
+    aspect-ratio: 16 / 9;
+}
+
+.ar-4x3 {
+    aspect-ratio: 4 / 3;
+}
+
+.ar-3x2 {
+    aspect-ratio: 3 / 2;
+}
+
+.ar-9x16 {
+    aspect-ratio: 9 / 16;
+}
+
+.ar-1x1 {
+    aspect-ratio: 1;
 }
