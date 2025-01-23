@@ -10,9 +10,9 @@
 > Currently in pre-alpha. Most aspects are underdeveloped, and in some scenarios, severly so.
 
 ## What is PerfectDesign?
-The unopinionated (mostly) universal design framework. 
+PerfectDesign is a simple, lightweight, and dependency-less CSS library delivering core utilities, base componentry, and nothing more - all in pure css. It uses a naming convention based on uniformity and forthrightness, following a syntax based directly on the underlying CSS: ```{property}-{value}{unit}```. The first letter of each word of the property is extracted, the "value" remains as-is, and the unit is abbreviated: ```d-flex``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. Usage is inherently simple and doesn't require installation or package managers (although NPM support is planned) - just link PerfectDesign in your HTML header file. 
 
-PerfectDesign is a simple, lightweight, and dependency-less CSS library delivering core components and nothing more - all in pure css. It uses a naming convention based on uniformity and forthrightness, following a direct syntax: ```{property}-{value}{unit}```. The first letter of the property and value are extracted: ```d-f``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. Usage is inherently simple and doesn't require installation or package managers (although NPM support is planned) - just link PerfectDesign in your HTML header file. 
+The guiding principles of PerfectDesign are as follows: 1. utility first architecture to remove the abstraction and bloat of component-based libraries and 2. freedom, you aren't forced to choose from pre-curated lists like ```text-sm```, although they are available for uniformity.
 
 ## Table of contents
 - [Roadmap](#roadmap)
@@ -35,7 +35,7 @@ PerfectDesign is a simple, lightweight, and dependency-less CSS library deliveri
   - [ ] Cards
 - [ ] Add prebuilt layouts (containers)
 - [ ] Add missing flexbox attributes
-- [ ] Expand ReadMe
+- [x] Expand ReadMe
 - [ ] Build documentation
   - [x] Quick Start
   - [x] Other Start Options
@@ -43,9 +43,9 @@ PerfectDesign is a simple, lightweight, and dependency-less CSS library deliveri
 - [ ] Add contributing guidelines
 - [ ] Add prebuilt layouts
 - [ ] Add support for NPM
+  - [ ] Build system to compile only used CSS
 - [ ] Add examples/templates
-- [ ] Restructure JsDelivr integration
-- [ ] Experiment with SASS remake
+- [ ] Expand EM support across the library
 
 ## Documentation
 Full documentation is in development and will be presented on a webpage separate from this readme. Previous documentation releases will be made available. 
@@ -134,21 +134,36 @@ Minified CSS can also be used:
 ## Usage
 
 ### Naming Convention
-The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```, with the first letter of the property and value extracted. ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-w```. Units are condensed: pixels = px, percent = p, rem = rem. There are exceptions to this convention, namely when there are duplicates of the first letter extracted. 
+The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```. The first letter of each word of the property is extracted, the "value" remains as-is, and the unit is abbreviated: ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-wrap```. Units are condensed: pixels ```px```, percent ```p```, rem ```rem```, and em ```em```. With CSS that can set multiple properties such as ```columns: 100px 3```, the properties are seperated by an underscore: ```c-100px_3```. Properties with decimal values have the letter ```d (decimal)``` where the period would be. ```font-size: 0.75rem``` would be ```fs-d75rem```. Properties with a whole number and decimal value are portrayed as such: ```font-size: 1.5rem``` is ```fs-1d5rem```. Negative values are indictated with the letter ```n (negative)``` prior to the value. ```letter-spacing: -0.05rem``` is ```ls-nd05rem```. 
 
-Names like ```text-large``` and ```vertical-align-center``` are undoubtedly better descriptions than the crappy CSS property names like ```justify-content: center```, but are opinionated and applies best to it's creator. Replicating the names of the CSS properties like ```justify-content``` as ```jc``` carries over the not-so-good naming convention of CSS into HTML, but keeps everything uniform and equivalent to the standard CSS has already set. 
-
-The same goes for names like ```xs``` for extra small or ```m``` for medium; the best value to be associated with the abbreviation are relative to the person. Although PerfectDesign might implement ```xl, xs, etc``` for ease of use, uniformity, and to build a standard within the library, we have prioritzied freedom over values predefined by the creators. Instead of ```fs-xl``` you can do ```fs-10``` and then pick your desired unit; for example, ```fs-10rem```.
+There are expections to this convention, namely when there are duplicates of the first letter extracted. 
 
 ### Exceptions
-
 | Property | Execution |
 | --- | --- |
-| colors | ```color: black``` - ```c-black```, ```background-color: black``` - ```bgc-black``` |
 | min, max | ```min-width: 10px``` - ```minw-10px```, ```max-height: 20px``` - ```maxh-20px``` |
 
-### Value-based CSS
-PerfectDesign increments on an interval of 1, 5, 25, 50, and 100 for numerically based CSS properties. Take for example width in pixels - it increments on an interval of 5 up to 100, base 25 up to 500, and base 100 up to 1000. Why? Because base 5 and 10 are perfect, and well, this is PerfectDesign. Jokes aside (I actually wasn't joking though), there's so little difference between say 50 and 55 pixels that values in between just aren't needed. Additionally, all values on base 5 adds uniformity to the design. 
+Names like ```vertical-align-center``` are undoubtedly better descriptions than the crappy CSS property names like ```justify-content: center```, but are opinionated and applies best to it's creator. Replicating the names of the CSS properties like ```justify-content``` as ```jc``` carries over the not-so-good naming convention of CSS into HTML, but keeps everything uniform and equivalent to the standard CSS has already set. 
+
+The same goes for names with ```xs``` like ```text-xs```; the best value to be associated with the abbreviation is relative to the person. Although PerfectDesign might implement ```xl, xs, etc``` for ease of use, uniformity, and to build a standard within the library, we have prioritzied freedom over values predefined by the creators.
+
+### Units and Value-Based CSS
+PerfectDesign does not have a default unit. Pixels, Rem, and EM are equally supported. Pixel based values increment on an interval of 1, 5, 25, 50, and 100. Take for example width in pixels - it increments on an interval of 5 up to 100, base 25 up to 500, and base 100 up to 1000. Why? Because base 5 and 10 are perfect, and well, this is PerfectDesign. Jokes aside (I actually wasn't joking though), there's so little difference between say 50 and 55 pixels that values in between just aren't needed. Additionally, all values on base 5 adds uniformity to the design. 
+
+EM follows a similar increment convention as pixels. Rem follows the default font-size of 16 with base increments of (in pixels) 2px, 4px, 8px, 16px, etc. In rem, an increment of 0.125 corresponds to 2px, 0.025 for 4px, 0.5rem for 8px, and 1rem for 16px. Here's a cheatsheet table for rem and their corresponding px units:
+
+| Rem | Px |
+| --- | --- |
+| 0.125rem | 2px |
+| 0.25rem | 4px |
+| 0.375rem | 6px |
+| 0.5rem | 8px |
+| 0.625rem | 10px |
+| 0.75rem | 12px |
+| 0.875rem | 14px |
+| 0.1rem | 16px |
+| 0.125rem | 20px |
+| 0.15rem | 24px |
 
 ## Contributing
 > [!WARNING]  
