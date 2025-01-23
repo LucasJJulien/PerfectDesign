@@ -1,33 +1,33 @@
 
 /* Stable */
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/components/buttons.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/components/cards.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/modules/components/buttons.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/modules/components/cards.css');
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/core/global.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/core/global.css');
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/media/background.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/media/background.css');
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/layout/alignment.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/layout/flexbox.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/layout/grid.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/layout/positioning.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/layout/spacing.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/layout/table.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/layout/stack.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/layout/alignment.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/layout/flexbox.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/layout/grid.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/layout/positioning.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/layout/spacing.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/layout/table.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/layout/stack.css');
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/structure/element.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/structure/sizing.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/structure/element.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/structure/sizing.css');
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/style/border.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/style/effects.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/style/filters.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/style/backdropfilter.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/style/border.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/style/effects.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/style/filters.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/style/backdropfilter.css');
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/typography/fonts.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/typography/text.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/typography/fonts.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/typography/text.css');
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/utilities/transformations.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/utilities/transformations.css');
 
 
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/perfectdesign/responsive/mobile.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0//responsive/mobile.css');
