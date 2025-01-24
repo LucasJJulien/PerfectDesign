@@ -1,11 +1,11 @@
 
 /* Display */
 
-.d-f {
+.d-flex {
     display: flex;
 }
 
-.d-if {
+.d-inlineflex {
     display: inline-flex;
 }
 
