@@ -33,11 +33,11 @@
 
 /* Box-Sizing */
 
-.bs-bb {
+.bs-borderbox {
     box-sizing: border-box;
 }
 
-.bs-cb {
+.bs-contentbox {
     box-sizing: content-box;
 }
 
