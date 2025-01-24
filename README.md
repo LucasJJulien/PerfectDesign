@@ -151,12 +151,13 @@ Units are condensed: pixels ```px```, percent ```p```, rem ```rem```, em ```em``
 There are expections to these conventions:
 
 ### Exceptions
-| Property | Execution |
-| --- | --- |
-| min, max | ```min-width: 10px``` - ```minw-10px```, ```max-height: 20px``` - ```maxh-20px``` |
-| order: 1 | There is no order: 1 because ```o-1``` is used by ```opacity: 1```. |
-| aspect-ratio | ```ar-16x9``` instead of ```ar-16/9``` because CSS does not support ```/``` |
-| transform: scale | ```t-scale25``` instead of ```t-scaled25``` because it is represented as a percentage despite being a decimal |
+
+- ```min, max```: min and max are not reduced to m, ```minw-x``` instead of ```mw-x```
+- ```order: 10:``` there is no ```order: 10``` because ```o-10``` is used by ```opacity: 10```
+- ```aspect-ratio```: aspect ratio is ```#x#``` instead of ```#/#``` because CSS does not support the slash
+- ```transform: scale```: scale is done by decimal in CSS ```scale(0.5)``` but represented as a percentage ```t-scale50```
+- ```background```: background is one word but instead of just being ```b``` it is represented as ```bg```
+- ```opacity```: opacity, despite being a decimal, is represented as a percentage
 
 Names like ```vertical-align-center``` are undoubtedly better descriptions than the crappy CSS property names like ```justify-content: center```, but are opinionated and applies best to it's creator. Replicating the names of the CSS properties like ```justify-content``` as ```jc``` carries over the not-so-good naming convention of CSS into HTML, but keeps everything uniform and equivalent to the standard CSS has already set. 
 
