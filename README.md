@@ -57,6 +57,9 @@ PerfectDesign requires no installation or package managers. Instead, just refere
 ```html
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/stable/complete.css">
 ```
+```css
+@import url('https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/stable/complete.css');
+```
 
 Here's a starter template using an HTML 5 doctype:
 
@@ -95,6 +98,9 @@ To have PerfectDesign in your project locally for modification or otherwise, dow
 The above links reference the last stable release of PerfectDesign. To pull the latest source code, use the following link - keep in mind the latest code is unstable and can introduce breaking changes.
 ```css
 https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/complete.css
+```
+```css
+@import url('https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/complete.css');
 ```
 
 Due to the nature of no dependencies other than JsDelivr for our CDN, we've opted not to use tools like WebPack or Parcel for bundling, and as such, tagging specific releases is not possible unless you use PerfectDesign locally. 
