@@ -117,103 +117,403 @@
     background-color: black;
 }
 
-.bgc-silver {
-    background-color: silver;
-}
-
-.bgc-gray {
-    background-color: gray;
-}
-
 .bgc-white {
     background-color: white;
 }
 
-.bgc-maroon {
-    background-color: maroon;
+.bgc-gray99 {
+    background-color: #fcfcfc;
 }
 
-.bgc-red {
-    background-color: red;
+.bgc-gray98 {
+    background-color: #fafafa;
 }
 
-.bgc-purple {
-    background-color: purple;
+.bgc-gray97 {
+    background-color: #f7f7f7;
 }
 
-.bgc-fuchsia {
-    background-color: fuchsia;
+.bgc-gray96 {
+    background-color: #f5f5f5;
 }
 
-.bgc-green {
-    background-color: green;
+.bgc-gray95 {
+    background-color: #f2f2f2;
 }
 
-.bgc-lime {
-    background-color: lime;
+.bgc-gray94 {
+    background-color: #f0f0f0;
 }
 
-.bgc-olive {
-    background-color: olive;
+.bgc-gray93 {
+    background-color: #ededed;
 }
 
-.bgc-yellow {
-    background-color: yellow;
+.bgc-gray92 {
+    background-color: #ebebeb;
 }
 
-.bgc-navy {
-    background-color: navy;
+.bgc-gray91 {
+    background-color: #e8e8e8;
 }
 
-.bgc-blue {
-    background-color: blue;
+.bgc-gray90 {
+    background-color: #e5e5e5;
 }
 
-.bgc-teal {
-    background-color: teal;
+.bgc-gray89 {
+    background-color: #e3e3e3;
 }
 
-.bgc-aqua {
-    background-color: aqua;
+.bgc-gray88 {
+    background-color: #e0e0e0;
 }
 
-.bgc-azure {
-    background-color: azure;
+.bgc-gray87 {
+    background-color: #dedede;
 }
 
-.bgc-darkgray {
-    background-color: darkgray;
+.bgc-gray86 {
+    background-color: #dbdbdb;
 }
 
-.bgc-dimgray {
-    background-color: dimgray;
+.bgc-gray85 {
+    background-color: #d9d9d9;
 }
 
-.bgc-ghostwhite {
-    background-color: ghostwhite;
+.bgc-gray84 {
+    background-color: #d6d6d6;
 }
 
-.bgc-lightcyan {
-    background-color: lightcyan;
+.bgc-gray83 {
+    background-color: #d4d4d4;
 }
 
-.bgc-lightskyblue {
-    background-color: lightskyblue;
+.bgc-gray82 {
+    background-color: #d1d1d1;
 }
 
-.bgc-lightslategray {
-    background-color: lightslategray;
+.bgc-gray81 {
+    background-color: #cfcfcf;
 }
 
-.bgc-palegreen {
-    background-color: palegreen;
+.bgc-gray80 {
+    background-color: #cccccc;
 }
 
-.bgc-springgreen {
-    background-color: springgreen;
+.bgc-gray79 {
+    background-color: #c9c9c9;
 }
 
-.bgc-whitesmoke {
-    background-color: whitesmoke;
+.bgc-gray78 {
+    background-color: #c7c7c7;
+}
+
+.bgc-gray77 {
+    background-color: #c4c4c4;
+}
+
+.bgc-gray76 {
+    background-color: #c2c2c2;
+}
+
+.bgc-gray75 {
+    background-color: #bfbfbf;
+}
+
+.bgc-gray74 {
+    background-color: #bdbdbd;
+}
+
+.bgc-gray73 {
+    background-color: #bababa;
+}
+
+.bgc-gray72 {
+    background-color: #b8b8b8;
+}
+
+.bgc-gray71 {
+    background-color: #b5b5b5;
+}
+
+.bgc-gray70 {
+    background-color: #b3b3b3;
+}
+
+.bgc-gray69 {
+    background-color: #b0b0b0;
+}
+
+.bgc-gray68 {
+    background-color: #adadad;
+}
+
+.bgc-gray67 {
+    background-color: #ababab;
+}
+
+.bgc-gray66 {
+    background-color: #a8a8a8;
+}
+
+.bgc-gray65 {
+    background-color: #a6a6a6;
+}
+
+.bgc-gray64 {
+    background-color: #a3a3a3;
+}
+
+.bgc-gray63 {
+    background-color: #a1a1a1;
+}
+
+.bgc-gray62 {
+    background-color: #9e9e9e;
+}
+
+.bgc-gray61 {
+    background-color: #9c9c9c;
+}
+
+.bgc-gray60 {
+    background-color: #999999;
+}
+
+.bgc-gray59 {
+    background-color: #969696;
+}
+
+.bgc-gray58 {
+    background-color: #949494;
+}
+
+.bgc-gray57 {
+    background-color: #919191;
+}
+
+.bgc-gray56 {
+    background-color: #8f8f8f;
+}
+
+.bgc-gray55 {
+    background-color: #8c8c8c;
+}
+
+.bgc-gray54 {
+    background-color: #8a8a8a;
+}
+
+.bgc-gray53 {
+    background-color: #878787;
+}
+
+.bgc-gray52 {
+    background-color: #858585;
+}
+
+.bgc-gray51 {
+    background-color: #828282;
+}
+
+.bgc-gray50 {
+    background-color: #7f7f7f;
+}
+
+.bgc-gray49 {
+    background-color: #7d7d7d;
+}
+
+.bgc-gray48 {
+    background-color: #7a7a7a;
+}
+
+.bgc-gray47 {
+    background-color: #787878;
+}
+
+.bgc-gray46 {
+    background-color: #757575;
+}
+
+.bgc-gray45 {
+    background-color: #737373;
+}
+
+.bgc-gray44 {
+    background-color: #707070;
+}
+
+.bgc-gray43 {
+    background-color: #6e6e6e;
+}
+
+.bgc-gray42 {
+    background-color: #6b6b6b;
+}
+
+.bgc-gray41 {
+    background-color: #696969;
+}
+
+.bgc-gray40 {
+    background-color: #666666;
+}
+
+.bgc-gray39 {
+    background-color: #636363;
+}
+
+.bgc-gray38 {
+    background-color: #616161;
+}
+
+.bgc-gray37 {
+    background-color: #5e5e5e;
+}
+
+.bgc-gray36 {
+    background-color: #5c5c5c;
+}
+
+.bgc-gray35 {
+    background-color: #595959;
+}
+
+.bgc-gray34 {
+    background-color: #575757;
+}
+
+.bgc-gray33 {
+    background-color: #545454;
+}
+
+.bgc-gray32 {
+    background-color: #525252;
+}
+
+.bgc-gray31 {
+    background-color: #4f4f4f;
+}
+
+.bgc-gray30 {
+    background-color: #4d4d4d;
+}
+
+.bgc-gray29 {
+    background-color: #4a4a4a;
+}
+
+.bgc-gray28 {
+    background-color: #474747;
+}
+
+.bgc-gray27 {
+    background-color: #454545;
+}
+
+.bgc-gray26 {
+    background-color: #424242;
+}
+
+.bgc-gray25 {
+    background-color: #404040;
+}
+
+.bgc-gray24 {
+    background-color: #3d3d3d;
+}
+
+.bgc-gray23 {
+    background-color: #3b3b3b;
+}
+
+.bgc-gray22 {
+    background-color: #383838;
+}
+
+.bgc-gray21 {
+    background-color: #363636;
+}
+
+.bgc-gray20 {
+    background-color: #333333;
+}
+
+.bgc-gray19 {
+    background-color: #303030;
+}
+
+.bgc-gray18 {
+    background-color: #2e2e2e;
+}
+
+.bgc-gray17 {
+    background-color: #2b2b2b;
+}
+
+.bgc-gray16 {
+    background-color: #292929;
+}
+
+.bgc-gray15 {
+    background-color: #262626;
+}
+
+.bgc-gray14 {
+    background-color: #242424;
+}
+
+.bgc-gray13 {
+    background-color: #212121;
+}
+
+.bgc-gray12 {
+    background-color: #1f1f1f;
+}
+
+.bgc-gray11 {
+    background-color: #1c1c1c;
+}
+
+.bgc-gray10 {
+    background-color: #1a1a1a;
+}
+
+.bgc-gray9 {
+    background-color: #171717;
+}
+
+.bgc-gray8 {
+    background-color: #141414;
+}
+
+.bgc-gray7 {
+    background-color: #121212;
+}
+
+.bgc-gray6 {
+    background-color: #0f0f0f;
+}
+
+.bgc-gray5 {
+    background-color: #0d0d0d;
+}
+
+.bgc-gray4 {
+    background-color: #0a0a0a;
+}
+
+.bgc-gray3 {
+    background-color: #080808;
+}
+
+.bgc-gray2 {
+    background-color: #050505;
+}
+
+.bgc-gray1 {
+    background-color: #030303;
 }
 

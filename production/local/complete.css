@@ -1,33 +1,33 @@
 
 /* Local */
 
-@import url('perfectdesign/components/buttons.css');
-@import url('perfectdesign/components/cards.css');
+@import url('/perfectdesign/modules/components/buttons.css');
+@import url('/perfectdesign/modules/components/cards.css');
 
-@import url('perfectdesign/core/global.css');
+@import url('/perfectdesign/core/global.css');
 
-@import url('perfectdesign/media/background.css');
+@import url('/perfectdesign/base/media/background.css');
 
-@import url('perfectdesign/layout/alignment.css');
-@import url('perfectdesign/layout/flexbox.css');
-@import url('perfectdesign/layout/grid.css');
-@import url('perfectdesign/layout/positioning.css');
-@import url('perfectdesign/layout/spacing.css');
-@import url('perfectdesign/layout/table.css');
-@import url('perfectdesign/layout/stack.css');
+@import url('/perfectdesign/base/layout/alignment.css');
+@import url('/perfectdesign/base/layout/flexbox.css');
+@import url('/perfectdesign/base/layout/grid.css');
+@import url('/perfectdesign/base/layout/positioning.css');
+@import url('/perfectdesign/base/layout/spacing.css');
+@import url('/perfectdesign/base/layout/table.css');
+@import url('/perfectdesign/base/layout/stack.css');
 
-@import url('perfectdesign/structure/element.css');
-@import url('perfectdesign/structure/sizing.css');
+@import url('/perfectdesign/base/structure/element.css');
+@import url('/perfectdesign/base/structure/sizing.css');
 
-@import url('perfectdesign/style/border.css');
-@import url('perfectdesign/style/effects.css');
-@import url('perfectdesign/style/filters.css');
-@import url('perfectdesign/style/backdropfilter.css');
+@import url('/perfectdesign/base/style/border.css');
+@import url('/perfectdesign/base/style/effects.css');
+@import url('/perfectdesign/base/style/filters.css');
+@import url('/perfectdesign/base/style/backdropfilter.css');
 
-@import url('perfectdesign/typography/fonts.css');
-@import url('perfectdesign/typography/text.css');
+@import url('/perfectdesign/base/typography/fonts.css');
+@import url('/perfectdesign/base/typography/text.css');
 
-@import url('perfectdesign/utilities/transformations.css');
+@import url('/perfectdesign/base/utilities/transformations.css');
 
 
-@import url('perfectdesign/responsive/mobile.css');
+@import url('/perfectdesign/responsive/mobile.css');
