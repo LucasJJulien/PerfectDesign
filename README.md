@@ -57,6 +57,9 @@ PerfectDesign requires no installation or package managers. Instead, just refere
 ```html
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/stable/complete.css">
 ```
+```css
+@import url('https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/stable/complete.css');
+```
 
 Here's a starter template using an HTML 5 doctype:
 
