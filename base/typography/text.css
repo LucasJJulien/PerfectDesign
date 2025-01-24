@@ -477,6 +477,26 @@
     line-height: 1.5rem;
 }
 
+.lh-1d6rem {
+    line-height: 1.6rem;
+}
+
+.lh-1d7rem {
+    line-height: 1.7rem;
+}
+
+.lh-1d8rem {
+    line-height: 1.8rem;
+}
+
+.lh-1d9rem {
+    line-height: 1.9rem;
+}
+
+.lh-2rem {
+    line-height: 2.0rem;
+}
+
 /* List-Style-Position */
 
 .lsp-inside {

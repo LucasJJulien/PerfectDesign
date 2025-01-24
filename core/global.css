@@ -5,9 +5,11 @@
 
     --scaleFactor: 1.618em;
 
-    --sm: calc(var(--md) / var(--scaleFactor));
-    --xs: calc(var(--sm) / var(--scaleFactor));
-    --2xs: calc(var(--xs) / var(--scaleFactor));
+    --2xs: calc(var(--2xs) / var(--scaleFactor));
+    --xs: calc(var(--xs) / var(--scaleFactor));
+    --sm: calc(var(--sm) / var(--scaleFactor));
+    --base: calc(var(--base) / var(--scaleFactor));
+    --md: calc(var(--md) / var(--scaleFactor));
   
     --lg: calc(var(--md) * var(--scaleFactor));
     --xl: calc(var(--lg) * var(--scaleFactor));
@@ -18,4 +20,9 @@
     --quarterstep: 1.128; /* always equals the sq. root of halfstep */
     --eighthstep: 1.061; /* always equals the sq. root of quarterstep */
 
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
 }

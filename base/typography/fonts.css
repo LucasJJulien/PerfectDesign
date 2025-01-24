@@ -39,7 +39,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
-/* Fonts */
+/* Default Fonts */
+
+.ff-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.ff-avenir {
+  font-family: 'Avenir', sans-serif;
+}
+
+.ff-helvetia {
+  font-family: 'Helvetica', sans-serif;
+}
+
+.ff-arial {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Imported Fonts */
 
 .ff-ibmplexmono {
   font-family: 'IBM Plex Mono', sans-serif !important;
