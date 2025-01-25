@@ -48,6 +48,7 @@ The guiding principles of PerfectDesign are as follows:
 - [ ] Expand EM support
 - [ ] Expand REM support
 - [ ] Build color palette
+- [ ] System to bundle all CSS into one file for easier import and local usage
 
 ## Documentation
 PerfectDesign does not have additional documentation apart from what's on this readme. Since it's a library, not a framework, with syntax derived from CSS itself, there's isn't much to document on. 
