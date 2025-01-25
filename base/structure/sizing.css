@@ -1,6 +1,10 @@
 
 /* Width (Percent) */
 
+.w-auto {
+    width: auto;
+}
+
 .w-5p {
     width: 5%;
 }
@@ -942,6 +946,10 @@
 }
 
 /* Height (Percent) */
+
+.h-auto {
+    height: auto;
+}
 
 .h-5p {
     height: 5%;
