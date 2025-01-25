@@ -92,7 +92,7 @@ Here's a starter template using an HTML 5 doctype:
 To have PerfectDesign in your project locally for modification or otherwise, download the source code and reference the directory where it is located. For example: 
 
 ```html
-<link rel="stylesheet" type="text/css" href="~/exampleproject/css/perfectdesign/production/local/complete.css">
+<link rel="stylesheet" type="text/css" href="/users/lucasjulien/Development/perfectdesign.css'">
 ```
 
 ### Using other versions
