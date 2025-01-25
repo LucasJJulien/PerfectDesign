@@ -4,13 +4,13 @@
 </p>
 
 <h1 align="center"> PerfectDesign </h1>
-<p align="center"> The simple, uniform, direct, and universal CSS library. </p>
+<p align="center"> The base-level universal CSS library. </p>
 
 > [!CAUTION]  
 > Currently in alpha. Many aspects are underdeveloped, and in some scenarios, severly so.
 
 ## What is PerfectDesign?
-PerfectDesign is a simple, lightweight, and dependency-less CSS library delivering core utilities, base componentry, and nothing more - all in pure css. It uses a naming convention based on uniformity and forthrightness, following a syntax based directly on the underlying CSS: ```{property}-{value}{unit}```. The first letter of each word of the property is extracted, the "value" remains as-is, and the unit is abbreviated: ```d-flex``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. 
+PerfectDesign is a simple, uniform, lightweight, and dependency-less CSS library delivering core utilities, base modules, and nothing more - all in pure css. It uses a naming convention based on uniformity and forthrightness, following a syntax based directly on the underlying CSS: ```{property}-{value}{unit}```. The first letter of each word of the property is extracted, the "value" remains as-is, and the unit is abbreviated: ```d-flex``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. 
 
 Usage is inherently simple and doesn't require installation or package managers (although NPM support is planned) - just link PerfectDesign in your HTML header file. 
 
