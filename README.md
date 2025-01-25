@@ -32,6 +32,7 @@ The guiding principles of PerfectDesign are as follows:
 - [x] Add table support
 - [x] Add missing flexbox attributes
 - [x] Expand ReadMe
+- [ ] Add sm, md, lg, etc attributes to all properties
 - [ ] Add responsive attributes for other devices, namely
   - [ ] Mobile
   - [ ] Tablets
@@ -43,7 +44,6 @@ The guiding principles of PerfectDesign are as follows:
 - [ ] Add contributing guidelines
 - [ ] Add prebuilt layouts
 - [ ] Add support for NPM
-  - [ ] Build system to compile only used CSS
 - [ ] Add examples/templates
 - [ ] Expand EM support
 - [ ] Expand REM support

@@ -8,3 +8,13 @@
 .container-fluid {
     display: flex;
 }
+
+.flexvertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexhorizantal {
+    display: flex;
+    flex-direction: row;
+}
