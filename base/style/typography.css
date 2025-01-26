@@ -67,6 +67,28 @@
     font-style: oblique;
 }
 
+/* Whitespace */
+
+.ws-normal {
+    white-space: normal;
+}
+
+.ws-nowrap {
+    white-space: nowrap;
+}
+
+.ws-pre {
+    white-space: pre;
+}
+
+.ws-preline {
+    white-space: pre-line;
+}
+
+.ws-preline {
+    white-space: pre-line;
+}
+
 /* Font Size */
 
 .fs-1px {
