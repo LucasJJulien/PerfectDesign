@@ -34,6 +34,7 @@ The guiding principles of PerfectDesign are as follows:
 - [x] Expand ReadMe
 - [ ] Add sm, md, lg, etc attributes to all properties
 - [ ] Add responsive attributes for other devices, namely
+- [ ] Animations
   - [ ] Mobile
   - [ ] Tablets
   - [ ] Dynamic
@@ -51,10 +52,14 @@ The guiding principles of PerfectDesign are as follows:
 - [ ] System to bundle all CSS into one file for easier import and local usage
 
 ## Documentation
-PerfectDesign does not have additional documentation apart from what's on this readme. Since it's a library, not a framework, with syntax derived from CSS itself, there's isn't much to document on. 
+PerfectDesign does not have additional documentation apart from what's on this readme. Since it's a library, not a framework, with syntax derived from CSS itself, there's isn't much to document on. If you know CSS, you know how to use this. 
 
 ## Quick Start
 PerfectDesign requires no installation or package managers. Instead, just reference the CSS file in your HTML head section. The production folder contains several CSS files that link PerfectDesign together - this is what you import for most use cases. These automatically reference all the css files distributed across the many organization folders - ```complete.css``` includes the entire project. It can be linked with the following code: 
+
+
+> [!IMPORTANT]  
+> This is the recommended method. Due to the current alpha nature of the project, there is constant restructuring and reformatting - the following link will keep everything working despite the fundamental changes occuring on our end. 
 
 ```html
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/stable/complete.css">
