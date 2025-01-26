@@ -32,6 +32,7 @@ The guiding principles of PerfectDesign are as follows:
 - [x] Add table support
 - [x] Add missing flexbox attributes
 - [x] Expand ReadMe
+- [x] Expand color palette
 - [ ] Add sm, md, lg, etc attributes to all properties
 - [ ] Add responsive attributes for other devices, namely
 - [ ] Animations
@@ -48,7 +49,6 @@ The guiding principles of PerfectDesign are as follows:
 - [ ] Add examples/templates
 - [ ] Expand EM support
 - [ ] Expand REM support
-- [ ] Expand color palette
 
 ## Documentation
 PerfectDesign does not have additional documentation apart from what's on this readme. Since it's a library, not a framework, with syntax derived from CSS itself, there's isn't much to document on. If you know CSS, you know how to use this. 
@@ -118,9 +118,10 @@ To have PerfectDesign in your project locally for modification or otherwise, dow
 @import url('/Users/user/Development/PerfectDesign/base/style/border.css');
 @import url('/Users/user/Development/PerfectDesign/base/style/effects.css');
 @import url('/Users/user/Development/PerfectDesign/base/style/filters.css');
-@import url('/Users/user/Development/PerfectDesign/base/style/backdropfilter.css');
+@import url('/Users/user/Development/PerfectDesign/base/style/animations.css');
 @import url('/Users/user/Development/PerfectDesign/base/style/background.css');
 @import url('/Users/user/Development/PerfectDesign/base/style/typography.css');
+@import url('/Users/user/Development/PerfectDesign/base/style/svg.css');
 
 @import url('/Users/user/Development/PerfectDesign/base/utilities/transformations.css');
 @import url('/Users/user/Development/PerfectDesign/base/utilities/interactivity.css');
@@ -191,9 +192,15 @@ Minified CSS can also be used:
 ## Usage
 
 ### Naming Convention
-The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```. The first letter of each word of the property is extracted, the "value" remains as-is, and the unit is abbreviated: ```row-gap: 10px``` is ```rg-10px```, and ```flex-wrap: wrap``` is ```fw-wrap```. 
+The naming convention in PerfectDesign mimics the very CSS syntax it's referencing - ```{property}-{value}{unit}```. 
 
-Units are condensed: pixels ```px```, percent ```p```, rem ```rem```, em ```em```, and deg ```deg```. With CSS that can set multiple properties such as ```columns: 100px 3```, the properties are seperated by an underscore: ```c-100px_3```. Properties with decimal values have the letter ```d (decimal)``` where the period would be. ```font-size: 0.75rem``` would be ```fs-d75rem```. Properties with a whole number and decimal value are portrayed as such: ```font-size: 1.5rem``` is ```fs-1d5rem```. Negative values are indictated with the letter ```n (negative)``` prior to the value. ```letter-spacing: -0.05rem``` is ```ls-nd05rem```. 
+- The first letter of each word of the property is extracted: ```font-size -> fs```
+- The value remains as is: ```baseline -> baseline```
+- The unit (if applicable) is abbreviated: pixels ```px```, percent ```p```, rem ```rem```, em ```em```, deg ```deg```
+- Dashes are ignored: ```background-color -> bgc``` ```flex-start -> flexstart```
+- Multiple values are separated by an underscore: ```columns: 100px 3 -> c-100px_3```
+- Decimals are replaced with the letter d: ```font-size: 1.75rem -> fs-1d75rem```
+- Negative values are indicated with the letter n: ```letter-spacing: -0.05rem -> ls-nd05rem```
 
 There are expections to these conventions:
 
@@ -227,6 +234,9 @@ EM follows a similar increment convention as pixels. Rem follows the default fon
 | 0.1rem | 16px |
 | 0.125rem | 20px |
 | 0.15rem | 24px |
+
+## Colors
+PerfectDesign doesn't have it's own color palette, instead, it has 99 shades of gray from the x11 color standards and 132 of the 140 W3C colors. The missing eight W3C colors are shades of gray - removed to prevent duplicates with x11.
 
 ## Contributing
 > [!WARNING]  

@@ -1,0 +1,966 @@
+
+/* Stroke-Width */
+
+.sw-1px {
+    stroke-width: 1px;
+}
+
+.sw-2px {
+    stroke-width: 2px;
+}
+
+.sw-3px {
+    stroke-width: 3px;
+}
+
+.sw-4px {
+    stroke-width: 4px;
+}
+
+.sw-5px {
+    stroke-width: 5px;
+}
+
+/* Stroke */
+
+.s-cc {
+    stroke: currentColor;
+}
+
+/* Fill */
+
+.f-cc {
+    fill: currentColor;
+}
+
+.f-black {
+    fill: black;
+}
+
+.f-white {
+    fill: white;
+}
+
+.f-gray99 {
+    fill: #fcfcfc;
+}
+
+.f-gray98 {
+    fill: #fafafa;
+}
+
+.f-gray97 {
+    fill: #f7f7f7;
+}
+
+.f-gray96 {
+    fill: #f5f5f5;
+}
+
+.f-gray95 {
+    fill: #f2f2f2;
+}
+
+.f-gray94 {
+    fill: #f0f0f0;
+}
+
+.f-gray93 {
+    fill: #ededed;
+}
+
+.f-gray92 {
+    fill: #ebebeb;
+}
+
+.f-gray91 {
+    fill: #e8e8e8;
+}
+
+.f-gray90 {
+    fill: #e5e5e5;
+}
+
+.f-gray89 {
+    fill: #e3e3e3;
+}
+
+.f-gray88 {
+    fill: #e0e0e0;
+}
+
+.f-gray87 {
+    fill: #dedede;
+}
+
+.f-gray86 {
+    fill: #dbdbdb;
+}
+
+.f-gray85 {
+    fill: #d9d9d9;
+}
+
+.f-gray84 {
+    fill: #d6d6d6;
+}
+
+.f-gray83 {
+    fill: #d4d4d4;
+}
+
+.f-gray82 {
+    fill: #d1d1d1;
+}
+
+.f-gray81 {
+    fill: #cfcfcf;
+}
+
+.f-gray80 {
+    fill: #cccccc;
+}
+
+.f-gray79 {
+    fill: #c9c9c9;
+}
+
+.f-gray78 {
+    fill: #c7c7c7;
+}
+
+.f-gray77 {
+    fill: #c4c4c4;
+}
+
+.f-gray76 {
+    fill: #c2c2c2;
+}
+
+.f-gray75 {
+    fill: #bfbfbf;
+}
+
+.f-gray74 {
+    fill: #bdbdbd;
+}
+
+.f-gray73 {
+    fill: #bababa;
+}
+
+.f-gray72 {
+    fill: #b8b8b8;
+}
+
+.f-gray71 {
+    fill: #b5b5b5;
+}
+
+.f-gray70 {
+    fill: #b3b3b3;
+}
+
+.f-gray69 {
+    fill: #b0b0b0;
+}
+
+.f-gray68 {
+    fill: #adadad;
+}
+
+.f-gray67 {
+    fill: #ababab;
+}
+
+.f-gray66 {
+    fill: #a8a8a8;
+}
+
+.f-gray65 {
+    fill: #a6a6a6;
+}
+
+.f-gray64 {
+    fill: #a3a3a3;
+}
+
+.f-gray63 {
+    fill: #a1a1a1;
+}
+
+.f-gray62 {
+    fill: #9e9e9e;
+}
+
+.f-gray61 {
+    fill: #9c9c9c;
+}
+
+.f-gray60 {
+    fill: #999999;
+}
+
+.f-gray59 {
+    fill: #969696;
+}
+
+.f-gray58 {
+    fill: #949494;
+}
+
+.f-gray57 {
+    fill: #919191;
+}
+
+.f-gray56 {
+    fill: #8f8f8f;
+}
+
+.f-gray55 {
+    fill: #8c8c8c;
+}
+
+.f-gray54 {
+    fill: #8a8a8a;
+}
+
+.f-gray53 {
+    fill: #878787;
+}
+
+.f-gray52 {
+    fill: #858585;
+}
+
+.f-gray51 {
+    fill: #828282;
+}
+
+.f-gray50 {
+    fill: #7f7f7f;
+}
+
+.f-gray49 {
+    fill: #7d7d7d;
+}
+
+.f-gray48 {
+    fill: #7a7a7a;
+}
+
+.f-gray47 {
+    fill: #787878;
+}
+
+.f-gray46 {
+    fill: #757575;
+}
+
+.f-gray45 {
+    fill: #737373;
+}
+
+.f-gray44 {
+    fill: #707070;
+}
+
+.f-gray43 {
+    fill: #6e6e6e;
+}
+
+.f-gray42 {
+    fill: #6b6b6b;
+}
+
+.f-gray41 {
+    fill: #696969;
+}
+
+.f-gray40 {
+    fill: #666666;
+}
+
+.f-gray39 {
+    fill: #636363;
+}
+
+.f-gray38 {
+    fill: #616161;
+}
+
+.f-gray37 {
+    fill: #5e5e5e;
+}
+
+.f-gray36 {
+    fill: #5c5c5c;
+}
+
+.f-gray35 {
+    fill: #595959;
+}
+
+.f-gray34 {
+    fill: #575757;
+}
+
+.f-gray33 {
+    fill: #545454;
+}
+
+.f-gray32 {
+    fill: #525252;
+}
+
+.f-gray31 {
+    fill: #4f4f4f;
+}
+
+.f-gray30 {
+    fill: #4d4d4d;
+}
+
+.f-gray29 {
+    fill: #4a4a4a;
+}
+
+.f-gray28 {
+    fill: #474747;
+}
+
+.f-gray27 {
+    fill: #454545;
+}
+
+.f-gray26 {
+    fill: #424242;
+}
+
+.f-gray25 {
+    fill: #404040;
+}
+
+.f-gray24 {
+    fill: #3d3d3d;
+}
+
+.f-gray23 {
+    fill: #3b3b3b;
+}
+
+.f-gray22 {
+    fill: #383838;
+}
+
+.f-gray21 {
+    fill: #363636;
+}
+
+.f-gray20 {
+    fill: #333333;
+}
+
+.f-gray19 {
+    fill: #303030;
+}
+
+.f-gray18 {
+    fill: #2e2e2e;
+}
+
+.f-gray17 {
+    fill: #2b2b2b;
+}
+
+.f-gray16 {
+    fill: #292929;
+}
+
+.f-gray15 {
+    fill: #262626;
+}
+
+.f-gray14 {
+    fill: #242424;
+}
+
+.f-gray13 {
+    fill: #212121;
+}
+
+.f-gray12 {
+    fill: #1f1f1f;
+}
+
+.f-gray11 {
+    fill: #1c1c1c;
+}
+
+.f-gray10 {
+    fill: #1a1a1a;
+}
+
+.f-gray9 {
+    fill: #171717;
+}
+
+.f-gray8 {
+    fill: #141414;
+}
+
+.f-gray7 {
+    fill: #121212;
+}
+
+.f-gray6 {
+    fill: #0f0f0f;
+}
+
+.f-gray5 {
+    fill: #0d0d0d;
+}
+
+.f-gray4 {
+    fill: #0a0a0a;
+}
+
+.f-gray3 {
+    fill: #080808;
+}
+
+.f-gray2 {
+    fill: #050505;
+}
+
+.f-gray1 {
+    fill: #030303;
+}
+
+.f-aliceblue {
+	fill: aliceblue;
+}
+
+.f-antiquewhite {
+	fill: antiquewhite;
+}
+
+.f-aqua {
+	fill: aqua;
+}
+
+.f-aquamarine {
+	fill: aquamarine;
+}
+
+.f-azure {
+	fill: azure;
+}
+
+.f-beige {
+	fill: beige;
+}
+
+.f-bisque {
+	fill: bisque;
+}
+
+.f-blanchedalmond {
+	fill: blanchedalmond;
+}
+
+.f-blue {
+	fill: blue;
+}
+
+.f-blueviolet {
+	fill: blueviolet;
+}
+
+.f-brown {
+	fill: brown;
+}
+
+.f-burlywood {
+	fill: burlywood;
+}
+
+.f-cadetblue {
+	fill: cadetblue;
+}
+
+.f-chartreuse {
+	fill: chartreuse;
+}
+
+.f-chocolate {
+	fill: chocolate;
+}
+
+.f-coral {
+	fill: coral;
+}
+
+.f-cornflowerblue {
+	fill: cornflowerblue;
+}
+
+.f-cornsilk {
+	fill: cornsilk;
+}
+
+.f-crimson {
+	fill: crimson;
+}
+
+.f-cyan {
+	fill: cyan;
+}
+
+.f-darkblue {
+	fill: darkblue;
+}
+
+.f-darkcyan {
+	fill: darkcyan;
+}
+
+.f-darkgoldenrod {
+	fill: darkgoldenrod;
+}
+
+.f-darkgreen {
+	fill: darkgreen;
+}
+
+.f-darkkhaki {
+	fill: darkkhaki;
+}
+
+.f-darkmagenta {
+	fill: darkmagenta;
+}
+
+.f-darkolivegreen {
+	fill: darkolivegreen;
+}
+
+.f-darkorange {
+	fill: darkorange;
+}
+
+.f-darkorchid {
+	fill: darkorchid;
+}
+
+.f-darkred {
+	fill: darkred;
+}
+
+.f-darksalmon {
+	fill: darksalmon;
+}
+
+.f-darkseagreen {
+	fill: darkseagreen;
+}
+
+.f-darkslateblue {
+	fill: darkslateblue;
+}
+
+.f-darkslategray {
+	fill: darkslategray;
+}
+
+.f-darkslategrey {
+	fill: darkslategrey;
+}
+
+.f-darkturquoise {
+	fill: darkturquoise;
+}
+
+.f-darkviolet {
+	fill: darkviolet;
+}
+
+.f-deeppink {
+	fill: deeppink;
+}
+
+.f-deepskyblue {
+	fill: deepskyblue;
+}
+
+.f-dodgerblue {
+	fill: dodgerblue;
+}
+
+.f-firebrick {
+	fill: firebrick;
+}
+
+.f-floralwhite {
+	fill: floralwhite;
+}
+
+.f-forestgreen {
+	fill: forestgreen;
+}
+
+.f-fuchsia {
+	fill: fuchsia;
+}
+
+.f-ghostwhite {
+	fill: ghostwhite;
+}
+
+.f-gold {
+	fill: gold;
+}
+
+.f-goldenrod {
+	fill: goldenrod;
+}
+
+.f-green {
+	fill: green;
+}
+
+.f-greenyellow {
+	fill: greenyellow;
+}
+
+.f-honeydew {
+	fill: honeydew;
+}
+
+.f-hotpink {
+	fill: hotpink;
+}
+
+.f-indianred {
+	fill: indianred;
+}
+
+.f-indigo {
+	fill: indigo;
+}
+
+.f-ivory {
+	fill: ivory;
+}
+
+.f-khaki {
+	fill: khaki;
+}
+
+.f-lavender {
+	fill: lavender;
+}
+
+.f-lavenderblush {
+	fill: lavenderblush;
+}
+
+.f-lawngreen {
+	fill: lawngreen;
+}
+
+.f-lemonchiffon {
+	fill: lemonchiffon;
+}
+
+.f-lightblue {
+	fill: lightblue;
+}
+
+.f-lightcoral {
+	fill: lightcoral;
+}
+
+.f-lightcyan {
+	fill: lightcyan;
+}
+
+.f-lightgoldenrodyellow {
+	fill: lightgoldenrodyellow;
+}
+
+.f-lightgreen {
+	fill: lightgreen;
+}
+
+.f-lightpink {
+	fill: lightpink;
+}
+
+.f-lightsalmon {
+	fill: lightsalmon;
+}
+
+.f-lightseagreen {
+	fill: lightseagreen;
+}
+
+.f-lightskyblue {
+	fill: lightskyblue;
+}
+
+.f-lightslategray {
+	fill: lightslategray;
+}
+
+.f-lightsteelblue {
+	fill: lightsteelblue;
+}
+
+.f-lightyellow {
+	fill: lightyellow;
+}
+
+.f-lime {
+	fill: lime;
+}
+
+.f-limegreen {
+	fill: limegreen;
+}
+
+.f-linen {
+	fill: linen;
+}
+
+.f-magenta {
+	fill: magenta;
+}
+
+.f-maroon {
+	fill: maroon;
+}
+
+.f-mediumaquamarine {
+	fill: mediumaquamarine;
+}
+
+.f-mediumblue {
+	fill: mediumblue;
+}
+
+.f-mediumorchid {
+	fill: mediumorchid;
+}
+
+.f-mediumpurple {
+	fill: mediumpurple;
+}
+
+.f-mediumseagreen {
+	fill: mediumseagreen;
+}
+
+.f-mediumslateblue {
+	fill: mediumslateblue;
+}
+
+.f-mediumspringgreen {
+	fill: mediumspringgreen;
+}
+
+.f-mediumturquoise {
+	fill: mediumturquoise;
+}
+
+.f-mediumvioletred {
+	fill: mediumvioletred;
+}
+
+.f-midnightblue {
+	fill: midnightblue;
+}
+
+.f-mintcream {
+	fill: mintcream;
+}
+
+.f-mistyrose {
+	fill: mistyrose;
+}
+
+.f-moccasin {
+	fill: moccasin;
+}
+
+.f-navajowhite {
+	fill: navajowhite;
+}
+
+.f-navy {
+	fill: navy;
+}
+
+.f-oldlace {
+	fill: oldlace;
+}
+
+.f-olive {
+	fill: olive;
+}
+
+.f-olivedrab {
+	fill: olivedrab;
+}
+
+.f-orange {
+	fill: orange;
+}
+
+.f-orangered {
+	fill: orangered;
+}
+
+.f-orchid {
+	fill: orchid;
+}
+
+.f-palegoldenrod {
+	fill: palegoldenrod;
+}
+
+.f-palegreen {
+	fill: palegreen;
+}
+
+.f-paleturquoise {
+	fill: paleturquoise;
+}
+
+.f-palevioletred {
+	fill: palevioletred;
+}
+
+.f-papayawhip {
+	fill: papayawhip;
+}
+
+.f-peachpuff {
+	fill: peachpuff;
+}
+
+.f-peru {
+	fill: peru;
+}
+
+.f-pink {
+	fill: pink;
+}
+
+.f-plum {
+	fill: plum;
+}
+
+.f-powderblue {
+	fill: powderblue;
+}
+
+.f-purple {
+	fill: purple;
+}
+
+.f-red {
+	fill: red;
+}
+
+.f-rosybrown {
+	fill: rosybrown;
+}
+
+.f-royalblue {
+	fill: royalblue;
+}
+
+.f-saddlebrown {
+	fill: saddlebrown;
+}
+
+.f-salmon {
+	fill: salmon;
+}
+
+.f-sandybrown {
+	fill: sandybrown;
+}
+
+.f-seagreen {
+	fill: seagreen;
+}
+
+.f-seashell {
+	fill: seashell;
+}
+
+.f-sienna {
+	fill: sienna;
+}
+
+.f-skyblue {
+	fill: skyblue;
+}
+
+.f-slateblue {
+	fill: slateblue;
+}
+
+.f-slategray {
+	fill: slategray;
+}
+
+.f-snow {
+	fill: snow;
+}
+
+.f-springgreen {
+	fill: springgreen;
+}
+
+.f-steelblue {
+	fill: steelblue;
+}
+
+.f-tan {
+	fill: tan;
+}
+
+.f-teal {
+	fill: teal;
+}
+
+.f-thistle {
+	fill: thistle;
+}
+
+.f-tomato {
+	fill: tomato;
+}
+
+.f-turquoise {
+	fill: turquoise;
+}
+
+.f-violet {
+	fill: violet;
+}
+
+.f-wheat {
+	fill: wheat;
+}
+
+.f-yellow {
+	fill: yellow;
+}
+
+.f-yellowgreen {
+	fill: yellowgreen;
+}

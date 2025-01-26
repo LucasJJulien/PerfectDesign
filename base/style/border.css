@@ -1161,6 +1161,534 @@
     border-color: #030303;
 }
 
+.bc-aliceblue {
+	border-color: aliceblue;
+}
+
+.bc-antiquewhite {
+	border-color: antiquewhite;
+}
+
+.bc-aqua {
+	border-color: aqua;
+}
+
+.bc-aquamarine {
+	border-color: aquamarine;
+}
+
+.bc-azure {
+	border-color: azure;
+}
+
+.bc-beige {
+	border-color: beige;
+}
+
+.bc-bisque {
+	border-color: bisque;
+}
+
+.bc-blanchedalmond {
+	border-color: blanchedalmond;
+}
+
+.bc-blue {
+	border-color: blue;
+}
+
+.bc-blueviolet {
+	border-color: blueviolet;
+}
+
+.bc-brown {
+	border-color: brown;
+}
+
+.bc-burlywood {
+	border-color: burlywood;
+}
+
+.bc-cadetblue {
+	border-color: cadetblue;
+}
+
+.bc-chartreuse {
+	border-color: chartreuse;
+}
+
+.bc-chocolate {
+	border-color: chocolate;
+}
+
+.bc-coral {
+	border-color: coral;
+}
+
+.bc-cornflowerblue {
+	border-color: cornflowerblue;
+}
+
+.bc-cornsilk {
+	border-color: cornsilk;
+}
+
+.bc-crimson {
+	border-color: crimson;
+}
+
+.bc-cyan {
+	border-color: cyan;
+}
+
+.bc-darkblue {
+	border-color: darkblue;
+}
+
+.bc-darkcyan {
+	border-color: darkcyan;
+}
+
+.bc-darkgoldenrod {
+	border-color: darkgoldenrod;
+}
+
+.bc-darkgreen {
+	border-color: darkgreen;
+}
+
+.bc-darkkhaki {
+	border-color: darkkhaki;
+}
+
+.bc-darkmagenta {
+	border-color: darkmagenta;
+}
+
+.bc-darkolivegreen {
+	border-color: darkolivegreen;
+}
+
+.bc-darkorange {
+	border-color: darkorange;
+}
+
+.bc-darkorchid {
+	border-color: darkorchid;
+}
+
+.bc-darkred {
+	border-color: darkred;
+}
+
+.bc-darksalmon {
+	border-color: darksalmon;
+}
+
+.bc-darkseagreen {
+	border-color: darkseagreen;
+}
+
+.bc-darkslateblue {
+	border-color: darkslateblue;
+}
+
+.bc-darkslategray {
+	border-color: darkslategray;
+}
+
+.bc-darkslategrey {
+	border-color: darkslategrey;
+}
+
+.bc-darkturquoise {
+	border-color: darkturquoise;
+}
+
+.bc-darkviolet {
+	border-color: darkviolet;
+}
+
+.bc-deeppink {
+	border-color: deeppink;
+}
+
+.bc-deepskyblue {
+	border-color: deepskyblue;
+}
+
+.bc-dodgerblue {
+	border-color: dodgerblue;
+}
+
+.bc-firebrick {
+	border-color: firebrick;
+}
+
+.bc-floralwhite {
+	border-color: floralwhite;
+}
+
+.bc-forestgreen {
+	border-color: forestgreen;
+}
+
+.bc-fuchsia {
+	border-color: fuchsia;
+}
+
+.bc-ghostwhite {
+	border-color: ghostwhite;
+}
+
+.bc-gold {
+	border-color: gold;
+}
+
+.bc-goldenrod {
+	border-color: goldenrod;
+}
+
+.bc-green {
+	border-color: green;
+}
+
+.bc-greenyellow {
+	border-color: greenyellow;
+}
+
+.bc-honeydew {
+	border-color: honeydew;
+}
+
+.bc-hotpink {
+	border-color: hotpink;
+}
+
+.bc-indianred {
+	border-color: indianred;
+}
+
+.bc-indigo {
+	border-color: indigo;
+}
+
+.bc-ivory {
+	border-color: ivory;
+}
+
+.bc-khaki {
+	border-color: khaki;
+}
+
+.bc-lavender {
+	border-color: lavender;
+}
+
+.bc-lavenderblush {
+	border-color: lavenderblush;
+}
+
+.bc-lawngreen {
+	border-color: lawngreen;
+}
+
+.bc-lemonchiffon {
+	border-color: lemonchiffon;
+}
+
+.bc-lightblue {
+	border-color: lightblue;
+}
+
+.bc-lightcoral {
+	border-color: lightcoral;
+}
+
+.bc-lightcyan {
+	border-color: lightcyan;
+}
+
+.bc-lightgoldenrodyellow {
+	border-color: lightgoldenrodyellow;
+}
+
+.bc-lightgreen {
+	border-color: lightgreen;
+}
+
+.bc-lightpink {
+	border-color: lightpink;
+}
+
+.bc-lightsalmon {
+	border-color: lightsalmon;
+}
+
+.bc-lightseagreen {
+	border-color: lightseagreen;
+}
+
+.bc-lightskyblue {
+	border-color: lightskyblue;
+}
+
+.bc-lightslategray {
+	border-color: lightslategray;
+}
+
+.bc-lightsteelblue {
+	border-color: lightsteelblue;
+}
+
+.bc-lightyellow {
+	border-color: lightyellow;
+}
+
+.bc-lime {
+	border-color: lime;
+}
+
+.bc-limegreen {
+	border-color: limegreen;
+}
+
+.bc-linen {
+	border-color: linen;
+}
+
+.bc-magenta {
+	border-color: magenta;
+}
+
+.bc-maroon {
+	border-color: maroon;
+}
+
+.bc-mediumaquamarine {
+	border-color: mediumaquamarine;
+}
+
+.bc-mediumblue {
+	border-color: mediumblue;
+}
+
+.bc-mediumorchid {
+	border-color: mediumorchid;
+}
+
+.bc-mediumpurple {
+	border-color: mediumpurple;
+}
+
+.bc-mediumseagreen {
+	border-color: mediumseagreen;
+}
+
+.bc-mediumslateblue {
+	border-color: mediumslateblue;
+}
+
+.bc-mediumspringgreen {
+	border-color: mediumspringgreen;
+}
+
+.bc-mediumturquoise {
+	border-color: mediumturquoise;
+}
+
+.bc-mediumvioletred {
+	border-color: mediumvioletred;
+}
+
+.bc-midnightblue {
+	border-color: midnightblue;
+}
+
+.bc-mintcream {
+	border-color: mintcream;
+}
+
+.bc-mistyrose {
+	border-color: mistyrose;
+}
+
+.bc-moccasin {
+	border-color: moccasin;
+}
+
+.bc-navajowhite {
+	border-color: navajowhite;
+}
+
+.bc-navy {
+	border-color: navy;
+}
+
+.bc-oldlace {
+	border-color: oldlace;
+}
+
+.bc-olive {
+	border-color: olive;
+}
+
+.bc-olivedrab {
+	border-color: olivedrab;
+}
+
+.bc-orange {
+	border-color: orange;
+}
+
+.bc-orangered {
+	border-color: orangered;
+}
+
+.bc-orchid {
+	border-color: orchid;
+}
+
+.bc-palegoldenrod {
+	border-color: palegoldenrod;
+}
+
+.bc-palegreen {
+	border-color: palegreen;
+}
+
+.bc-paleturquoise {
+	border-color: paleturquoise;
+}
+
+.bc-palevioletred {
+	border-color: palevioletred;
+}
+
+.bc-papayawhip {
+	border-color: papayawhip;
+}
+
+.bc-peachpuff {
+	border-color: peachpuff;
+}
+
+.bc-peru {
+	border-color: peru;
+}
+
+.bc-pink {
+	border-color: pink;
+}
+
+.bc-plum {
+	border-color: plum;
+}
+
+.bc-powderblue {
+	border-color: powderblue;
+}
+
+.bc-purple {
+	border-color: purple;
+}
+
+.bc-red {
+	border-color: red;
+}
+
+.bc-rosybrown {
+	border-color: rosybrown;
+}
+
+.bc-royalblue {
+	border-color: royalblue;
+}
+
+.bc-saddlebrown {
+	border-color: saddlebrown;
+}
+
+.bc-salmon {
+	border-color: salmon;
+}
+
+.bc-sandybrown {
+	border-color: sandybrown;
+}
+
+.bc-seagreen {
+	border-color: seagreen;
+}
+
+.bc-seashell {
+	border-color: seashell;
+}
+
+.bc-sienna {
+	border-color: sienna;
+}
+
+.bc-skyblue {
+	border-color: skyblue;
+}
+
+.bc-slateblue {
+	border-color: slateblue;
+}
+
+.bc-slategray {
+	border-color: slategray;
+}
+
+.bc-snow {
+	border-color: snow;
+}
+
+.bc-springgreen {
+	border-color: springgreen;
+}
+
+.bc-steelblue {
+	border-color: steelblue;
+}
+
+.bc-tan {
+	border-color: tan;
+}
+
+.bc-teal {
+	border-color: teal;
+}
+
+.bc-thistle {
+	border-color: thistle;
+}
+
+.bc-tomato {
+	border-color: tomato;
+}
+
+.bc-turquoise {
+	border-color: turquoise;
+}
+
+.bc-violet {
+	border-color: violet;
+}
+
+.bc-wheat {
+	border-color: wheat;
+}
+
+.bc-yellow {
+	border-color: yellow;
+}
+
+.bc-yellowgreen {
+	border-color: yellowgreen;
+}
+
 /* Outline-Style */
 
 .os-solid {
@@ -1717,6 +2245,533 @@
     outline-color: #030303;
 }
 
+.oc-aliceblue {
+	outline-color: aliceblue;
+}
+
+.oc-antiquewhite {
+	outline-color: antiquewhite;
+}
+
+.oc-aqua {
+	outline-color: aqua;
+}
+
+.oc-aquamarine {
+	outline-color: aquamarine;
+}
+
+.oc-azure {
+	outline-color: azure;
+}
+
+.oc-beige {
+	outline-color: beige;
+}
+
+.oc-bisque {
+	outline-color: bisque;
+}
+
+.oc-blanchedalmond {
+	outline-color: blanchedalmond;
+}
+
+.oc-blue {
+	outline-color: blue;
+}
+
+.oc-blueviolet {
+	outline-color: blueviolet;
+}
+
+.oc-brown {
+	outline-color: brown;
+}
+
+.oc-burlywood {
+	outline-color: burlywood;
+}
+
+.oc-cadetblue {
+	outline-color: cadetblue;
+}
+
+.oc-chartreuse {
+	outline-color: chartreuse;
+}
+
+.oc-chocolate {
+	outline-color: chocolate;
+}
+
+.oc-coral {
+	outline-color: coral;
+}
+
+.oc-cornflowerblue {
+	outline-color: cornflowerblue;
+}
+
+.oc-cornsilk {
+	outline-color: cornsilk;
+}
+
+.oc-crimson {
+	outline-color: crimson;
+}
+
+.oc-cyan {
+	outline-color: cyan;
+}
+
+.oc-darkblue {
+	outline-color: darkblue;
+}
+
+.oc-darkcyan {
+	outline-color: darkcyan;
+}
+
+.oc-darkgoldenrod {
+	outline-color: darkgoldenrod;
+}
+
+.oc-darkgreen {
+	outline-color: darkgreen;
+}
+
+.oc-darkkhaki {
+	outline-color: darkkhaki;
+}
+
+.oc-darkmagenta {
+	outline-color: darkmagenta;
+}
+
+.oc-darkolivegreen {
+	outline-color: darkolivegreen;
+}
+
+.oc-darkorange {
+	outline-color: darkorange;
+}
+
+.oc-darkorchid {
+	outline-color: darkorchid;
+}
+
+.oc-darkred {
+	outline-color: darkred;
+}
+
+.oc-darksalmon {
+	outline-color: darksalmon;
+}
+
+.oc-darkseagreen {
+	outline-color: darkseagreen;
+}
+
+.oc-darkslateblue {
+	outline-color: darkslateblue;
+}
+
+.oc-darkslategray {
+	outline-color: darkslategray;
+}
+
+.oc-darkslategrey {
+	outline-color: darkslategrey;
+}
+
+.oc-darkturquoise {
+	outline-color: darkturquoise;
+}
+
+.oc-darkviolet {
+	outline-color: darkviolet;
+}
+
+.oc-deeppink {
+	outline-color: deeppink;
+}
+
+.oc-deepskyblue {
+	outline-color: deepskyblue;
+}
+
+.oc-dodgerblue {
+	outline-color: dodgerblue;
+}
+
+.oc-firebrick {
+	outline-color: firebrick;
+}
+
+.oc-floralwhite {
+	outline-color: floralwhite;
+}
+
+.oc-forestgreen {
+	outline-color: forestgreen;
+}
+
+.oc-fuchsia {
+	outline-color: fuchsia;
+}
+
+.oc-ghostwhite {
+	outline-color: ghostwhite;
+}
+
+.oc-gold {
+	outline-color: gold;
+}
+
+.oc-goldenrod {
+	outline-color: goldenrod;
+}
+
+.oc-green {
+	outline-color: green;
+}
+
+.oc-greenyellow {
+	outline-color: greenyellow;
+}
+
+.oc-honeydew {
+	outline-color: honeydew;
+}
+
+.oc-hotpink {
+	outline-color: hotpink;
+}
+
+.oc-indianred {
+	outline-color: indianred;
+}
+
+.oc-indigo {
+	outline-color: indigo;
+}
+
+.oc-ivory {
+	outline-color: ivory;
+}
+
+.oc-khaki {
+	outline-color: khaki;
+}
+
+.oc-lavender {
+	outline-color: lavender;
+}
+
+.oc-lavenderblush {
+	outline-color: lavenderblush;
+}
+
+.oc-lawngreen {
+	outline-color: lawngreen;
+}
+
+.oc-lemonchiffon {
+	outline-color: lemonchiffon;
+}
+
+.oc-lightblue {
+	outline-color: lightblue;
+}
+
+.oc-lightcoral {
+	outline-color: lightcoral;
+}
+
+.oc-lightcyan {
+	outline-color: lightcyan;
+}
+
+.oc-lightgoldenrodyellow {
+	outline-color: lightgoldenrodyellow;
+}
+
+.oc-lightgreen {
+	outline-color: lightgreen;
+}
+
+.oc-lightpink {
+	outline-color: lightpink;
+}
+
+.oc-lightsalmon {
+	outline-color: lightsalmon;
+}
+
+.oc-lightseagreen {
+	outline-color: lightseagreen;
+}
+
+.oc-lightskyblue {
+	outline-color: lightskyblue;
+}
+
+.oc-lightslategray {
+	outline-color: lightslategray;
+}
+
+.oc-lightsteelblue {
+	outline-color: lightsteelblue;
+}
+
+.oc-lightyellow {
+	outline-color: lightyellow;
+}
+
+.oc-lime {
+	outline-color: lime;
+}
+
+.oc-limegreen {
+	outline-color: limegreen;
+}
+
+.oc-linen {
+	outline-color: linen;
+}
+
+.oc-magenta {
+	outline-color: magenta;
+}
+
+.oc-maroon {
+	outline-color: maroon;
+}
+
+.oc-mediumaquamarine {
+	outline-color: mediumaquamarine;
+}
+
+.oc-mediumblue {
+	outline-color: mediumblue;
+}
+
+.oc-mediumorchid {
+	outline-color: mediumorchid;
+}
+
+.oc-mediumpurple {
+	outline-color: mediumpurple;
+}
+
+.oc-mediumseagreen {
+	outline-color: mediumseagreen;
+}
+
+.oc-mediumslateblue {
+	outline-color: mediumslateblue;
+}
+
+.oc-mediumspringgreen {
+	outline-color: mediumspringgreen;
+}
+
+.oc-mediumturquoise {
+	outline-color: mediumturquoise;
+}
+
+.oc-mediumvioletred {
+	outline-color: mediumvioletred;
+}
+
+.oc-midnightblue {
+	outline-color: midnightblue;
+}
+
+.oc-mintcream {
+	outline-color: mintcream;
+}
+
+.oc-mistyrose {
+	outline-color: mistyrose;
+}
+
+.oc-moccasin {
+	outline-color: moccasin;
+}
+
+.oc-navajowhite {
+	outline-color: navajowhite;
+}
+
+.oc-navy {
+	outline-color: navy;
+}
+
+.oc-oldlace {
+	outline-color: oldlace;
+}
+
+.oc-olive {
+	outline-color: olive;
+}
+
+.oc-olivedrab {
+	outline-color: olivedrab;
+}
+
+.oc-orange {
+	outline-color: orange;
+}
+
+.oc-orangered {
+	outline-color: orangered;
+}
+
+.oc-orchid {
+	outline-color: orchid;
+}
+
+.oc-palegoldenrod {
+	outline-color: palegoldenrod;
+}
+
+.oc-palegreen {
+	outline-color: palegreen;
+}
+
+.oc-paleturquoise {
+	outline-color: paleturquoise;
+}
+
+.oc-palevioletred {
+	outline-color: palevioletred;
+}
+
+.oc-papayawhip {
+	outline-color: papayawhip;
+}
+
+.oc-peachpuff {
+	outline-color: peachpuff;
+}
+
+.oc-peru {
+	outline-color: peru;
+}
+
+.oc-pink {
+	outline-color: pink;
+}
+
+.oc-plum {
+	outline-color: plum;
+}
+
+.oc-powderblue {
+	outline-color: powderblue;
+}
+
+.oc-purple {
+	outline-color: purple;
+}
+
+.oc-red {
+	outline-color: red;
+}
+
+.oc-rosybrown {
+	outline-color: rosybrown;
+}
+
+.oc-royalblue {
+	outline-color: royalblue;
+}
+
+.oc-saddlebrown {
+	outline-color: saddlebrown;
+}
+
+.oc-salmon {
+	outline-color: salmon;
+}
+
+.oc-sandybrown {
+	outline-color: sandybrown;
+}
+
+.oc-seagreen {
+	outline-color: seagreen;
+}
+
+.oc-seashell {
+	outline-color: seashell;
+}
+
+.oc-sienna {
+	outline-color: sienna;
+}
+
+.oc-skyblue {
+	outline-color: skyblue;
+}
+
+.oc-slateblue {
+	outline-color: slateblue;
+}
+
+.oc-slategray {
+	outline-color: slategray;
+}
+
+.oc-snow {
+	outline-color: snow;
+}
+
+.oc-springgreen {
+	outline-color: springgreen;
+}
+
+.oc-steelblue {
+	outline-color: steelblue;
+}
+
+.oc-tan {
+	outline-color: tan;
+}
+
+.oc-teal {
+	outline-color: teal;
+}
+
+.oc-thistle {
+	outline-color: thistle;
+}
+
+.oc-tomato {
+	outline-color: tomato;
+}
+
+.oc-turquoise {
+	outline-color: turquoise;
+}
+
+.oc-violet {
+	outline-color: violet;
+}
+
+.oc-wheat {
+	outline-color: wheat;
+}
+
+.oc-yellow {
+	outline-color: yellow;
+}
+
+.oc-yellowgreen {
+	outline-color: yellowgreen;
+}
 
 
 

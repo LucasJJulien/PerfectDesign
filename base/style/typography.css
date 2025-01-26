@@ -1375,6 +1375,530 @@
     color: #030303;
 }
   
-  
-  
-  
+.c-aliceblue {
+	color: aliceblue;
+}
+
+.c-antiquewhite {
+	color: antiquewhite;
+}
+
+.c-aqua {
+	color: aqua;
+}
+
+.c-aquamarine {
+	color: aquamarine;
+}
+
+.c-azure {
+	color: azure;
+}
+
+.c-beige {
+	color: beige;
+}
+
+.c-bisque {
+	color: bisque;
+}
+
+.c-blanchedalmond {
+	color: blanchedalmond;
+}
+
+.c-blue {
+	color: blue;
+}
+
+.c-blueviolet {
+	color: blueviolet;
+}
+
+.c-brown {
+	color: brown;
+}
+
+.c-burlywood {
+	color: burlywood;
+}
+
+.c-cadetblue {
+	color: cadetblue;
+}
+
+.c-chartreuse {
+	color: chartreuse;
+}
+
+.c-chocolate {
+	color: chocolate;
+}
+
+.c-coral {
+	color: coral;
+}
+
+.c-cornflowerblue {
+	color: cornflowerblue;
+}
+
+.c-cornsilk {
+	color: cornsilk;
+}
+
+.c-crimson {
+	color: crimson;
+}
+
+.c-cyan {
+	color: cyan;
+}
+
+.c-darkblue {
+	color: darkblue;
+}
+
+.c-darkcyan {
+	color: darkcyan;
+}
+
+.c-darkgoldenrod {
+	color: darkgoldenrod;
+}
+
+.c-darkgreen {
+	color: darkgreen;
+}
+
+.c-darkkhaki {
+	color: darkkhaki;
+}
+
+.c-darkmagenta {
+	color: darkmagenta;
+}
+
+.c-darkolivegreen {
+	color: darkolivegreen;
+}
+
+.c-darkorange {
+	color: darkorange;
+}
+
+.c-darkorchid {
+	color: darkorchid;
+}
+
+.c-darkred {
+	color: darkred;
+}
+
+.c-darksalmon {
+	color: darksalmon;
+}
+
+.c-darkseagreen {
+	color: darkseagreen;
+}
+
+.c-darkslateblue {
+	color: darkslateblue;
+}
+
+.c-darkslategray {
+	color: darkslategray;
+}
+
+.c-darkslategrey {
+	color: darkslategrey;
+}
+
+.c-darkturquoise {
+	color: darkturquoise;
+}
+
+.c-darkviolet {
+	color: darkviolet;
+}
+
+.c-deeppink {
+	color: deeppink;
+}
+
+.c-deepskyblue {
+	color: deepskyblue;
+}
+
+.c-dodgerblue {
+	color: dodgerblue;
+}
+
+.c-firebrick {
+	color: firebrick;
+}
+
+.c-floralwhite {
+	color: floralwhite;
+}
+
+.c-forestgreen {
+	color: forestgreen;
+}
+
+.c-fuchsia {
+	color: fuchsia;
+}
+
+.c-ghostwhite {
+	color: ghostwhite;
+}
+
+.c-gold {
+	color: gold;
+}
+
+.c-goldenrod {
+	color: goldenrod;
+}
+
+.c-green {
+	color: green;
+}
+
+.c-greenyellow {
+	color: greenyellow;
+}
+
+.c-honeydew {
+	color: honeydew;
+}
+
+.c-hotpink {
+	color: hotpink;
+}
+
+.c-indianred {
+	color: indianred;
+}
+
+.c-indigo {
+	color: indigo;
+}
+
+.c-ivory {
+	color: ivory;
+}
+
+.c-khaki {
+	color: khaki;
+}
+
+.c-lavender {
+	color: lavender;
+}
+
+.c-lavenderblush {
+	color: lavenderblush;
+}
+
+.c-lawngreen {
+	color: lawngreen;
+}
+
+.c-lemonchiffon {
+	color: lemonchiffon;
+}
+
+.c-lightblue {
+	color: lightblue;
+}
+
+.c-lightcoral {
+	color: lightcoral;
+}
+
+.c-lightcyan {
+	color: lightcyan;
+}
+
+.c-lightgoldenrodyellow {
+	color: lightgoldenrodyellow;
+}
+
+.c-lightgreen {
+	color: lightgreen;
+}
+
+.c-lightpink {
+	color: lightpink;
+}
+
+.c-lightsalmon {
+	color: lightsalmon;
+}
+
+.c-lightseagreen {
+	color: lightseagreen;
+}
+
+.c-lightskyblue {
+	color: lightskyblue;
+}
+
+.c-lightslategray {
+	color: lightslategray;
+}
+
+.c-lightsteelblue {
+	color: lightsteelblue;
+}
+
+.c-lightyellow {
+	color: lightyellow;
+}
+
+.c-lime {
+	color: lime;
+}
+
+.c-limegreen {
+	color: limegreen;
+}
+
+.c-linen {
+	color: linen;
+}
+
+.c-magenta {
+	color: magenta;
+}
+
+.c-maroon {
+	color: maroon;
+}
+
+.c-mediumaquamarine {
+	color: mediumaquamarine;
+}
+
+.c-mediumblue {
+	color: mediumblue;
+}
+
+.c-mediumorchid {
+	color: mediumorchid;
+}
+
+.c-mediumpurple {
+	color: mediumpurple;
+}
+
+.c-mediumseagreen {
+	color: mediumseagreen;
+}
+
+.c-mediumslateblue {
+	color: mediumslateblue;
+}
+
+.c-mediumspringgreen {
+	color: mediumspringgreen;
+}
+
+.c-mediumturquoise {
+	color: mediumturquoise;
+}
+
+.c-mediumvioletred {
+	color: mediumvioletred;
+}
+
+.c-midnightblue {
+	color: midnightblue;
+}
+
+.c-mintcream {
+	color: mintcream;
+}
+
+.c-mistyrose {
+	color: mistyrose;
+}
+
+.c-moccasin {
+	color: moccasin;
+}
+
+.c-navajowhite {
+	color: navajowhite;
+}
+
+.c-navy {
+	color: navy;
+}
+
+.c-oldlace {
+	color: oldlace;
+}
+
+.c-olive {
+	color: olive;
+}
+
+.c-olivedrab {
+	color: olivedrab;
+}
+
+.c-orange {
+	color: orange;
+}
+
+.c-orangered {
+	color: orangered;
+}
+
+.c-orchid {
+	color: orchid;
+}
+
+.c-palegoldenrod {
+	color: palegoldenrod;
+}
+
+.c-palegreen {
+	color: palegreen;
+}
+
+.c-paleturquoise {
+	color: paleturquoise;
+}
+
+.c-palevioletred {
+	color: palevioletred;
+}
+
+.c-papayawhip {
+	color: papayawhip;
+}
+
+.c-peachpuff {
+	color: peachpuff;
+}
+
+.c-peru {
+	color: peru;
+}
+
+.c-pink {
+	color: pink;
+}
+
+.c-plum {
+	color: plum;
+}
+
+.c-powderblue {
+	color: powderblue;
+}
+
+.c-purple {
+	color: purple;
+}
+
+.c-red {
+	color: red;
+}
+
+.c-rosybrown {
+	color: rosybrown;
+}
+
+.c-royalblue {
+	color: royalblue;
+}
+
+.c-saddlebrown {
+	color: saddlebrown;
+}
+
+.c-salmon {
+	color: salmon;
+}
+
+.c-sandybrown {
+	color: sandybrown;
+}
+
+.c-seagreen {
+	color: seagreen;
+}
+
+.c-seashell {
+	color: seashell;
+}
+
+.c-sienna {
+	color: sienna;
+}
+
+.c-skyblue {
+	color: skyblue;
+}
+
+.c-slateblue {
+	color: slateblue;
+}
+
+.c-slategray {
+	color: slategray;
+}
+
+.c-snow {
+	color: snow;
+}
+
+.c-springgreen {
+	color: springgreen;
+}
+
+.c-steelblue {
+	color: steelblue;
+}
+
+.c-tan {
+	color: tan;
+}
+
+.c-teal {
+	color: teal;
+}
+
+.c-thistle {
+	color: thistle;
+}
+
+.c-tomato {
+	color: tomato;
+}
+
+.c-turquoise {
+	color: turquoise;
+}
+
+.c-violet {
+	color: violet;
+}
+
+.c-wheat {
+	color: wheat;
+}
+
+.c-yellow {
+	color: yellow;
+}
+
+.c-yellowgreen {
+	color: yellowgreen;
+}
