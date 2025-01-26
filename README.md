@@ -306,6 +306,7 @@ perfectdesign/
 │       ├── typography.css
 │       ├── background.css
 │       ├── animations.css
+│       ├── svg.css
 │       └── effects.css
 │   └── utilities/
 │       ├── interactivity.css
