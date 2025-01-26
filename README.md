@@ -94,7 +94,10 @@ Here's a starter template using an HTML 5 doctype:
 ## Other Start Options
 
 ### Local use
-To have PerfectDesign in your project locally for modification or otherwise, download the source code. Create a perfectdesign.css (or whatever name) and copy the following to reference all the directories. Make sure to do a find and replace to edit the directories.
+To have PerfectDesign in your project locally for modification or otherwise, download the source code. Create a perfectdesign.css (or whatever name) and copy the following to reference all the directories. Make sure to do a find and replace to edit the directories to where your files actually are.
+
+<details>
+  <summary><b>Reference CSS</b></summary> <br />
 
 ```css
 @import url('/Users/user/Development/PerfectDesign/modules/components/buttons.css');
@@ -126,7 +129,9 @@ To have PerfectDesign in your project locally for modification or otherwise, dow
 @import url('/Users/user/Development/PerfectDesign/responsive/mobile.css');
 ```
 
-In your project link perfectdesign.css itself. 
+</details>
+
+In your project link the reference file itself, in this case, named perfectdesign.css. 
 
 ```html
 <link rel="stylesheet" type="text/css" href="/users/user/Development/perfectdesign.css'">
