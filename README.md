@@ -198,6 +198,7 @@ The naming convention in PerfectDesign mimics the very CSS syntax it's referenci
 - The value remains as is: ```baseline -> baseline```
 - The unit (if applicable) is abbreviated: pixels ```px```, percent ```p```, rem ```rem```, em ```em```, deg ```deg```
 - Dashes are ignored: ```background-color -> bgc``` ```flex-start -> flexstart```
+- Colons are replaced with dashes: ```order: 1 -> o-1```
 - Multiple values are separated by an underscore: ```columns: 100px 3 -> c-100px_3```
 - Decimals are replaced with the letter d: ```font-size: 1.75rem -> fs-1d75rem```
 - Negative values are indicated with the letter n: ```letter-spacing: -0.05rem -> ls-nd05rem```
