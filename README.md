@@ -48,8 +48,7 @@ The guiding principles of PerfectDesign are as follows:
 - [ ] Add examples/templates
 - [ ] Expand EM support
 - [ ] Expand REM support
-- [ ] Build color palette
-- [ ] System to bundle all CSS into one file for easier import and local usage
+- [ ] Expand color palette
 
 ## Documentation
 PerfectDesign does not have additional documentation apart from what's on this readme. Since it's a library, not a framework, with syntax derived from CSS itself, there's isn't much to document on. If you know CSS, you know how to use this. 
@@ -247,21 +246,18 @@ perfectdesign/
 │       ├── grid.css
 │       ├── positioning.css
 │       ├── spacing.css
-│       ├── stack.css
 │       └── alignment.css
 │   ├── structure/
 │       ├── element.css
 │       └── sizing.css
 │   ├── style/
-│       ├── backdropfilter.css
+│       ├── border.css
+│       ├── filters.css
+│       ├── typography.css
 │       └── effects.css
-│   ├── typography/
-│       ├── fonts.css
-│       └── text.css
 │   └── media/
 │       └── background.css
 │   └── utilities/
-│       ├── modifiers.css
 │       └── transformations.css
 ├── core/
 │   └── global.css
