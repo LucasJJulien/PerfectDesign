@@ -1,4 +1,26 @@
 
+/* Color-Scheme */
+
+.cs-light {
+    color-scheme: light;
+}
+
+.cs-dark {
+    color-scheme: dark;
+}
+
+.cs-only_light {
+    color-scheme: only light;
+}
+
+.cs-only_dark {
+    color-scheme: only dark;
+}
+
+.cs-light_dark {
+    color-scheme: light dark;
+}
+
 /* Blur */
 
 .f-blur5px {

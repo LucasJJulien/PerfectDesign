@@ -1,12 +1,8 @@
-
-/* Stable */
-
 @import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/modules/components/buttons.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/modules/components/cards.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/modules/components/buttons.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/modules/layout.css');
 
 @import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/core/global.css');
-
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/media/background.css');
 
 @import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/layout/alignment.css');
 @import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/layout/flexbox.css');
@@ -23,12 +19,12 @@
 @import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/style/effects.css');
 @import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/style/filters.css');
 @import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/style/backdropfilter.css');
-
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/typography/fonts.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/typography/text.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/style/background.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/style/typography.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/style/animations.css');
 
 @import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/utilities/transformations.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/utilities/modifiers.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@0.1.0/base/utilities/interactivity.css');
 
 
 

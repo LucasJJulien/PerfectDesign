@@ -89,6 +89,26 @@
     white-space: pre-line;
 }
 
+/* Writing-Mode */
+
+.wm-horizontal_tb {
+    writing-mode: horizontal-tb;
+}
+
+.wm-vertical_rl {
+    writing-mode: vertical-rl; 
+}
+
+.wm-vertical_lr {
+    writing-mode: vertical-lr; 
+}
+
+/* Direction */
+
+.d-rtl {
+    direction: rtl;
+}
+
 /* Font Size */
 
 .fs-1px {
