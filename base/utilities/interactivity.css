@@ -1,0 +1,142 @@
+
+/* Cursor */
+
+.c-alias {
+    cursor: alias;
+}
+
+.c-allscroll {
+    cursor: all-scroll;
+}
+
+.c-auto {
+    cursor: auto;
+}
+
+.c-cell {
+    cursor: cell;
+}
+
+.c-colresize {
+    cursor: col-resize;
+}
+
+.c-contextmenu {
+    cursor: context-menu;
+}
+
+.c-copy {
+    cursor: copy;
+}
+
+.c-crosshair {
+    cursor: crosshair;
+}
+
+.c-default {
+    cursor: default;
+}
+
+.c-eresize {
+    cursor: e-resize;
+}
+
+.c-ewresize {
+    cursor: ew-resize;
+}
+
+.c-grab {
+    cursor: grab;
+}
+
+.c-grabbing {
+    cursor: grabbing;
+}
+
+.c-help {
+    cursor: help;
+}
+
+.c-move {
+    cursor: move;
+}
+
+.c-nresize {
+    cursor: n-resize;
+}
+
+.c-neresize {
+    cursor: ne-resize;
+}
+
+.c-neswresize {
+    cursor: nesw-resize;
+}
+
+.c-nsresize {
+    cursor: ns-resize;
+}
+
+.c-nwresize {
+    cursor: nw-resize;
+}
+
+.c-nwseresize {
+    cursor: nwse-resize;
+}
+
+.c-nodrop {
+    cursor: no-drop;
+}
+
+.c-none {
+    cursor: none;
+}
+
+.c-notallowed {
+    cursor: not-allowed;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
+
+.c-progress {
+    cursor: progress;
+}
+
+.c-rowresize {
+    cursor: row-resize;
+}
+
+.c-sresize {
+    cursor: s-resize;
+}
+
+.c-seresize {
+    cursor: se-resize;
+}
+
+.c-swresize {
+    cursor: sw-resize;
+}
+
+.c-text {
+    cursor: text;
+}
+
+.c-wresize {
+    cursor: w-resize;
+}
+
+.c-wait {
+    cursor: wait;
+}
+
+.c-zoomin {
+    cursor: zoom-in;
+}
+
+.c-zoomout {
+    cursor: zoom-out;
+}
