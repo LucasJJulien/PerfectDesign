@@ -140,3 +140,23 @@
 .c-zoomout {
     cursor: zoom-out;
 }
+
+/* Scroll-Behavior */
+
+.sb-smooth {
+    scroll-behavior: smooth;
+}
+
+/* User-Select */
+
+.us-none {
+    user-select: none;
+}
+
+.us-text {
+    user-select: text;
+}
+
+.us-all {
+    user-select: all;
+}

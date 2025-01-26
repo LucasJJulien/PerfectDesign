@@ -19,6 +19,20 @@
     box-decoration-break: slice;
 }
 
+/* Resize */
+
+.r-both {
+    resize: both;
+}
+
+.r-vertical {
+    resize: vertical;
+}
+
+.r-horizantal {
+    resize: horizontal;
+}
+
 /* Width (Percent) */
 
 .w-auto {
