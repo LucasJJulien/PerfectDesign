@@ -94,14 +94,50 @@ Here's a starter template using an HTML 5 doctype:
 ## Other Start Options
 
 ### Local use
-To have PerfectDesign in your project locally for modification or otherwise, download the source code and reference the directory where it is located. For example: 
+To have PerfectDesign in your project locally for modification or otherwise, download the source code. Create a perfectdesign.css (or whatever name) and copy the following to reference all the directories. Make sure to do a find and replace to edit the directories.
+
+```css
+@import url('/Users/user/Development/PerfectDesign/modules/components/buttons.css');
+@import url('/Users/user/Development/PerfectDesign/modules/components/cards.css');
+@import url('/Users/user/Development/PerfectDesign/modules/layout.css');
+
+@import url('/Users/user/Development/PerfectDesign/core/global.css');
+
+@import url('/Users/user/Development/PerfectDesign/base/layout/alignment.css');
+@import url('/Users/user/Development/PerfectDesign/base/layout/flexbox.css');
+@import url('/Users/user/Development/PerfectDesign/base/layout/grid.css');
+@import url('/Users/user/Development/PerfectDesign/base/layout/positioning.css');
+@import url('/Users/user/Development/PerfectDesign/base/layout/spacing.css');
+@import url('/Users/user/Development/PerfectDesign/base/layout/table.css');
+
+@import url('/Users/user/Development/PerfectDesign/base/structure/sizing.css');
+
+@import url('/Users/user/Development/PerfectDesign/base/style/border.css');
+@import url('/Users/user/Development/PerfectDesign/base/style/effects.css');
+@import url('/Users/user/Development/PerfectDesign/base/style/filters.css');
+@import url('/Users/user/Development/PerfectDesign/base/style/backdropfilter.css');
+@import url('/Users/user/Development/PerfectDesign/base/style/background.css');
+@import url('/Users/user/Development/PerfectDesign/base/style/typography.css');
+
+@import url('/Users/user/Development/PerfectDesign/base/utilities/transformations.css');
+@import url('/Users/user/Development/PerfectDesign/base/utilities/interactivity.css');
+
+
+@import url('/Users/user/Development/PerfectDesign/responsive/mobile.css');
+```
+
+In your project link perfectdesign.css itself. 
 
 ```html
-<link rel="stylesheet" type="text/css" href="/users/lucasjulien/Development/perfectdesign.css'">
+<link rel="stylesheet" type="text/css" href="/users/user/Development/perfectdesign.css'">
+```
+```css
+@import url('/users/user/Development/perfectdesign.css');
 ```
 
 ### Using other versions
 The above links reference the last stable release of PerfectDesign. To pull the latest source code, use the following link - keep in mind the latest code is unstable and can introduce breaking changes.
+
 ```css
 https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/complete.css
 ```
@@ -137,7 +173,7 @@ To import only the modules (these function independently from base css):
 modules.css
 ```
 
-### Minified
+### Minified - (Currently Non-Functional)
 Minified CSS can also be used:
 
 ```html
@@ -253,10 +289,11 @@ perfectdesign/
 │       ├── border.css
 │       ├── filters.css
 │       ├── typography.css
+│       ├── background.css
+│       ├── animations.css
 │       └── effects.css
-│   └── media/
-│       └── background.css
 │   └── utilities/
+│       ├── interactivity.css
 │       └── transformations.css
 ├── core/
 │   └── global.css
@@ -267,8 +304,11 @@ perfectdesign/
 │       └── cards.css
 ├── production/
 │   ├── latest/
-│   ├── local/
+│       └── complete.css
 │   └── stable/
+│       ├── complete.css
+│       ├── base.css
+│       └── modules.css
 ├── responsive/
 │   └── mobile.css
 └── src/
