@@ -138,11 +138,8 @@ To have PerfectDesign in your project locally for modification or otherwise, dow
 
 In your project link the reference file itself, in this case, named perfectdesign.css. 
 
-```html
-<link rel="stylesheet" type="text/css" href="/users/user/Development/perfectdesign.css'">
-```
 ```css
-@import url('/users/user/Development/perfectdesign.css');
+/users/user/Development/perfectdesign.css
 ```
 
 ### Referencing the Main branch
