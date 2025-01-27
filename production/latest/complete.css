@@ -1,5 +1,4 @@
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@main/modules/components/buttons.css');
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@main/modules/components/buttons.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@main/modules/components.css');
 @import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@main/modules/layout.css');
 
 @import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@main/core/global.css');
@@ -24,6 +23,8 @@
 @import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@main/base/utilities/interactivity.css');
 @import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@main/base/utilities/transformations.css');
 
-
-
-@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@main//responsive/mobile.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@main/responsive/sm.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@main/responsive/md.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@main/responsive/lg.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@main/responsive/xl.css');
+@import url('https://cdn.jsdelivr.net/gh/lucasjjulien/perfectdesign@main/responsive/2xl.css');

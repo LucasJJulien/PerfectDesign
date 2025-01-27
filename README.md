@@ -34,11 +34,8 @@ The guiding principles of PerfectDesign are as follows:
 - [x] Expand ReadMe
 - [x] Expand color palette
 - [ ] Add sm, md, lg, etc attributes to all properties
-- [ ] Add responsive attributes for other devices, namely
+- [ ] Add responsive attributes for other display sizes
 - [ ] Animations
-  - [ ] Mobile
-  - [ ] Tablets
-  - [ ] Dynamic
 - [ ] Add components
   - [ ] Buttons
   - [ ] Cards
@@ -100,34 +97,36 @@ To have PerfectDesign in your project locally for modification or otherwise, dow
   <summary><b>Reference CSS</b></summary> <br />
 
 ```css
-@import url('/Users/user/Development/PerfectDesign/modules/components/buttons.css');
-@import url('/Users/user/Development/PerfectDesign/modules/components/cards.css');
-@import url('/Users/user/Development/PerfectDesign/modules/layout.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/modules/components.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/modules/layout.css');
 
-@import url('/Users/user/Development/PerfectDesign/core/global.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/core/global.css');
 
-@import url('/Users/user/Development/PerfectDesign/base/layout/alignment.css');
-@import url('/Users/user/Development/PerfectDesign/base/layout/flexbox.css');
-@import url('/Users/user/Development/PerfectDesign/base/layout/grid.css');
-@import url('/Users/user/Development/PerfectDesign/base/layout/positioning.css');
-@import url('/Users/user/Development/PerfectDesign/base/layout/spacing.css');
-@import url('/Users/user/Development/PerfectDesign/base/layout/table.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/alignment.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/flexbox.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/grid.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/positioning.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/spacing.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/table.css');
 
-@import url('/Users/user/Development/PerfectDesign/base/structure/sizing.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/base/structure/sizing.css');
 
-@import url('/Users/user/Development/PerfectDesign/base/style/border.css');
-@import url('/Users/user/Development/PerfectDesign/base/style/effects.css');
-@import url('/Users/user/Development/PerfectDesign/base/style/filters.css');
-@import url('/Users/user/Development/PerfectDesign/base/style/animations.css');
-@import url('/Users/user/Development/PerfectDesign/base/style/background.css');
-@import url('/Users/user/Development/PerfectDesign/base/style/typography.css');
-@import url('/Users/user/Development/PerfectDesign/base/style/svg.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/animations.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/background.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/border.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/effects.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/filters.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/svg.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/typography.css');
 
-@import url('/Users/user/Development/PerfectDesign/base/utilities/transformations.css');
-@import url('/Users/user/Development/PerfectDesign/base/utilities/interactivity.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/base/utilities/interactivity.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/base/utilities/transformations.css');
 
-
-@import url('/Users/user/Development/PerfectDesign/responsive/mobile.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/responsive/sm.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/responsive/md.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/responsive/lg.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/responsive/xl.css');
+@import url('/Users/lucasjulien/Development/PerfectDesign/responsive/2xl.css');
 ```
 
 </details>
@@ -316,9 +315,7 @@ perfectdesign/
 │   └── global.css
 ├── modules/
 │   ├── layout.css
-│   └── components/
-│       ├── buttons.css
-│       └── cards.css
+│   └── components.css
 ├── production/
 │   ├── latest/
 │       └── complete.css
@@ -327,9 +324,13 @@ perfectdesign/
 │       ├── base.css
 │       └── modules.css
 ├── responsive/
-│   └── mobile.css
+│   ├── 2xl.css
+│   ├── xl.css
+│   ├── lg.css
+│   ├── md.css
+│   └── sm.css
 └── src/
-    └── js
+    └── index.js
 ```
 
 ## Versioning
