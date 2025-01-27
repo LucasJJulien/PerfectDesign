@@ -10,13 +10,13 @@
 > Currently in alpha. Many aspects are underdeveloped, and in some scenarios, severly so.
 
 ## What is PerfectDesign?
-PerfectDesign is a simple, uniform, lightweight, and dependency-less CSS library delivering core utilities, base modules, and nothing more - all in pure css. It uses a naming convention based on uniformity and forthrightness, following a syntax based directly on the underlying CSS: ```{property}-{value}{unit}```. The first letter of each word of the property is extracted, the "value" remains as-is, and the unit is abbreviated: ```d-flex``` is ```display: flex```, ```fs-10px``` is ```fontsize: 10px```. 
+PerfectDesign is a simple, uniform, lightweight, and dependency-less, CSS library delivering core utilities, base modules, and nothing more - all in pure css. It uses a forthright [naming convention](#naming-convention) following a syntax based directly on the underlying CSS.
 
 Usage is inherently simple and doesn't require installation or package managers (although NPM support is planned) - just link PerfectDesign in your HTML header file. 
 
 The guiding principles of PerfectDesign are as follows: 
-- Utility first architecture to remove the abstraction and bloat of component-based libraries
-- Freedom, you aren't forced to choose from pre-curated lists like ```text-sm```, although they are available for uniformity
+- Utility and desktop first architecture
+- Freedom - you aren't forced to choose from pre-curated lists like ```text-sm```, although they are available for uniformity
 
 ## Table of contents
 - [Roadmap](#roadmap)
@@ -48,20 +48,25 @@ The guiding principles of PerfectDesign are as follows:
 - [ ] Expand REM support
 
 ## Documentation
-PerfectDesign does not have additional documentation apart from what's on this readme. Since it's a library, not a framework, with syntax derived from CSS itself, there's isn't much to document on. If you know CSS, you know how to use this. 
+PerfectDesign does not have additional documentation apart from what's on this readme. Since it's a library with syntax derived from CSS itself, if you know the underlying CSS, you know this. 
 
 ## Quick Start
-PerfectDesign requires no installation or package managers. Instead, just reference the CSS file in your HTML head section. The production folder contains several CSS files that link PerfectDesign together - this is what you import for most use cases. These automatically reference all the css files distributed across the many organization folders - ```complete.css``` includes the entire project. It can be linked with the following code: 
+PerfectDesign requires no installation or package managers. Instead, just reference the CSS file in your HTML head section or CSS file. The production folder contains several CSS files that link PerfectDesign together - this is what you import for most use cases. These automatically reference all the css files distributed across the many organization folders - ```complete.css``` includes the entire project. It can be linked with the following code: 
 
 
 > [!IMPORTANT]  
 > This is the recommended method. Due to the current alpha nature of the project, there is constant restructuring and reformatting - the following link will keep everything working despite the fundamental changes occuring on our end. 
 
+```css
+https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/stable/complete.css
+```
+With either:
+
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/stable/complete.css">
+<link rel="stylesheet" type="text/css" href="">
 ```
 ```css
-@import url('https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/stable/complete.css');
+@import url('');
 ```
 
 Here's a starter template using an HTML 5 doctype:
@@ -146,9 +151,6 @@ The above links reference the last stable release of PerfectDesign. To pull the 
 ```css
 https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/complete.css
 ```
-```css
-@import url('https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/complete.css');
-```
 
 ### Using other versions
 Due to the nature of no dependencies other than JsDelivr for our CDN, we've opted not to use tools like WebPack or Parcel for bundling, and as such, tagging specific releases is not possible unless you use PerfectDesign locally. 
@@ -186,8 +188,9 @@ Minified CSS can also be used:
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign/production/stable/min/complete.css">
 ```
 
-> [!NOTE]  
-> Support for npm is planned. Although PerfectDesign was built partly to avoid the complexity of installation, the convenience and centralization of package managers is undeniable. 
+### NPM
+
+Support for npm is planned. Although PerfectDesign was built partly to avoid the complexity of installation, the convenience and centralization of package managers is undeniable. 
 
 ## Usage
 
@@ -203,8 +206,6 @@ The naming convention in PerfectDesign mimics the very CSS syntax it's referenci
 - Decimals are replaced with the letter d: ```font-size: 1.75rem -> fs-1d75rem```
 - Negative values are indicated with the letter n: ```letter-spacing: -0.05rem -> ls-nd05rem```
 
-There are expections to these conventions:
-
 ### Exceptions
 
 - ```min, max```: min and max are not reduced to m, ```minw-x``` instead of ```mw-x```
@@ -214,12 +215,14 @@ There are expections to these conventions:
 - ```background```: background is one word but instead of just being ```b``` it is represented as ```bg```
 - ```opacity```: opacity, despite being a decimal, is represented as a percentage
 
+### A side note
+
 Names like ```vertical-align-center``` are undoubtedly better descriptions than the crappy CSS property names like ```justify-content: center```, but are opinionated and applies best to it's creator. Replicating the names of the CSS properties like ```justify-content``` as ```jc``` carries over the not-so-good naming convention of CSS into HTML, but keeps everything uniform and equivalent to the standard CSS has already set. 
 
 The same goes for names with ```xs``` like ```text-xs```; the best value to be associated with the abbreviation is relative to the person. Although PerfectDesign has ```xl, xs, etc``` for ease of use, uniformity, and to build a standard within the library, we have prioritzied freedom over values predefined by the creators.
 
 ### Units and Value-Based CSS
-PerfectDesign's "default" value is technically pixels, but REM is equally supported. Pixel based values increment on an interval of 1, 5, 25, 50, and 100. Take for example width in pixels - it increments on an interval of 5 up to 100, base 25 up to 500, and base 100 up to 1000. Why? Because base 5 and 10 are perfect, and well, this is PerfectDesign. Jokes aside (I actually wasn't joking though), there's so little difference between say 50 and 55 pixels that values in between just aren't needed. Additionally, all values on base 5 adds uniformity to the design. 
+PerfectDesign's "default" value is technically pixels, but REM is mostly supported. Pixel based values increment on an interval of 1, 5, 25, 50, and 100. Take for example width in pixels - it increments on an interval of 5 up to 100, base 25 up to 500, and base 100 up to 1000. Why? Because base 5 and 10 are perfect, and well, this is PerfectDesign. Jokes aside (I actually wasn't joking though), there's so little difference between say 50 and 55 pixels that values in between just aren't needed. Additionally, all values on base 5 adds uniformity to the design. 
 
 EM follows a similar increment convention as pixels. Rem follows the default font-size of 16 with base increments of (in pixels) 2px, 4px, 8px, 16px, etc. In rem, an increment of 0.125 corresponds to 2px, 0.025 for 4px, 0.5rem for 8px, and 1rem for 16px. Here's a cheatsheet table for rem and their corresponding px units:
 
@@ -238,6 +241,9 @@ EM follows a similar increment convention as pixels. Rem follows the default fon
 
 ## Colors
 PerfectDesign doesn't have it's own color palette, instead, it has 99 shades of gray from the x11 color standards and 132 of the 140 W3C colors. The missing eight W3C colors are shades of gray - removed to prevent duplicates with x11.
+
+- Gray 76 background color: ```bgc-gray76```
+- Antiquewhite border color: ```bc-antiquewhite```
 
 ## Contributing
 > [!WARNING]  
@@ -333,6 +339,11 @@ perfectdesign/
 └── src/
     └── index.js
 ```
+
+## A note on the future
+As you might have guessed, this isn't a scalable project  - manually written massive CSS files just doesn't really work. This is merely a placeholder and the simplest version of what's to come; an on demand CSS framework that achieves a similar result but in a far more advanced manner and built upon a drastically different philosophy. The same naming convention will be used and the framework will scan html classes and generate the corresponding CSS. The project will only have build and shipment dependencies.
+
+More news to come.
 
 ## Versioning
 To adhere with the universal philosophies this very project is based on, PerfectDesign is released under [the Semantic Versioning guidelines](https://semver.org/).
