@@ -140,7 +140,7 @@ In your project link the reference file itself, in this case, named perfectdesig
 @import url('/users/user/Development/perfectdesign.css');
 ```
 
-### Using other versions
+### Referencing the Main branch
 The above links reference the last stable release of PerfectDesign. To pull the latest source code, use the following link - keep in mind the latest code is unstable and can introduce breaking changes.
 
 ```css
@@ -150,6 +150,7 @@ https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/co
 @import url('https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/complete.css');
 ```
 
+### Using other versions
 Due to the nature of no dependencies other than JsDelivr for our CDN, we've opted not to use tools like WebPack or Parcel for bundling, and as such, tagging specific releases is not possible unless you use PerfectDesign locally. 
 
 However, you can pull the specific files of previous versions. Type the version tag after the @ and then the directory. To reference ```flexbox.css``` from version 0.1.0:
