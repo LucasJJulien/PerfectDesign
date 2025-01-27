@@ -527,19 +527,19 @@
 
 /* Min-Width (Pixels) */
 
-.minw-1p {
+.minw-1px {
     min-width: 1px;
 }
 
-.minw-2p {
+.minw-2px {
     min-width: 2px;
 }
 
-.minw-3p {
+.minw-3px {
     min-width: 3px;
 }
 
-.minw-4p {
+.minw-4px {
     min-width: 4px;
 }
 

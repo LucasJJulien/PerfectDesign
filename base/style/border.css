@@ -353,6 +353,10 @@
 
 /* Border-Width */
 
+.bw-0 {
+    border-width: 0;
+}
+
 .bw-1px {
     border-width: 1px;
 }
@@ -406,6 +410,10 @@
 }
 
 /* Border-Left-Width */
+
+.blw-0 {
+    border-left-width: 0;
+}
 
 .blw-1px {
     border-left-width: 1px;
@@ -461,6 +469,10 @@
 
 /* Border-Right-Radius */
 
+.brw-0 {
+    border-right-width: 0;
+}
+
 .brw-1px {
     border-right-width: 1px;
 }
@@ -514,6 +526,10 @@
 }
 
 /* Border-Top-Width */
+
+.btw-0 {
+    border-top-width: 0;
+}
 
 .btw-1px {
     border-top-width: 1px;
@@ -569,6 +585,10 @@
 
 /* Border-Bottom-Width */
 
+.bbw-0 {
+    border-bottom-width: 0;
+}
+
 .bbw-1px {
     border-bottom-width: 1px;
 }
@@ -622,6 +642,11 @@
 }
 
 /* Border-X-Width */
+
+.bwx-0 {
+    border-left-width: 0;
+    border-right-width: 0;
+}
 
 .bwx-1px {
     border-left-width: 1px;
@@ -689,6 +714,11 @@
 }
 
 /* Border-Y-Width */
+
+.bwy-0 {
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
 
 .bwy-1px {
     border-top-width: 1px;
