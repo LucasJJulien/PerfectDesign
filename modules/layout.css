@@ -9,12 +9,12 @@
     display: flex;
 }
 
-.flexvertical {
+.flex-vertical {
     display: flex;
     flex-direction: column;
 }
 
-.flexhorizantal {
+.flex-horizontal {
     display: flex;
     flex-direction: row;
 }

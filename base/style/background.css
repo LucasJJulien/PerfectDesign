@@ -113,6 +113,10 @@
 
 /* Background-Color */
 
+.bgc-transparent {
+	background-color: transparent;
+}
+
 .bgc-black {
     background-color: black;
 }
