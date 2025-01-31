@@ -23,8 +23,10 @@ The guiding principles of PerfectDesign are as follows:
 - [Documentation](#documentation)
    - [Quick Start](#quick-start)
    - [Other Start Options](#other-start-options)
+   - [Usage](#usage)
 - [Contributing](#contributing)
 - [Bird's Eye View](#bird's-eye-view)
+- [A note on the future](#a-note-on-the-future)
 - [Versioning](#versioning)
 - [License](#license)
 
@@ -219,7 +221,7 @@ Names like ```vertical-align-center``` are undoubtedly better descriptions than 
 The same goes for names with ```xs``` like ```text-xs```; the best value to be associated with the abbreviation is relative to the person. Although PerfectDesign has ```xl, xs, etc``` for ease of use, uniformity, and to build a standard within the library, we have prioritzied freedom over values predefined by the creators.
 
 ### Units and Value-Based CSS
-PerfectDesign's "default" value is technically pixels, but REM is mostly supported. Pixel based values increment on an interval of 1, 5, 25, 50, and 100. Take for example width in pixels - it increments on an interval of 5 up to 100, base 25 up to 500, and base 100 up to 1000. Why? Because base 5 and 10 are perfect, and well, this is PerfectDesign. Jokes aside (I actually wasn't joking though), there's so little difference between say 50 and 55 pixels that values in between just aren't needed. Additionally, all values on base 5 adds uniformity to the design. 
+PerfectDesign's "default" value is technically pixels, but REM is mostly supported. Pixel based values increment on an interval of 1, 5, 25, 50, and 100. Take for example width in pixels - it increments on an interval of 1 up to 5, base 5 up to 100, base 25 up to 500, and base 100 up to 1000. Why? Because base1, 5, and 10 are perfect, and well, this is PerfectDesign. Jokes aside (I actually wasn't joking though), there's so little difference between say 50 and 55 pixels that values in between just aren't needed. Additionally, all values on base 5 adds uniformity to the design. 
 
 EM follows a similar increment convention as pixels. Rem follows the default font-size of 16 with base increments of (in pixels) 2px, 4px, 8px, 16px, etc. In rem, an increment of 0.125 corresponds to 2px, 0.025 for 4px, 0.5rem for 8px, and 1rem for 16px. Here's a cheatsheet table for rem and their corresponding px units:
 
@@ -236,9 +238,10 @@ EM follows a similar increment convention as pixels. Rem follows the default fon
 | 0.125rem | 20px |
 | 0.15rem | 24px |
 
-## Colors
-PerfectDesign doesn't have it's own color palette, instead, it has 99 shades of gray from the x11 color standards and 132 of the 140 W3C colors. The missing eight W3C colors are shades of gray - removed to prevent duplicates with x11.
+### Colors
+PerfectDesign doesn't have it's own color palette, instead, it has 99 shades of gray from the x11 color standards and 132 of the 140 W3C colors. The missing eight W3C colors are shades of gray - removed to prevent duplicates with x11. 
 
+Examples:
 - Gray 76 background color: ```bgc-gray76```
 - Antiquewhite border color: ```bc-antiquewhite```
 
