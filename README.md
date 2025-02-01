@@ -60,7 +60,7 @@ PerfectDesign requires no installation or package managers. Instead, just refere
 > This is the recommended method. Due to the current alpha nature of the project, there is constant restructuring and reformatting - the following link will keep everything working despite the fundamental changes occuring on our end. 
 
 ```css
-https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/stable/complete.css
+https://cdn.jsdelivr.net/gh/LucasJJulien/perfectdesign@0.1.0/production/stable/complete.css
 ```
 With either:
 
@@ -82,7 +82,7 @@ Here's a starter template using an HTML 5 doctype:
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- PerfectDesign CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/stable/complete.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/LucasJJulien/perfectdesign@0.1.0/production/stable/complete.css">
 
     <title>PerfectDesign</title>
     
@@ -104,36 +104,36 @@ To have PerfectDesign in your project locally for modification or otherwise, dow
   <summary><b>Reference CSS</b></summary> <br />
 
 ```css
-@import url('/Users/lucasjulien/Development/PerfectDesign/modules/components.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/modules/layout.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/modules/components.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/modules/layout.css');
 
-@import url('/Users/lucasjulien/Development/PerfectDesign/core/global.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/core/global.css');
 
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/alignment.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/flexbox.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/grid.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/positioning.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/spacing.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/table.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/layout/alignment.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/layout/flexbox.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/layout/grid.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/layout/positioning.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/layout/spacing.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/layout/table.css');
 
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/structure/sizing.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/structure/sizing.css');
 
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/animations.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/background.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/border.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/effects.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/filters.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/svg.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/typography.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/style/animations.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/style/background.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/style/border.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/style/effects.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/style/filters.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/style/svg.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/style/typography.css');
 
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/utilities/interactivity.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/utilities/transformations.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/utilities/interactivity.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/utilities/transformations.css');
 
-@import url('/Users/lucasjulien/Development/PerfectDesign/responsive/sm.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/responsive/md.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/responsive/lg.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/responsive/xl.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/responsive/2xl.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/responsive/sm.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/responsive/md.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/responsive/lg.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/responsive/xl.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/responsive/2xl.css');
 ```
 
 </details>
@@ -148,7 +148,7 @@ In your project link the reference file itself, in this case, named perfectdesig
 The above links reference the last stable release of PerfectDesign. To pull the latest source code, use the following link - keep in mind the latest code is unstable and can introduce breaking changes.
 
 ```css
-https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/complete.css
+https://cdn.jsdelivr.net/gh/LucasJJulien/perfectdesign@main/production/latest/complete.css
 ```
 
 ### Using other versions
@@ -156,7 +156,7 @@ Due to the nature of no dependencies other than JsDelivr for our CDN, we've opte
 
 However, you can pull the specific files of previous versions. Type the version tag after the @ and then the directory. To reference ```flexbox.css``` from version 0.1.0:
 ```css
-https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/base/layout/flexbox.css
+https://cdn.jsdelivr.net/gh/LucasJJulien/perfectdesign@0.1.0/base/layout/flexbox.css
 ```
 
 > [!IMPORTANT]  
@@ -184,7 +184,7 @@ modules.css
 Minified CSS can also be used:
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign/production/stable/min/complete.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/LucasJJulien/perfectdesign/production/stable/min/complete.css">
 ```
 
 ### NPM
