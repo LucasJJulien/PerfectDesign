@@ -23,8 +23,10 @@ The guiding principles of PerfectDesign are as follows:
 - [Documentation](#documentation)
    - [Quick Start](#quick-start)
    - [Other Start Options](#other-start-options)
+   - [Usage](#usage)
 - [Contributing](#contributing)
 - [Bird's Eye View](#bird's-eye-view)
+- [A note on the future](#a-note-on-the-future)
 - [Versioning](#versioning)
 - [License](#license)
 
@@ -58,7 +60,7 @@ PerfectDesign requires no installation or package managers. Instead, just refere
 > This is the recommended method. Due to the current alpha nature of the project, there is constant restructuring and reformatting - the following link will keep everything working despite the fundamental changes occuring on our end. 
 
 ```css
-https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/stable/complete.css
+https://cdn.jsdelivr.net/gh/LucasJJulien/perfectdesign@0.1.0/production/stable/complete.css
 ```
 With either:
 
@@ -80,7 +82,7 @@ Here's a starter template using an HTML 5 doctype:
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- PerfectDesign CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/production/stable/complete.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/LucasJJulien/perfectdesign@0.1.0/production/stable/complete.css">
 
     <title>PerfectDesign</title>
     
@@ -102,36 +104,36 @@ To have PerfectDesign in your project locally for modification or otherwise, dow
   <summary><b>Reference CSS</b></summary> <br />
 
 ```css
-@import url('/Users/lucasjulien/Development/PerfectDesign/modules/components.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/modules/layout.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/modules/components.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/modules/layout.css');
 
-@import url('/Users/lucasjulien/Development/PerfectDesign/core/global.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/core/global.css');
 
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/alignment.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/flexbox.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/grid.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/positioning.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/spacing.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/layout/table.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/layout/alignment.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/layout/flexbox.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/layout/grid.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/layout/positioning.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/layout/spacing.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/layout/table.css');
 
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/structure/sizing.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/structure/sizing.css');
 
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/animations.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/background.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/border.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/effects.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/filters.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/svg.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/style/typography.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/style/animations.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/style/background.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/style/border.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/style/effects.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/style/filters.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/style/svg.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/style/typography.css');
 
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/utilities/interactivity.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/base/utilities/transformations.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/utilities/interactivity.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/base/utilities/transformations.css');
 
-@import url('/Users/lucasjulien/Development/PerfectDesign/responsive/sm.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/responsive/md.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/responsive/lg.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/responsive/xl.css');
-@import url('/Users/lucasjulien/Development/PerfectDesign/responsive/2xl.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/responsive/sm.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/responsive/md.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/responsive/lg.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/responsive/xl.css');
+@import url('/Users/lucasjulien/Development/perfectdesign/responsive/2xl.css');
 ```
 
 </details>
@@ -146,7 +148,7 @@ In your project link the reference file itself, in this case, named perfectdesig
 The above links reference the last stable release of PerfectDesign. To pull the latest source code, use the following link - keep in mind the latest code is unstable and can introduce breaking changes.
 
 ```css
-https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@main/production/latest/complete.css
+https://cdn.jsdelivr.net/gh/LucasJJulien/perfectdesign@main/production/latest/complete.css
 ```
 
 ### Using other versions
@@ -154,7 +156,7 @@ Due to the nature of no dependencies other than JsDelivr for our CDN, we've opte
 
 However, you can pull the specific files of previous versions. Type the version tag after the @ and then the directory. To reference ```flexbox.css``` from version 0.1.0:
 ```css
-https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign@0.1.0/base/layout/flexbox.css
+https://cdn.jsdelivr.net/gh/LucasJJulien/perfectdesign@0.1.0/base/layout/flexbox.css
 ```
 
 > [!IMPORTANT]  
@@ -182,7 +184,7 @@ modules.css
 Minified CSS can also be used:
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/LucasJJulien/PerfectDesign/production/stable/min/complete.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/LucasJJulien/perfectdesign/production/stable/min/complete.css">
 ```
 
 ### NPM
@@ -219,7 +221,7 @@ Names like ```vertical-align-center``` are undoubtedly better descriptions than 
 The same goes for names with ```xs``` like ```text-xs```; the best value to be associated with the abbreviation is relative to the person. Although PerfectDesign has ```xl, xs, etc``` for ease of use, uniformity, and to build a standard within the library, we have prioritzied freedom over values predefined by the creators.
 
 ### Units and Value-Based CSS
-PerfectDesign's "default" value is technically pixels, but REM is mostly supported. Pixel based values increment on an interval of 1, 5, 25, 50, and 100. Take for example width in pixels - it increments on an interval of 5 up to 100, base 25 up to 500, and base 100 up to 1000. Why? Because base 5 and 10 are perfect, and well, this is PerfectDesign. Jokes aside (I actually wasn't joking though), there's so little difference between say 50 and 55 pixels that values in between just aren't needed. Additionally, all values on base 5 adds uniformity to the design. 
+PerfectDesign's "default" value is technically pixels, but REM is mostly supported. Pixel based values increment on an interval of 1, 5, 25, 50, and 100. Take for example width in pixels - it increments on an interval of 1 up to 5, base 5 up to 100, base 25 up to 500, and base 100 up to 1000. Why? Because base1, 5, and 10 are perfect, and well, this is PerfectDesign. Jokes aside (I actually wasn't joking though), there's so little difference between say 50 and 55 pixels that values in between just aren't needed. Additionally, all values on base 5 adds uniformity to the design. 
 
 EM follows a similar increment convention as pixels. Rem follows the default font-size of 16 with base increments of (in pixels) 2px, 4px, 8px, 16px, etc. In rem, an increment of 0.125 corresponds to 2px, 0.025 for 4px, 0.5rem for 8px, and 1rem for 16px. Here's a cheatsheet table for rem and their corresponding px units:
 
@@ -236,9 +238,10 @@ EM follows a similar increment convention as pixels. Rem follows the default fon
 | 0.125rem | 20px |
 | 0.15rem | 24px |
 
-## Colors
-PerfectDesign doesn't have it's own color palette, instead, it has 99 shades of gray from the x11 color standards and 132 of the 140 W3C colors. The missing eight W3C colors are shades of gray - removed to prevent duplicates with x11.
+### Colors
+PerfectDesign doesn't have it's own color palette, instead, it has 99 shades of gray from the x11 color standards and 132 of the 140 W3C colors. The missing eight W3C colors are shades of gray - removed to prevent duplicates with x11. 
 
+Examples:
 - Gray 76 background color: ```bgc-gray76```
 - Antiquewhite border color: ```bc-antiquewhite```
 
