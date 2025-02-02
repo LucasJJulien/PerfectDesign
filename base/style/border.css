@@ -41,6 +41,30 @@
     border-style: none;
 }
 
+/* Border-Left-Style */
+
+.bls-none {
+    border-left-style: none;
+}
+
+/* Border-Right-Style */
+
+.brs-none {
+    border-right-style: none;
+}
+
+/* Border-Top-Style */
+
+.bts-none {
+    border-top-style: none;
+}
+
+/* Border-Bottom-Style */
+
+.bts-none {
+    border-bottom-style: none;
+}
+
 /* Border-Radius */
 
 .br-5px {
