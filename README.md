@@ -16,7 +16,8 @@ Usage is inherently simple and doesn't require installation or package managers 
 
 The guiding principles of PerfectDesign are as follows: 
 - Utility and desktop first architecture
-- Freedom - you aren't forced to choose from pre-curated lists like ```text-sm```, although they are available for uniformity
+- Custom values prioritized - you aren't forced to choose from pre-curated lists like ```text-sm```
+- Adheres to vanilla CSS standards
 
 ## Table of contents
 - [Roadmap](#roadmap)
@@ -26,7 +27,8 @@ The guiding principles of PerfectDesign are as follows:
    - [Usage](#usage)
 - [Contributing](#contributing)
 - [Bird's Eye View](#bird's-eye-view)
-- [A note on the future](#a-note-on-the-future)
+- [Why?](#why?)
+- [A Note on the Future](#a-note-on-the-future)
 - [Versioning](#versioning)
 - [License](#license)
 
@@ -50,7 +52,7 @@ The guiding principles of PerfectDesign are as follows:
 - [ ] Expand REM support
 
 ## Documentation
-PerfectDesign does not have additional documentation apart from what's on this readme. Since it's a library with syntax derived from CSS itself, if you know the underlying CSS, you know this. 
+PerfectDesign does not have additional documentation apart from what's on this readme. Since it's a library with syntax derived from CSS itself, all that's required is knowledge of CSS. 
 
 ## Quick Start
 PerfectDesign requires no installation or package managers. Instead, just reference the CSS file in your HTML head section or CSS file. The production folder contains several CSS files that link PerfectDesign together - this is what you import for most use cases. These automatically reference all the css files distributed across the many organization folders - ```complete.css``` includes the entire project. It can be linked with the following code: 
@@ -221,7 +223,7 @@ Names like ```vertical-align-center``` are undoubtedly better descriptions than 
 The same goes for names with ```xs``` like ```text-xs```; the best value to be associated with the abbreviation is relative to the person. Although PerfectDesign has ```xl, xs, etc``` for ease of use, uniformity, and to build a standard within the library, we have prioritzied freedom over values predefined by the creators.
 
 ### Units and Value-Based CSS
-PerfectDesign's "default" value is technically pixels, but REM is mostly supported. Pixel based values increment on an interval of 1, 5, 25, 50, and 100. Take for example width in pixels - it increments on an interval of 1 up to 5, base 5 up to 100, base 25 up to 500, and base 100 up to 1000. Why? Because base1, 5, and 10 are perfect, and well, this is PerfectDesign. Jokes aside (I actually wasn't joking though), there's so little difference between say 50 and 55 pixels that values in between just aren't needed. Additionally, all values on base 5 adds uniformity to the design. 
+PerfectDesign's "default" value is pixels, but REM is mostly supported. Pixel based values increment on an interval of 1, 5, 25, 50, and 100. Take for example width in pixels - it increments on an interval of 1 up to 5, base 5 up to 100, base 25 up to 500, and base 100 up to 1000. Why? Because base1, 5, and 10 are perfect, and well, this is PerfectDesign. Jokes aside (I actually wasn't joking though), there's so little difference between say 50 and 55 pixels that values in between just aren't needed. Additionally, all values on base 5 adds uniformity to the design. 
 
 EM follows a similar increment convention as pixels. Rem follows the default font-size of 16 with base increments of (in pixels) 2px, 4px, 8px, 16px, etc. In rem, an increment of 0.125 corresponds to 2px, 0.025 for 4px, 0.5rem for 8px, and 1rem for 16px. Here's a cheatsheet table for rem and their corresponding px units:
 
@@ -287,8 +289,6 @@ It's organized logically with eight main folders:
 
 [`src`](/src/) - Javascript source code (Currently void)
 
-[`testing`](/testing/) - Grounds for experimentation
-
 Base and core can be difficult to differentiate at first. Core contains foundational CSS like global attributes. Base houses all the basic CSS like background-color, row-gap, etc. 
 
 ### How does PerfectDesign deliver the CSS?
@@ -340,10 +340,19 @@ perfectdesign/
     └── index.js
 ```
 
-## A note on the future
-As you might have guessed, this isn't a scalable project  - manually written massive CSS files just doesn't really work. This is merely a placeholder and the simplest version of what's to come; an on demand CSS framework that achieves a similar result but in a far more advanced manner and built upon a drastically different philosophy. The same naming convention will be used and the framework will scan html classes and generate the corresponding CSS. The project will only have build and shipment dependencies.
+## Why?
 
-More news to come.
+### The Purpose
+As you might have guessed, this isn't a scalable project  - manually written massive CSS files is far from optimal. So what exactly is the point or purpose of this?
+
+**PerfectDesign is a rapid experimentation platform.**
+
+This is meant for quick experimentation or even serving as the basis of smaller projects. It's easy to change, requires no installation
+
+## A Note on the Future
+As covered above, this isn't scalable. 
+
+This could be considered a placeholder and the simplest version of what's to come; an on demand CSS framework that achieves a similar result but built upon a drastically different philosophy. The project will only have build and shipment dependencies. More news to come.
 
 ## Versioning
 To adhere with the universal philosophies this very project is based on, PerfectDesign is released under [the Semantic Versioning guidelines](https://semver.org/).
