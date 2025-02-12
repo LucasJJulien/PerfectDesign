@@ -57,6 +57,8 @@ PerfectDesign does not have additional documentation apart from what's on this r
 ## Quick Start
 PerfectDesign requires no installation or package managers. Instead, just reference the CSS file in your HTML head section or CSS file. The production folder contains several CSS files that link PerfectDesign together - this is what you import for most use cases. These automatically reference all the css files distributed across the many organization folders - ```complete.css``` includes the entire project. It can be linked with the following code: 
 
+> [!NOTE]  
+> Minified CSS is shipped by default. 
 
 > [!IMPORTANT]  
 > This is the recommended method. Due to the current alpha nature of the project, there is constant restructuring and reformatting - the following link will keep everything working despite the fundamental changes occuring on our end. 
@@ -162,7 +164,7 @@ https://cdn.jsdelivr.net/gh/mustbeperfect/perfectdesign@0.1.0/base/layout/flexbo
 ```
 
 > [!IMPORTANT]  
-> Individual aspects and minified CSS are only available for the stable release of PerfectDesign. 
+> Individual aspects are only available for the stable release of PerfectDesign. 
 
 ### Importing individual aspects
 In a general sense, PerfectDesign can be separated into three sections - all of which can be individually imported if you require only a fraction of what PerfectDesign provides. 
@@ -180,13 +182,6 @@ base.css
 To import only the modules (these function independently from base css):
 ```css
 modules.css
-```
-
-### Minified - (Currently Non-Functional)
-Minified CSS can also be used:
-
-```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/mustbeperfect/perfectdesign/production/stable/min/complete.css">
 ```
 
 ### NPM
@@ -265,7 +260,7 @@ git checkout -b feature/your-feature-name
 ```
 
 ### Coding Standards
-Please adhere to our coding standards (in development) to uphold our development philosophy. 
+Our standards are pretty straightforward: just follow how we've structured the project and the code. 
 
 ## Bird's Eye View
 How does it all work under the hood?
