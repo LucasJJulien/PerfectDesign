@@ -1,6 +1,6 @@
 <p align="center">
     <a href="" alt="Perfectionary Logo">
-    <img src="https://github.com/LucasJJulien/PerfectDesign/blob/main/media/logowhite.png?raw=true" height="173"/></a>
+    <img src="https://github.com/mustbeperfect/PerfectDesign/blob/main/media/logowhite.png?raw=true" height="173"/></a>
 </p>
 
 <h1 align="center"> PerfectDesign </h1>
@@ -62,7 +62,7 @@ PerfectDesign requires no installation or package managers. Instead, just refere
 > This is the recommended method. Due to the current alpha nature of the project, there is constant restructuring and reformatting - the following link will keep everything working despite the fundamental changes occuring on our end. 
 
 ```css
-https://cdn.jsdelivr.net/gh/LucasJJulien/perfectdesign@0.1.0/production/stable/complete.css
+https://cdn.jsdelivr.net/gh/mustbeperfect/perfectdesign@0.1.0/production/stable/complete.css
 ```
 With either:
 
@@ -84,7 +84,7 @@ Here's a starter template using an HTML 5 doctype:
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- PerfectDesign CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/LucasJJulien/perfectdesign@0.1.0/production/stable/complete.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mustbeperfect/perfectdesign@0.1.0/production/stable/complete.css">
 
     <title>PerfectDesign</title>
     
@@ -150,7 +150,7 @@ In your project link the reference file itself, in this case, named perfectdesig
 The above links reference the last stable release of PerfectDesign. To pull the latest source code, use the following link - keep in mind the latest code is unstable and can introduce breaking changes.
 
 ```css
-https://cdn.jsdelivr.net/gh/LucasJJulien/perfectdesign@main/production/latest/complete.css
+https://cdn.jsdelivr.net/gh/mustbeperfect/perfectdesign@main/production/latest/complete.css
 ```
 
 ### Using other versions
@@ -158,7 +158,7 @@ Due to the nature of no dependencies other than JsDelivr for our CDN, we've opte
 
 However, you can pull the specific files of previous versions. Type the version tag after the @ and then the directory. To reference ```flexbox.css``` from version 0.1.0:
 ```css
-https://cdn.jsdelivr.net/gh/LucasJJulien/perfectdesign@0.1.0/base/layout/flexbox.css
+https://cdn.jsdelivr.net/gh/mustbeperfect/perfectdesign@0.1.0/base/layout/flexbox.css
 ```
 
 > [!IMPORTANT]  
@@ -186,7 +186,7 @@ modules.css
 Minified CSS can also be used:
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/LucasJJulien/perfectdesign/production/stable/min/complete.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/mustbeperfect/perfectdesign/production/stable/min/complete.css">
 ```
 
 ### NPM
@@ -253,7 +253,7 @@ Examples:
 
 ```
 # Clone the repository
-git clone https://github.com/LucasJJulien/PerfectDesign
+git clone https://github.com/mustbeperfect/PerfectDesign
 
 # Fork the repo
 
