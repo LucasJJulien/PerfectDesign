@@ -26,7 +26,7 @@ The guiding principles of PerfectDesign are as follows:
    - [Other Start Options](#other-start-options)
    - [Usage](#usage)
 - [Contributing](#contributing)
-- [Bird's Eye View](#bird's-eye-view)
+- [Architecture](#architecture)
 - [The Purpose](#the-purpose)
 - [A Note on the Future](#a-note-on-the-future)
 - [Versioning](#versioning)
@@ -262,7 +262,7 @@ git checkout -b feature/your-feature-name
 ### Coding Standards
 Our standards are pretty straightforward: just follow how we've structured the project and the code. 
 
-## Bird's Eye View
+## Architecture
 How does it all work under the hood?
 
 PerfectDesign is pure css. It might seem counter intuitive to use such a bad "language" in the name of simplicity when tools like SASS, PostCSS, and Less.js exist. These are great and superficially simplify the process of creating stylesheets, but require installation and end up compiling CSS in the end anyways. This is meant to be dead simple. 
