@@ -27,7 +27,7 @@ The guiding principles of PerfectDesign are as follows:
    - [Usage](#usage)
 - [Contributing](#contributing)
 - [Bird's Eye View](#bird's-eye-view)
-- [Why?](#why?)
+- [The Purpose](#the-purpose)
 - [A Note on the Future](#a-note-on-the-future)
 - [Versioning](#versioning)
 - [License](#license)
@@ -335,9 +335,7 @@ perfectdesign/
     └── index.js
 ```
 
-## Why?
-
-### The Purpose
+## The Purpose
 As you might have guessed, this isn't a scalable project  - manually written massive CSS files is far from optimal. So what exactly is the point or purpose of this?
 
 **PerfectDesign is a rapid experimentation platform.**
