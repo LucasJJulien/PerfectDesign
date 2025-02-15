@@ -18,6 +18,7 @@ The guiding principles of PerfectDesign are as follows:
 - Utility and desktop first architecture
 - Custom values prioritized - you aren't forced to choose from pre-curated lists like ```text-sm```
 - Adheres to vanilla CSS standards
+- A "formula" based naming system: applies to all CSS properties
 
 ## Table of contents
 - [Roadmap](#roadmap)
@@ -52,7 +53,7 @@ The guiding principles of PerfectDesign are as follows:
 - [ ] Expand REM support
 
 ## Documentation
-PerfectDesign does not have additional documentation apart from what's on this readme. Since it's a library with syntax derived from CSS itself, all that's required is knowledge of CSS. 
+PerfectDesign does not have additional documentation apart from what's on this readme. Since it's a library with syntax derived from CSS itself, knowledge of CSS is all that's required. 
 
 ## Quick Start
 PerfectDesign requires no installation or package managers. Instead, just reference the CSS file in your HTML head section or CSS file. The production folder contains several CSS files that link PerfectDesign together - this is what you import for most use cases. These automatically reference all the css files distributed across the many organization folders - ```complete.css``` includes the entire project. It can be linked with the following code: 
