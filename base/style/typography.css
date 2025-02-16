@@ -50,8 +50,20 @@
 }
   
 /* Font-Family (cursive) */
+
+.ff-brushscriptmt {
+    font-family: 'Brush Script MT', cursive;
+}
   
 /* Font-Family (fantasy */
+
+.ff-copperplate {
+    font-family: 'Copperplate', fantasy;
+}
+
+.ff-papyrus {
+    font-family: 'papyrus', fantasy;
+}
 
 /* Font-Style */
 
@@ -445,11 +457,11 @@
     font-size: 0.75rem;
 }
 
-.fs-125 {
+.fs-1d25 {
     font-size: 1.25rem;
 }
 
-.fs-150 {
+.fs-1d50 {
     font-size: 1.50rem;
 }
 
