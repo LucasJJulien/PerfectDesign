@@ -495,6 +495,48 @@
     font-weight: 1000;
 }
 
+/* Letter-Spacing (PX) */
+
+.ls-1px {
+    letter-spacing: 1px;
+}
+
+.ls-2px {
+    letter-spacing: 2px;
+}
+
+.ls-3px {
+    letter-spacing: 3px;
+}
+
+.ls-4px {
+    letter-spacing: 4px;
+}
+
+.ls-5px {
+    letter-spacing: 5px;
+}
+
+.ls-6px {
+    letter-spacing: 6px;
+}
+
+.ls-7px {
+    letter-spacing: 7px;
+}
+
+.ls-8px {
+    letter-spacing: 8px;
+}
+
+.ls-9px {
+    letter-spacing: 9px;
+}
+
+.ls-10px {
+    letter-spacing: 10px;
+}
+
 /* Letter-Spacing (REM) */
 
 .ls-nd05 {
