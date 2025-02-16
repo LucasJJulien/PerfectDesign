@@ -36,24 +36,19 @@ The guiding principles of PerfectDesign are as follows:
 ## Roadmap
 - [x] Add table support
 - [x] Add missing flexbox attributes
-- [x] Expand ReadMe
+- [x] Expand README
 - [x] Expand color palette
-- [ ] Add sm, md, lg, etc attributes to all properties
+- [x] Add modules
+- [x] Add prebuilt layouts
 - [ ] Add responsive attributes for other display sizes
-- [ ] Animations
-- [ ] Add components
-  - [ ] Buttons
-  - [ ] Cards
-- [ ] Add prebuilt layouts (containers)
-- [ ] Add contributing guidelines
-- [ ] Add prebuilt layouts
+- [ ] Basic animations
 - [ ] Add support for NPM
 - [ ] Add examples/templates
 - [ ] Expand EM support
 - [ ] Expand REM support
 
 ## Documentation
-PerfectDesign does not have additional documentation apart from what's on this readme. Since it's a library with syntax derived from CSS itself, knowledge of CSS is all that's required. 
+PerfectDesign does not have additional documentation apart from what's on this readme. It followes a "formula" based system with syntax derived from CSS itself.
 
 ## Quick Start
 PerfectDesign requires no installation or package managers. Instead, just reference the CSS file in your HTML head section or CSS file. The production folder contains several CSS files that link PerfectDesign together - this is what you import for most use cases. These automatically reference all the css files distributed across the many organization folders - ```complete.css``` includes the entire project. It can be linked with the following code: 
@@ -216,7 +211,7 @@ The naming convention in PerfectDesign mimics the very CSS syntax it's referenci
 
 Names like ```vertical-align-center``` are undoubtedly better descriptions than the crappy CSS property names like ```justify-content: center```, but are opinionated and applies best to it's creator. Replicating the names of the CSS properties like ```justify-content``` as ```jc``` carries over the not-so-good naming convention of CSS into HTML, but keeps everything uniform and equivalent to the standard CSS has already set. 
 
-The same goes for names with ```xs``` like ```text-xs```; the best value to be associated with the abbreviation is relative to the person. Although PerfectDesign has ```xl, xs, etc``` for ease of use, uniformity, and to build a standard within the library, we have prioritzied freedom over values predefined by the creators.
+The same goes for names with ```xs``` like ```text-xs```; the best value to be associated with the abbreviation is relative to the person. We have prioritzied freedom over values predefined by the creators.
 
 ### Units and Value-Based CSS
 PerfectDesign's "default" value is pixels, but REM is mostly supported. Pixel based values increment on an interval of 1, 5, 25, 50, and 100. Take for example width in pixels - it increments on an interval of 1 up to 5, base 5 up to 100, base 25 up to 500, and base 100 up to 1000. Why? Because base1, 5, and 10 are perfect, and well, this is PerfectDesign. Jokes aside (I actually wasn't joking though), there's so little difference between say 50 and 55 pixels that values in between just aren't needed. Additionally, all values on base 5 adds uniformity to the design. 
