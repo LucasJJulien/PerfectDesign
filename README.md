@@ -7,12 +7,12 @@
 <p align="center"> The base-level universal CSS library. </p>
 
 > [!CAUTION]  
-> Currently in alpha. Many aspects are underdeveloped, and in some scenarios, severly so.
+> Currently in alpha. Some aspects are underdeveloped, and in some scenarios, severly so.
 
 ## What is PerfectDesign?
-PerfectDesign is a simple, uniform, lightweight, and dependency-less, CSS library delivering core utilities, base modules, and nothing more - all in pure css. It uses a forthright [naming convention](#naming-convention) following a syntax based directly on the underlying CSS.
+PerfectDesign is a simple, uniform, lightweight, and dependency-less, CSS library delivering core utilities, base modules, and nothing more - all in pure css. It uses a **_formula-based_** forthright [naming convention](#naming-convention) following a syntax based directly on the underlying CSS.
 
-Usage is inherently simple and doesn't require installation or package managers (although NPM support is planned) - just link PerfectDesign in your HTML header file. 
+Usage is inherently simple and doesn't require installation or package managers (although NPM support is planned) - just link PerfectDesign in your HTML header file or CSS.
 
 The guiding principles of PerfectDesign are as follows: 
 - Utility and desktop first architecture
