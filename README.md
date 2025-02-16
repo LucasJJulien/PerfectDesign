@@ -40,6 +40,7 @@ The guiding principles of PerfectDesign are as follows:
 - [x] Expand color palette
 - [x] Add modules
 - [x] Add prebuilt layouts
+- [ ] Add grid support
 - [ ] Add responsive attributes for other display sizes
 - [ ] Basic animations
 - [ ] Add support for NPM
