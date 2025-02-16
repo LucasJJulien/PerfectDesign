@@ -18,6 +18,7 @@ The guiding principles of PerfectDesign are as follows:
 - Utility and desktop first architecture
 - Custom values prioritized - you aren't forced to choose from pre-curated lists like ```text-sm```
 - Adheres to vanilla CSS standards
+- A "formula" based naming system: applies to all CSS properties
 
 ## Table of contents
 - [Roadmap](#roadmap)
@@ -26,8 +27,8 @@ The guiding principles of PerfectDesign are as follows:
    - [Other Start Options](#other-start-options)
    - [Usage](#usage)
 - [Contributing](#contributing)
-- [Bird's Eye View](#bird's-eye-view)
-- [Why?](#why?)
+- [Architecture](#architecture)
+- [The Purpose](#the-purpose)
 - [A Note on the Future](#a-note-on-the-future)
 - [Versioning](#versioning)
 - [License](#license)
@@ -52,7 +53,7 @@ The guiding principles of PerfectDesign are as follows:
 - [ ] Expand REM support
 
 ## Documentation
-PerfectDesign does not have additional documentation apart from what's on this readme. Since it's a library with syntax derived from CSS itself, all that's required is knowledge of CSS. 
+PerfectDesign does not have additional documentation apart from what's on this readme. Since it's a library with syntax derived from CSS itself, knowledge of CSS is all that's required. 
 
 ## Quick Start
 PerfectDesign requires no installation or package managers. Instead, just reference the CSS file in your HTML head section or CSS file. The production folder contains several CSS files that link PerfectDesign together - this is what you import for most use cases. These automatically reference all the css files distributed across the many organization folders - ```complete.css``` includes the entire project. It can be linked with the following code: 
@@ -262,7 +263,7 @@ git checkout -b feature/your-feature-name
 ### Coding Standards
 Our standards are pretty straightforward: just follow how we've structured the project and the code. 
 
-## Bird's Eye View
+## Architecture
 How does it all work under the hood?
 
 PerfectDesign is pure css. It might seem counter intuitive to use such a bad "language" in the name of simplicity when tools like SASS, PostCSS, and Less.js exist. These are great and superficially simplify the process of creating stylesheets, but require installation and end up compiling CSS in the end anyways. This is meant to be dead simple. 
@@ -335,9 +336,7 @@ perfectdesign/
     └── index.js
 ```
 
-## Why?
-
-### The Purpose
+## The Purpose
 As you might have guessed, this isn't a scalable project  - manually written massive CSS files is far from optimal. So what exactly is the point or purpose of this?
 
 **PerfectDesign is a rapid experimentation platform.**
