@@ -1,28 +1,17 @@
 
 /* Global Attributes */
 
+/*
 :root {
 
-    --scaleFactor: 1.618em;
+}
+*/
 
-    --2xs: calc(var(--2xs) / var(--scaleFactor));
-    --xs: calc(var(--xs) / var(--scaleFactor));
-    --sm: calc(var(--sm) / var(--scaleFactor));
-    --base: calc(var(--base) / var(--scaleFactor));
-    --md: calc(var(--md) / var(--scaleFactor));
-  
-    --lg: calc(var(--md) * var(--scaleFactor));
-    --xl: calc(var(--lg) * var(--scaleFactor));
-    --2xl: calc(var(--xl) * var(--scaleFactor));
-
-    --wholestep: 1.618; /* always equals the scalefactor */
-    --halfstep: 1.272; /* always equals the sq. root of scalefactor */
-    --quarterstep: 1.128; /* always equals the sq. root of halfstep */
-    --eighthstep: 1.061; /* always equals the sq. root of quarterstep */
-
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 
-html, body {
+* {
     margin: 0;
     padding: 0;
 }
