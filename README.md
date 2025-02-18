@@ -202,11 +202,16 @@ The naming convention in PerfectDesign mimics the very CSS syntax it's referenci
 ### Exceptions
 
 - ```min, max```: min and max are not reduced to m, ```minw-x``` instead of ```mw-x```
-- ```order: 10:``` there is no ```order: 10``` because ```o-10``` is used by ```opacity: 10```
+- ```order: 10:```: there is no ```order: 10``` because ```o-10``` is used by ```opacity: 10```
 - ```aspect-ratio```: aspect ratio is ```#x#``` instead of ```#/#``` because CSS does not support the slash
 - ```transform: scale```: scale is done by decimal in CSS ```scale(0.5)``` but represented as a percentage ```t-scale50```
 - ```background```: background is one word but instead of just being ```b``` it is represented as ```bg```
 - ```opacity```: opacity, despite being a decimal, is represented as a percentage
+
+### Examples
+- ```justify-content: center```: ```jc-center```
+- ```padding: 10px```: ```p-10px```
+- ```border-bottom-left-radius: 10px```: ```bblr-10px```
 
 ### A side note
 
